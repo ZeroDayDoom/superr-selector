@@ -4,6 +4,9 @@ _Rajasthan Royals SupeRR Selector Season 2 · Round 1 · generated 2026-11-18.
 Every number below is produced by the reproducible pipeline in this
 repository; nothing is hand-entered._
 
+**Interactive dashboard:** https://superr-selector-3jesk2zuasidholngkqh6h.streamlit.app/ — explore the rankings, pressure
+explorer, match case studies, player profiles and robustness analysis online.
+
 ---
 
 ## 1. Executive summary
@@ -324,6 +327,8 @@ bootstrap disciplines it.
 
 ## Technical appendix
 
+- **Interactive dashboard:** https://superr-selector-3jesk2zuasidholngkqh6h.streamlit.app/ (Streamlit; reads the same saved
+  artefacts — rankings, metrics, dossiers, validation results — shown here).
 - Repository: all phases runnable via `scripts/run_*.py`; seeds fixed in
   `configs/config.yaml`.
 - Feature dictionary: `reports/feature_dictionary.md` (128 features,

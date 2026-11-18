@@ -4,6 +4,9 @@ Identify the most reliable T20 batters and bowlers under pressure using
 ball-by-ball IPL and T20I data (2022–2026), with a reproducible,
 leakage-audited machine-learning pipeline.
 
+**🖥 Live dashboard:** <https://superr-selector-3jesk2zuasidholngkqh6h.streamlit.app/> — rankings,
+pressure explorer, match case studies, player profiles and robustness analysis.
+
 ## Quick start (Windows PowerShell)
 
 ```powershell

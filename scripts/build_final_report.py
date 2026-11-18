@@ -19,6 +19,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, Optional
 
+# Live interactive dashboard (Streamlit Community Cloud) — cited in the report.
+DASHBOARD_URL = "https://superr-selector-3jesk2zuasidholngkqh6h.streamlit.app/"
+
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
@@ -389,6 +392,9 @@ _Rajasthan Royals SupeRR Selector Season 2 · Round 1 · generated {now}.
 Every number below is produced by the reproducible pipeline in this
 repository; nothing is hand-entered._
 
+**Interactive dashboard:** {DASHBOARD_URL} — explore the rankings, pressure
+explorer, match case studies, player profiles and robustness analysis online.
+
 ---
 
 ## 1. Executive summary
@@ -662,6 +668,8 @@ bootstrap disciplines it.
 
 ## Technical appendix
 
+- **Interactive dashboard:** {DASHBOARD_URL} (Streamlit; reads the same saved
+  artefacts — rankings, metrics, dossiers, validation results — shown here).
 - Repository: all phases runnable via `scripts/run_*.py`; seeds fixed in
   `configs/config.yaml`.
 - Feature dictionary: `reports/feature_dictionary.md` (128 features,
