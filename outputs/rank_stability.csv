@@ -1,0 +1,6 @@
+variant,n,spearman,top10_overlap
+threshold_hp_top10,158,0.579,3
+threshold_hp_top15,169,0.714,4
+threshold_hp_top20,169,0.847,5
+threshold_hp_top25,169,0.797,5
+threshold_hp_top30,169,0.727,4

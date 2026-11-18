@@ -1,0 +1,78 @@
+file,column,dtype,non_null,null_count,null_pct,unique,sample_values,meaning,suitable_for_modeling
+ball_by_ball.csv,match_id,int64,200999,0,0.0,867,13511 | 13512 | 13513 | 13514,Match identifier; join key to matches/playing_eleven,yes
+ball_by_ball.csv,innings,int64,200999,0,0.0,4,1 | 2 | 3 | 4,"Innings number (1/2 normal, 3/4 = super over of tied match)",yes
+ball_by_ball.csv,overid,int64,200999,0,0.0,20,1 | 2 | 3 | 4,"Over number within the innings (1-20 normal, 1 in super overs)",yes
+ball_by_ball.csv,over_ball_num,int64,200999,0,0.0,13,1 | 2 | 3 | 4,Delivery counter within the over INCLUDING extras,yes
+ball_by_ball.csv,innings_ball_num,int64,200999,0,0.0,136,1 | 2 | 3 | 4,Delivery counter within the innings INCLUDING extras,yes
+ball_by_ball.csv,batting_team_id,int64,200999,0,0.0,38,22 | 28 | 18 | 20,Team id batting on this delivery,yes
+ball_by_ball.csv,bowling_team_id,int64,200999,0,0.0,38,28 | 22 | 18 | 27,Team id bowling on this delivery,yes
+ball_by_ball.csv,striker_id,int64,200999,0,0.0,888,1187 | 6273 | 1596 | 1210,Player id of the batter facing (join via player ids),yes
+ball_by_ball.csv,striker_name,object,200999,0,0.0,885,Jason Roy | Tom Banton | Moeen Ali | James Vince,Display name of striker (NOT a key),yes
+ball_by_ball.csv,non_striker_id,int64,200999,0,0.0,867,6273 | 1210 | 478 | 1924,Player id of the non-striker batter,yes
+ball_by_ball.csv,non_striker_name,object,200999,0,0.0,864,Tom Banton | James Vince | Eoin Morgan | Sam Billings,Display name of non-striker (NOT a key),yes
+ball_by_ball.csv,bowler_id,int64,200999,0,0.0,647,1772 | 2633 | 2417 | 6726,Player id of the bowler,yes
+ball_by_ball.csv,bowler_name,object,200999,0,0.0,646,Sheldon Cottrell | Jason Holder | Akeal Hosein | Romario Shepherd,Display name of bowler (NOT a key),yes
+ball_by_ball.csv,batting_type,object,200999,0,0.0,2,RHB | LHB,Batter handedness (RHB/LHB),yes
+ball_by_ball.csv,bowling_type,object,200999,0,0.0,12,Left-arm fast-medium | Right-arm medium-fast | Slow left-arm orthodox | Right-arm Fast,Bowling style free text (e.g. Left-arm fast-medium),yes
+ball_by_ball.csv,batting_order,int64,200999,0,0.0,13,1 | 2 | 4 | 3,Batter position in the innings order,yes
+ball_by_ball.csv,runs,int64,200999,0,0.0,7,0 | 6 | 4 | 1,Runs scored off the bat by the striker (0-6); excludes extras,yes
+ball_by_ball.csv,is_four,bool,200999,0,0.0,2,False | True,Boundary four off the bat (boolean as text true/false),yes
+ball_by_ball.csv,is_six,bool,200999,0,0.0,2,False | True,Six off the bat (boolean as text true/false),yes
+ball_by_ball.csv,is_wicket,bool,200999,0,0.0,2,False | True,A wicket fell on this delivery (boolean as text true/false),yes
+ball_by_ball.csv,dismissal_type_id,float64,10881,190118,94.587,8,1.0 | 2.0 | 5.0 | 4.0,Numeric dismissal code (sparse),yes
+ball_by_ball.csv,dismissal_type,object,10881,190118,94.587,9,Bowled | Caught | Stump | RunOut,Dismissal mode text; null when no wicket,yes
+ball_by_ball.csv,dismissed_player_id,float64,10892,190107,94.581,814,1187.0 | 6273.0 | 1596.0 | 1210.0,Player id of dismissed batter (null when no wicket),yes
+ball_by_ball.csv,extras_type,object,11832,189167,94.113,6,wide | legbyes | byes | Overstep,Extra type: wide/Overstep(=no-ball)/byes/legbyes/other/Penalty,yes
+ball_by_ball.csv,extras1_runs,int64,200999,0,0.0,6,0 | 1 | 4 | 2,Value of the extra itself (1 for wide/no-ball; N for byes/legbyes),yes
+ball_by_ball.csv,extras_2_runs,int64,200999,0,0.0,3,0 | 4 | 1,Additional runs on the same delivery (e.g. byes off a no-ball),yes
+ball_by_ball.csv,pace_or_spin,object,200999,0,0.0,2,Pace | Spin,Bowler class: Pace or Spin,yes
+ball_by_ball.csv,bowl_speed,float64,200999,0,0.0,1033,0.0 | 126.0 | 127.0 | 133.0,Delivery speed (units undocumented; 0 = not recorded),yes
+ball_by_ball.csv,stroke,object,194841,6158,3.064,30,Cover Drive | Flick | Square Cut | Backfoot defensive,Shot played (free text; null for deliveries without a shot),yes
+ball_by_ball.csv,delivery_style,object,200608,391,0.195,34,Inswing | Seamed In | Full Toss | Out Swing,"Ball movement (e.g. Inswing, Offcutter)",yes
+ball_by_ball.csv,over_or_around,object,200592,407,0.202,2,Over | Around,Wicket position of the bowling action: Over / Around,yes
+ball_by_ball.csv,on_or_off,object,200999,0,0.0,2,Off-side | On-side,Line side: On-side / Off-side,yes
+ball_by_ball.csv,delivery_ist_time,object,200999,0,0.0,200826,2022-01-23 00:00:00 UTC | 2022-01-23 02:08:52 UTC | 2022-01-23 02:09:20 UTC | 2022-01-23 02:10:48 UTC,"Delivery timestamp (IST, mixed precision)",yes
+matches.csv,match_id,int64,883,0,0.0,883,13511 | 13512 | 13513 | 13514,Match identifier; join key to matches/playing_eleven,yes
+matches.csv,comp_id,int64,883,0,0.0,138,1331 | 1335 | 1345 | 1358,Competition identifier; join key to competitions/teams/mapping,yes
+matches.csv,match_number,int64,883,0,0.0,75,1 | 2 | 3 | 4,Match number within its competition,yes
+matches.csv,match_date,object,883,0,0.0,686,2022-01-22 | 2022-01-23 | 2022-01-26 | 2022-01-29,Match start date,yes
+matches.csv,stage,object,883,0,0.0,7,League | Qualifier | Eliminator | Final,Stage label (League/knockouts),yes
+matches.csv,venue_id,int64,883,0,0.0,98,54 | 8 | 44 | 129,Numeric venue identifier (no venue name supplied),yes
+matches.csv,venue_country,object,883,0,0.0,17,West Indies | India | Australia | Sri Lanka,Venue country,yes
+matches.csv,home_team_id,int64,883,0,0.0,36,28 | 18 | 20 | 1,Home team id,yes
+matches.csv,home_team,object,883,0,0.0,36,West Indies | India | Australia | Chennai Super Kings,Home team name (NOT a key),yes
+matches.csv,away_team_id,int64,883,0,0.0,36,22 | 28 | 27 | 8,Away team id,yes
+matches.csv,away_team,object,883,0,0.0,36,England | West Indies | Sri Lanka | Kolkata Knight Riders,Away team name (NOT a key),yes
+matches.csv,home_team_captain_id,float64,839,44,4.983,89,494.0 | 126.0 | 250.0 | 152.0,Captain player id (home); 0/blank when unknown,yes
+matches.csv,away_team_captain_id,float64,838,45,5.096,98,478.0 | 1596.0 | 494.0 | 2436.0,Captain player id (away); 0/blank when unknown,yes
+matches.csv,toss_win_team_id,float64,868,15,1.699,37,28.0 | 22.0 | 18.0 | 27.0,Team id winning the toss,yes
+matches.csv,toss_opted,object,868,15,1.699,2,Fielding | Batting,Toss decision (Batting/Fielding),yes
+matches.csv,man_of_the_match,int64,883,0,0.0,293,0 | 4986 | 1699 | 830,Player id of MOTM; 0 when not recorded,yes
+matches.csv,first_inn_revised_overs,float64,25,858,97.169,13,114.0 | 84.0 | 66.0 | 48.0,Revised overs for innings 1 (DLS); null if not revised,yes
+matches.csv,second_inn_revised_overs,float64,25,858,97.169,12,114.0 | 42.0 | 48.0 | 72.0,Revised overs for innings 2 (DLS); null if not revised,yes
+matches.csv,revised_target,float64,23,860,97.395,23,143.0 | 56.0 | 91.0 | 130.0,Revised target for innings 2 (DLS); null if not revised,yes
+matches.csv,knock_out,int64,883,0,0.0,2,0 | 1,1 if knockout match,yes
+matches.csv,win_team_id,float64,842,41,4.643,36,28.0 | 22.0 | 18.0 | 20.0,"Winning team id; null/0 for no-result, abandoned, tied",yes
+matches.csv,result,object,883,0,0.0,670,West Indies Won by 9 Wickets | England Won by 1 Run | West Indies Won by 20 runs | England Won by 34 runs,Free-text result string,yes
+competitions.csv,comp_id,int64,141,0,0.0,141,3395 | 3405 | 3465 | 3568,Competition identifier; join key to competitions/teams/mapping,yes
+competitions.csv,comp_name,object,141,0,0.0,141,South Africa in New Zealand T20I Series 2026 | Afghanistan v Sri Lanka T20I Series 2026 | India in Zimbabwe T20I Series 2026 | Bangladesh in Zimbabwe T20I Series 2026,,yes
+competitions.csv,match_format,object,141,0,0.0,2,T20I | T20,,yes
+competitions.csv,season,object,141,0,0.0,8,2026 | 2022 | 2023 | 2024,,yes
+teams.csv,comp_id,int64,353,0,0.0,141,1331 | 1335 | 1345 | 1358,Competition identifier; join key to competitions/teams/mapping,yes
+teams.csv,team_id,int64,353,0,0.0,38,22 | 28 | 18 | 20,Team id,yes
+teams.csv,team_name,object,353,0,0.0,38,England | West Indies | India | Australia,Team name within that competition (NOT globally unique),yes
+playing_eleven.csv,match_id,int64,28381,0,0.0,880,13511 | 13512 | 13513 | 13514,Match identifier; join key to matches/playing_eleven,yes
+playing_eleven.csv,team_id,int64,28381,0,0.0,38,22 | 28 | 18 | 20,Team id,yes
+playing_eleven.csv,player_id,int64,28381,0,0.0,1082,1187 | 6273 | 1210 | 1596,Player id (primary identity key for all player analysis),yes
+playing_eleven.csv,batting_order,float64,19703,8678,30.577,13,1.0 | 2.0 | 3.0 | 4.0,Batter position in the innings order,yes
+playing_eleven.csv,is_played,bool,28381,0,0.0,2,True | False,True if the player took part in the match,yes
+playing_eleven.csv,is_captain,object,19714,8667,30.538,2,False | True,True if match captain (null when is_played is False),yes
+playing_eleven.csv,is_wk,object,19714,8667,30.538,2,False | True,True if wicketkeeper (null when is_played is False),yes
+playing_eleven.csv,is_impact,int64,28381,0,0.0,2,0 | 1,Impact-player flag (IPL rule),yes
+playing_eleven.csv,is_impact_off,int64,28381,0,0.0,2,0 | 1,Impact-player substitution flag,yes
+competition_team_player_mapping.csv,comp_id,int64,6413,0,0.0,140,1331 | 1335 | 1345 | 1358,Competition identifier; join key to competitions/teams/mapping,yes
+competition_team_player_mapping.csv,comp_name,object,6413,0,0.0,140,England in West Indies T20I Series 2022 | West Indies in India T20I Series 2022 | Sri Lanka in Australia T20I Series 2022 | IPL 2022,,yes
+competition_team_player_mapping.csv,team_id,int64,6413,0,0.0,38,22 | 28 | 18 | 20,Team id,yes
+competition_team_player_mapping.csv,team_name,object,6413,0,0.0,38,England | West Indies | India | Australia,Team name within that competition (NOT globally unique),yes
+competition_team_player_mapping.csv,player_id,int64,6413,0,0.0,1217,478 | 479 | 722 | 786,Player id (primary identity key for all player analysis),yes
+competition_team_player_mapping.csv,player_name,object,6413,0,0.0,1210,Eoin Morgan | Adil Rashid | Liam Dawson | Chris Jordan,Display player name (NOT a key),yes

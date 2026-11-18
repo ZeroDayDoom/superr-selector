@@ -1,0 +1,459 @@
+{
+  "generated_utc": "2026-11-18T07:24:44.210981+00:00",
+  "checks": [
+    {
+      "check": "duplicate_full_rows_ball_by_ball",
+      "status": "pass",
+      "detail": "0 fully duplicated delivery rows",
+      "count": 0
+    },
+    {
+      "check": "duplicate_delivery_keys",
+      "status": "pass",
+      "detail": "0 duplicated (match_id, innings, overid, over_ball_num) keys",
+      "count": 0
+    },
+    {
+      "check": "duplicate_match_ids",
+      "status": "pass",
+      "detail": "0 duplicated match ids in matches.csv",
+      "count": 0
+    },
+    {
+      "check": "ball_match_ids_missing_from_matches",
+      "status": "pass",
+      "detail": "0 ball match_ids not found in matches.csv",
+      "count": 0,
+      "examples": []
+    },
+    {
+      "check": "matches_without_ball_data",
+      "status": "warn",
+      "detail": "16 matches in matches.csv have no deliveries (typically abandoned/no-result matches)",
+      "count": 16,
+      "examples": [
+        31281,
+        31284,
+        31288,
+        32610,
+        32612,
+        32622,
+        36210,
+        36564,
+        38797,
+        40761
+      ]
+    },
+    {
+      "check": "matches_without_playing_xi",
+      "status": "warn",
+      "detail": "3 matches have no playing-XI rows",
+      "count": 3,
+      "examples": [
+        36210,
+        41503,
+        48513
+      ]
+    },
+    {
+      "check": "null_player_ids_in_deliveries",
+      "status": "pass",
+      "detail": "0 deliveries with a null striker/non-striker/bowler id",
+      "count": 0
+    },
+    {
+      "check": "delivery_players_present_in_mapping",
+      "status": "pass",
+      "detail": "0 (comp_id, player_id) delivery pairs absent from the competition-team-player mapping",
+      "count": 0
+    },
+    {
+      "check": "invalid_innings_numbers",
+      "status": "pass",
+      "detail": "0 deliveries with innings outside 1-4 (3/4 = super over)",
+      "count": 0
+    },
+    {
+      "check": "invalid_over_numbers",
+      "status": "pass",
+      "detail": "0 innings start before over 1",
+      "count": 0
+    },
+    {
+      "check": "invalid_delivery_numbers",
+      "status": "pass",
+      "detail": "all over_ball_num within 1-13 (max reflects extended overs of extras)",
+      "count": 0
+    },
+    {
+      "check": "ball_sequence_monotonic",
+      "status": "pass",
+      "detail": "0 innings with non-monotonic innings_ball_num after sorting",
+      "count": 0
+    },
+    {
+      "check": "impossible_runs_off_bat",
+      "status": "pass",
+      "detail": "off-bat 'runs' always within 0-6 (extras recorded separately)",
+      "count": 0
+    },
+    {
+      "check": "negative_extras",
+      "status": "pass",
+      "detail": "0 deliveries with negative extras",
+      "count": 0
+    },
+    {
+      "check": "wicket_without_dismissal_type",
+      "status": "pass",
+      "detail": "0 is_wicket rows with null dismissal_type",
+      "count": 0
+    },
+    {
+      "check": "dismissal_type_without_wicket_flag",
+      "status": "pass",
+      "detail": "0 dismissal_type rows where is_wicket is false",
+      "count": 0
+    },
+    {
+      "check": "wicket_without_dismissed_player",
+      "status": "warn",
+      "detail": "1 wickets with null dismissed_player_id",
+      "count": 1
+    },
+    {
+      "check": "runout_dismissed_player_in_pair",
+      "status": "pass",
+      "detail": "0 run-outs where dismissed_player_id is neither striker nor non-striker (n run-outs = 600)",
+      "count": 0
+    },
+    {
+      "check": "dismissed_player_matches_batting_pair",
+      "status": "pass",
+      "detail": "0 wickets where dismissed_player_id is not one of the two batters at the crease",
+      "count": 0
+    },
+    {
+      "check": "wickets_per_innings_le_10",
+      "status": "pass",
+      "detail": "0 innings with more than 10 wickets",
+      "count": 0
+    },
+    {
+      "check": "result_strings_unparsed",
+      "status": "warn",
+      "detail": "25 result strings could not be parsed by known patterns",
+      "count": 25,
+      "examples": [
+        "Australia Won the one over Eliminator",
+        "Australia Won by 6 Wkts",
+        "Kolkata Knight Riders Won by 6 Wkts",
+        "Punjab Kings Won by 5 Wkts",
+        "Royal Challengers Bengaluru Won 3 Wkts",
+        "Lucknow Super Giants Won by 6 Wkts",
+        "Kolkata Knight Riders Won by 6 wkts",
+        "Royal Challengers Bengaluru Won by 4 Wkts",
+        "Lucknow Super Giants Won 36  Runs",
+        "Australia Won by 3 Wkts"
+      ]
+    },
+    {
+      "check": "decisive_result_without_win_team",
+      "status": "pass",
+      "detail": "0 decisive results with null win_team_id",
+      "count": 0
+    },
+    {
+      "check": "tied_matches",
+      "status": "info",
+      "detail": "1 tied matches (super-over deliveries appear as innings 3/4)",
+      "count": 1,
+      "match_ids": [
+        18532
+      ]
+    },
+    {
+      "check": "no_result_or_abandoned_matches",
+      "status": "info",
+      "detail": "40 matches with no result (19 abandoned, 21 no-result)",
+      "count": 40
+    },
+    {
+      "check": "dls_revised_matches",
+      "status": "info",
+      "detail": "34 matches with revised overs; 23 with a revised target",
+      "count": 34
+    },
+    {
+      "check": "name_to_multiple_ids_striker",
+      "status": "pass",
+      "detail": "0 striker_id values map to multiple names",
+      "count": 0
+    },
+    {
+      "check": "name_to_multiple_ids_non_striker",
+      "status": "pass",
+      "detail": "0 non_striker_id values map to multiple names",
+      "count": 0
+    },
+    {
+      "check": "name_to_multiple_ids_bowler",
+      "status": "pass",
+      "detail": "0 bowler_id values map to multiple names",
+      "count": 0
+    },
+    {
+      "check": "mapping_id_to_multiple_names",
+      "status": "pass",
+      "detail": "0 player_id values map to multiple names in the mapping file",
+      "count": 0
+    },
+    {
+      "check": "shared_player_names_in_mapping",
+      "status": "info",
+      "detail": "818 player names are shared by more than one player_id (names are NOT unique identifiers; player_id is the identity key)",
+      "count": 818,
+      "examples": [
+        "Arshdeep Singh",
+        "Axar Patel",
+        "Ravi Bishnoi",
+        "Romario Shepherd",
+        "Sanju Samson",
+        "Rovman Powell",
+        "Mustafizur Rahman",
+        "Suryakumar Yadav"
+      ]
+    },
+    {
+      "check": "team_id_to_multiple_names",
+      "status": "pass",
+      "detail": "0 team_id values with multiple names in teams.csv",
+      "count": 0
+    },
+    {
+      "check": "playing_xi_is_played_false_rows",
+      "status": "info",
+      "detail": "8667 playing-XI rows are squad members who did not play (their captain/wk flags are null)",
+      "count": 8667
+    },
+    {
+      "check": "playing_xi_duplicate_player_rows",
+      "status": "info",
+      "detail": "40 (match, team, player) rows are duplicated with different batting_order values (preferred positions varying across the tournament). Ball-level batting_order is authoritative; the PE batting_order column is not used for ordering.",
+      "count": 40
+    },
+    {
+      "check": "playing_xi_captain_flag_null_for_players",
+      "status": "pass",
+      "detail": "0 played rows with null is_captain",
+      "count": 0
+    },
+    {
+      "check": "delivery_players_in_playing_xi",
+      "status": "warn",
+      "detail": "6 (match, player) delivery pairs with no is_played=True row",
+      "count": 6
+    },
+    {
+      "check": "delivery_timestamps_parseable",
+      "status": "pass",
+      "detail": "0 unparseable delivery timestamps; range 2022-01-23 00:00:00+00:00 to 2026-11-01 16:50:46+00:00",
+      "count": 0
+    },
+    {
+      "check": "delivery_date_matches_match_date",
+      "status": "warn",
+      "detail": "10430 deliveries whose date differs from match_date (timezones: IST timestamps vs UTC dates; tolerance of +-1 day is expected)",
+      "count": 10430
+    }
+  ],
+  "semantics": {
+    "run_accounting": {
+      "n_matches_compared": 845,
+      "runs_margin_matches": 399,
+      "runs_margin_mismatches": 0,
+      "wickets_margin_matches": 408,
+      "wickets_margin_mismatches": 1,
+      "dls_verified_against_revised_target": 7,
+      "unverifiable_dls_no_par_supplied": 2,
+      "examples_bad": [
+        {
+          "match_id": 20190,
+          "kind": "wickets",
+          "w2": 5,
+          "margin": 6.0,
+          "dls": false
+        }
+      ],
+      "inconsistent_matches": [
+        {
+          "match_id": 20190,
+          "kind": "wickets",
+          "w2": 5,
+          "margin": 6.0,
+          "dls": false
+        }
+      ],
+      "run_accounting_verified": false
+    },
+    "legal_balls": {
+      "legal_ball_definition": "delivery whose extras_type is not a wide, no-ball (raw label 'Overstep'), penalty or 'other'",
+      "n_overs": 32350,
+      "overs_with_exactly_6_legal": 31756,
+      "overs_with_more_than_6_legal": 1,
+      "max_legal_balls_in_any_over": 7,
+      "bowler_charged_extras_rows": 8290,
+      "bowler_charged_extras_counted_as_legal": 0,
+      "innings_total": 1724,
+      "innings_with_ge_120_legal": 1011,
+      "innings_with_gt_121_legal": 0,
+      "other_extras_rows": 265
+    },
+    "batting_order": {
+      "innings_checked": 1724,
+      "innings_with_player_order_conflicts": 0,
+      "innings_where_arrival_order_deviation_observed (retired-hurt returns or promoted batters; informational)": 360
+    },
+    "bowling_types": {
+      "n_bowling_types": 12,
+      "top_bowling_types": [
+        {
+          "pace_or_spin": "Spin",
+          "bowling_type": "Right-arm Leg-Break",
+          "n": 28027
+        },
+        {
+          "pace_or_spin": "Pace",
+          "bowling_type": "Right-arm medium-fast",
+          "n": 27014
+        },
+        {
+          "pace_or_spin": "Pace",
+          "bowling_type": "Right-arm Fast",
+          "n": 26637
+        },
+        {
+          "pace_or_spin": "Pace",
+          "bowling_type": "Right-arm medium",
+          "n": 23919
+        },
+        {
+          "pace_or_spin": "Spin",
+          "bowling_type": "Slow left-arm orthodox",
+          "n": 23465
+        },
+        {
+          "pace_or_spin": "Spin",
+          "bowling_type": "Right-arm offbreak",
+          "n": 20936
+        },
+        {
+          "pace_or_spin": "Pace",
+          "bowling_type": "Right-arm fast-medium",
+          "n": 15380
+        },
+        {
+          "pace_or_spin": "Pace",
+          "bowling_type": "Left-arm medium-fast",
+          "n": 12492
+        },
+        {
+          "pace_or_spin": "Pace",
+          "bowling_type": "Left-arm fast-medium",
+          "n": 7780
+        },
+        {
+          "pace_or_spin": "Pace",
+          "bowling_type": "Left-arm medium",
+          "n": 6082
+        },
+        {
+          "pace_or_spin": "Spin",
+          "bowling_type": "Left-arm Chinaman",
+          "n": 4685
+        },
+        {
+          "pace_or_spin": "Pace",
+          "bowling_type": "Left-arm Fast",
+          "n": 4453
+        }
+      ],
+      "bowl_speed_zero_rows": 77861,
+      "bowl_speed_zero_pct": 38.74,
+      "bowl_speed_nonzero_median": 123.8
+    }
+  },
+  "scope_summary": {
+    "total_matches": 883,
+    "included": 813,
+    "excluded": 70,
+    "excluded_no_ball_data": 16,
+    "excluded_no_result": 40,
+    "excluded_competition_scope": 30,
+    "tied_matches_kept": 1,
+    "dls_revised_kept": 24,
+    "super_over_matches_flagged": 6
+  },
+  "inventory": [
+    {
+      "file": "ball_by_ball.csv",
+      "role": "ball_by_ball",
+      "rows": 200999,
+      "columns": 33,
+      "grain": "one row per delivery (match x innings x over x ball-in-over)",
+      "primary_key_candidates": "match_id+innings+overid+over_ball_num",
+      "foreign_key_candidates": "match_id; batting_team_id; bowling_team_id; striker_id; non_striker_id; bowler_id; dismissal_type_id; dismissed_player_id",
+      "duplicate_full_rows": 0
+    },
+    {
+      "file": "matches.csv",
+      "role": "matches",
+      "rows": 883,
+      "columns": 22,
+      "grain": "one row per match",
+      "primary_key_candidates": "match_id",
+      "foreign_key_candidates": "comp_id; venue_id; home_team_id; away_team_id; home_team_captain_id; away_team_captain_id; toss_win_team_id; win_team_id",
+      "duplicate_full_rows": 0
+    },
+    {
+      "file": "competitions.csv",
+      "role": "competitions",
+      "rows": 141,
+      "columns": 4,
+      "grain": "one row per competition",
+      "primary_key_candidates": "comp_id",
+      "foreign_key_candidates": "",
+      "duplicate_full_rows": 0
+    },
+    {
+      "file": "teams.csv",
+      "role": "teams",
+      "rows": 353,
+      "columns": 3,
+      "grain": "one row per competition x team",
+      "primary_key_candidates": "",
+      "foreign_key_candidates": "comp_id; team_id",
+      "duplicate_full_rows": 0
+    },
+    {
+      "file": "playing_eleven.csv",
+      "role": "playing_eleven",
+      "rows": 28381,
+      "columns": 9,
+      "grain": "one row per match x team x player (squad / playing XI)",
+      "primary_key_candidates": "",
+      "foreign_key_candidates": "match_id; team_id; player_id",
+      "duplicate_full_rows": 0
+    },
+    {
+      "file": "competition_team_player_mapping.csv",
+      "role": "mapping",
+      "rows": 6413,
+      "columns": 6,
+      "grain": "one row per competition x team x player",
+      "primary_key_candidates": "comp_id+team_id+player_id",
+      "foreign_key_candidates": "comp_id; team_id; player_id",
+      "duplicate_full_rows": 0
+    }
+  ]
+}

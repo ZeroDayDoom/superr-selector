@@ -1,0 +1,140 @@
+# =============================================================================
+# SupeRR Selector Season 2 - Project configuration
+# All analytical constants live here, NOT in code. Code reads this file.
+# =============================================================================
+
+paths:
+  # Raw data pack location (relative to the project root directory).
+  raw_data_dir: ".."
+  processed_dir: "data/processed"
+  outputs_dir: "outputs"
+  models_dir: "outputs/models"
+  figures_dir: "outputs/figures"
+  exports_dir: "outputs/exports"
+  reports_dir: "reports"
+
+seed: 20260131
+
+# -----------------------------------------------------------------------------
+# Data cleaning rules (derived from the audit, see outputs/reports/data_audit.md)
+# -----------------------------------------------------------------------------
+cleaning:
+  # Extras types that are charged to the bowler's concession.
+  bowler_charged_extras: ["wide", "no_ball"]
+  # Raw labels in the file mapped to canonical labels.
+  extras_type_map:
+    wide: wide
+    Overstep: no_ball
+    byes: byes
+    legbyes: legbyes
+    other: other
+    Penalty: penalty
+  # Dismissals credited to the bowler (wicket attribution).
+  bowler_wicket_types: ["Bowled", "Caught", "LBW", "Stump", "Hit Wicket",
+                        "Obstructing the field", "Obstracting the field"]
+  # Matches excluded entirely, with reasons kept in the audit trail.
+  exclude:
+    no_result_matches: true        # "No Result" and "Match Abandoned"
+    super_over_innings: true       # innings 3/4 of tied matches
+    # A-team / Emerging-squad tournaments (flagged in audit; excluded from
+    # rankings by default, sensitivity re-run can include them).
+    a_team_competitions: true
+  keep_tied_matches: true          # tied matches kept; super-over balls dropped
+
+# -----------------------------------------------------------------------------
+# Phase 3: data preparation & match-state reconstruction
+# -----------------------------------------------------------------------------
+features:
+  # Momentum windows in deliveries (row-level, pre-delivery only).
+  momentum_windows: [6, 12, 18, 24]
+  # Batter setness thresholds (legal balls faced).
+  new_batter_balls: 6        # balls_faced < this  => "new"
+  set_batter_balls: 12       # balls_faced >= this => "set"
+  # Venue par shrinkage: pseudo-matches added toward season mean.
+  venue_par_k: 8.0
+  # Batter role bands (from actual batting_order).
+  role_bands:
+    opener: [1, 2]
+    top: [3, 4]
+    middle: [5, 6, 7]
+    lower: [8, 9, 10, 11]
+  # Data-driven finisher refinement: middle-order batter with >= this share
+  # of career balls faced in the death overs (16-20).
+  finisher_death_share: 0.25
+
+# -----------------------------------------------------------------------------
+# Pressure definition
+# -----------------------------------------------------------------------------
+pressure:
+  # Win-probability model used to convert match state into pressure.
+  wp_model: "logistic"             # logistic | hist_gbm (selected by evaluation)
+  # Pressure index = 1 - |2*WP - 1|: how "in the balance" the match is,
+  # combined with situation-severity terms below (weighted sum, weights here).
+  weights:
+    balance: 0.55                  # closeness of win probability to 0.5
+    severity: 0.30                 # how dire the situation is (chase steepness,
+                                   # late overs, few wickets left)
+    collapse: 0.15                 # recent wickets fallen
+  # Collapse window: legal balls back over which recent wickets are counted.
+  collapse_window_balls: 12
+  collapse_wickets_needed: 2
+  # High-pressure delivery threshold: quantile of the pressure index over all
+  # deliveries. Main value plus a sensitivity grid (see report).
+  high_pressure_quantile: 0.80
+  sensitivity_quantiles: [0.60, 0.70, 0.80, 0.90]
+
+# -----------------------------------------------------------------------------
+# Win-probability / expected-outcome models
+# -----------------------------------------------------------------------------
+models:
+  validation: "walk_forward_by_season"   # no random ball-level split
+  train_seasons_through: 2024            # through (inclusive); used by the
+                                         # final one-season-ahead protocol
+  hist_gbm:
+    max_iter: 300
+    learning_rate: 0.06
+    max_leaf_nodes: 31
+    min_samples_leaf: 200
+    l2_regularization: 1.0
+  lightgbm:
+    num_leaves: 31
+    learning_rate: 0.06
+    n_estimators: 400
+    min_child_samples: 200
+    reg_lambda: 1.0
+  logistic:
+    C: 1.0
+  deep:
+    # Only included if it beats the tabular baselines (see report).
+    enabled: true
+    embedding_dim: 16
+    hidden_dim: 64
+    layers: 2
+    epochs: 12
+    batch_size: 4096
+    lr: 0.001
+
+# -----------------------------------------------------------------------------
+# Player ratings
+# -----------------------------------------------------------------------------
+ratings:
+  # Eligibility: minimum high-pressure deliveries AND matches with pressure
+  # involvement. Sensitivity grid is evaluated in the report.
+  min_pressure_deliveries_grid: [40, 60, 80]
+  min_pressure_deliveries: 60
+  min_pressure_matches: 8
+  # Empirical-Bayes shrinkage strength for rate estimates (pseudo-count).
+  eb_prior_strength_bat: 60.0
+  eb_prior_strength_bowl: 60.0
+  # Reliability weight floor (share of signal vs noise in per-match scores).
+  consistency_weight: 0.25
+  # Cluster (match-level) bootstrap for ranking uncertainty. Used by BOTH
+  # the per-player SE bootstrap (Phase 7) and the full-ranking bootstrap
+  # (Phase 8); 1000 draws as documented in the methodology.
+  n_bootstrap: 1000
+
+# -----------------------------------------------------------------------------
+# Dashboard
+# -----------------------------------------------------------------------------
+dashboard:
+  port: 8501

@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "superr-selector"
+version = "1.0.0"
+description = "Pressure-performance analytics for the Rajasthan Royals SupeRR Selector Season 2 challenge"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "scikit-learn>=1.4",
+    "statsmodels>=0.14",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "pyyaml>=6.0",
+    "joblib>=1.3",
+    "lightgbm>=4.0",
+    "openpyxl>=3.1",
+    "tqdm>=4.66",
+    "streamlit>=1.35",
+    "markdown>=3.5",
+    "pypdf>=4.0",
+]
+
+[project.optional-dependencies]
+deep = ["torch>=2.2"]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

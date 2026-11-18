@@ -1,0 +1,1117 @@
+player_id,player_name,role,hp_balls,hp_matches,n_seasons,normal_balls,eligible_inclusive,reason_inclusive,eligible_moderate,reason_moderate,eligible_strict,reason_strict,tier
+8,Mahendra Singh Dhoni,batter,85,17,4,412.0,True,eligible,True,eligible,False,hp_balls 85 < 100,moderate
+23,Piyush Chawla,batter,2,2,1,35.0,False,hp_balls 2 < 40; hp_matches 2 < 6,False,hp_balls 2 < 60; hp_matches 2 < 8,False,hp_balls 2 < 100; hp_matches 2 < 12,ineligible
+47,Virat Kohli,batter,521,46,5,2024.0,True,eligible,True,eligible,True,eligible,strict
+88,Faf du Plessis,batter,301,32,4,996.0,True,eligible,True,eligible,True,eligible,strict
+109,Wriddhiman Saha,batter,128,19,3,555.0,True,eligible,True,eligible,True,eligible,strict
+126,Rohit Sharma,batter,383,50,6,1302.0,True,eligible,True,eligible,True,eligible,strict
+142,Shikhar Dhawan,batter,169,14,3,626.0,True,eligible,True,eligible,True,eligible,strict
+143,Dinesh Karthik,batter,125,27,3,558.0,True,eligible,True,eligible,True,eligible,strict
+147,Pradeep Sangwan,batter,1,1,1,5.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+152,Ravindra Jadeja,batter,164,19,4,838.0,True,eligible,True,eligible,True,eligible,strict
+158,Amit Mishra,batter,12,1,1,18.0,False,hp_balls 12 < 40; hp_matches 1 < 6,False,hp_balls 12 < 60; hp_matches 1 < 8,False,hp_balls 12 < 100; hp_matches 1 < 12,ineligible
+161,Dwayne Bravo,batter,2,1,1,24.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+167,Ajinkya Rahane,batter,211,30,5,840.0,True,eligible,True,eligible,True,eligible,strict
+169,Robin Uthappa,batter,57,7,1,124.0,True,eligible,False,hp_balls 57 < 60; hp_matches 7 < 8,False,hp_balls 57 < 100; hp_matches 7 < 12,inclusive
+198,Manish Pandey,batter,78,10,3,306.0,True,eligible,True,eligible,False,hp_balls 78 < 100; hp_matches 10 < 12,moderate
+220,David Warner,batter,155,24,3,1006.0,True,eligible,True,eligible,True,eligible,strict
+223,Steven Smith,batter,48,6,2,137.0,True,eligible,False,hp_balls 48 < 60; hp_matches 6 < 8,False,hp_balls 48 < 100; hp_matches 6 < 12,inclusive
+232,Tom Cooper,batter,11,2,1,11.0,False,hp_balls 11 < 40; hp_matches 2 < 6,False,hp_balls 11 < 60; hp_matches 2 < 8,False,hp_balls 11 < 100; hp_matches 2 < 12,ineligible
+250,Aaron Finch,batter,76,14,1,290.0,True,eligible,True,eligible,False,hp_balls 76 < 100,moderate
+274,Martin Guptill,batter,38,6,1,124.0,False,hp_balls 38 < 40,False,hp_balls 38 < 60; hp_matches 6 < 8,False,hp_balls 38 < 100; hp_matches 6 < 12,ineligible
+278,Tim Southee,batter,2,2,2,50.0,False,hp_balls 2 < 40; hp_matches 2 < 6,False,hp_balls 2 < 60; hp_matches 2 < 8,False,hp_balls 2 < 100; hp_matches 2 < 12,ineligible
+295,Wayne Parnell,batter,13,2,1,66.0,False,hp_balls 13 < 40; hp_matches 2 < 6,False,hp_balls 13 < 60; hp_matches 2 < 8,False,hp_balls 13 < 100; hp_matches 2 < 12,ineligible
+305,Ravichandran Ashwin,batter,87,16,4,242.0,True,eligible,True,eligible,False,hp_balls 87 < 100,moderate
+332,Angelo Mathews,batter,61,6,1,93.0,True,eligible,False,hp_matches 6 < 8,False,hp_balls 61 < 100; hp_matches 6 < 12,inclusive
+344,Sheldon Jackson,batter,5,2,1,21.0,False,hp_balls 5 < 40; hp_matches 2 < 6,False,hp_balls 5 < 60; hp_matches 2 < 8,False,hp_balls 5 < 100; hp_matches 2 < 12,ineligible
+360,Bhuvneshwar Kumar,batter,11,3,2,166.0,False,hp_balls 11 < 40; hp_matches 3 < 6,False,hp_balls 11 < 60; hp_matches 3 < 8,False,hp_balls 11 < 100; hp_matches 3 < 12,ineligible
+393,Kedar Jadhav,batter,3,1,1,7.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+395,Karn Sharma,batter,5,1,1,17.0,False,hp_balls 5 < 40; hp_matches 1 < 6,False,hp_balls 5 < 60; hp_matches 1 < 8,False,hp_balls 5 < 100; hp_matches 1 < 12,ineligible
+403,Umesh Yadav,batter,18,5,3,81.0,False,hp_balls 18 < 40; hp_matches 5 < 6,False,hp_balls 18 < 60; hp_matches 5 < 8,False,hp_balls 18 < 100; hp_matches 5 < 12,ineligible
+418,Richard Berrington,batter,12,4,1,70.0,False,hp_balls 12 < 40; hp_matches 4 < 6,False,hp_balls 12 < 60; hp_matches 4 < 8,False,hp_balls 12 < 100; hp_matches 4 < 12,ineligible
+443,Paul Stirling,batter,107,18,6,450.0,True,eligible,True,eligible,True,eligible,strict
+478,Eoin Morgan,batter,24,2,1,22.0,False,hp_balls 24 < 40; hp_matches 2 < 6,False,hp_balls 24 < 60; hp_matches 2 < 8,False,hp_balls 24 < 100; hp_matches 2 < 12,ineligible
+479,Adil Rashid,batter,3,2,2,123.0,False,hp_balls 3 < 40; hp_matches 2 < 6,False,hp_balls 3 < 60; hp_matches 2 < 8,False,hp_balls 3 < 100; hp_matches 2 < 12,ineligible
+492,Andre Fletcher,batter,3,1,1,37.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+494,Kieron Pollard,batter,87,11,1,143.0,True,eligible,True,eligible,False,hp_balls 87 < 100; hp_matches 11 < 12,moderate
+499,Shakib Al Hasan,batter,66,10,4,256.0,True,eligible,True,eligible,False,hp_balls 66 < 100; hp_matches 10 < 12,moderate
+505,Mushfiqur Rahim,batter,1,1,1,8.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+507,Mohammad Mahmudullah,batter,61,6,2,200.0,True,eligible,False,hp_matches 6 < 8,False,hp_balls 61 < 100; hp_matches 6 < 12,inclusive
+535,Ambati Rayudu,batter,83,11,2,262.0,True,eligible,True,eligible,False,hp_balls 83 < 100; hp_matches 11 < 12,moderate
+722,Liam Dawson,batter,12,2,1,37.0,False,hp_balls 12 < 40; hp_matches 2 < 6,False,hp_balls 12 < 60; hp_matches 2 < 8,False,hp_balls 12 < 100; hp_matches 2 < 12,ineligible
+728,Dawid Malan,batter,58,13,2,400.0,True,eligible,False,hp_balls 58 < 60,False,hp_balls 58 < 100,inclusive
+757,Sybrand Engelbrecht,batter,9,1,1,2.0,False,hp_balls 9 < 40; hp_matches 1 < 6,False,hp_balls 9 < 60; hp_matches 1 < 8,False,hp_balls 9 < 100; hp_matches 1 < 12,ineligible
+768,Reeza Hendricks,batter,213,20,4,647.0,True,eligible,True,eligible,True,eligible,strict
+772,Rilee Rossouw,batter,69,12,4,373.0,True,eligible,True,eligible,False,hp_balls 69 < 100,moderate
+773,Shadley Van Schalkwyk,batter,5,1,1,9.0,False,hp_balls 5 < 40; hp_matches 1 < 6,False,hp_balls 5 < 60; hp_matches 1 < 8,False,hp_balls 5 < 100; hp_matches 1 < 12,ineligible
+778,Darren Bravo,batter,1,1,1,27.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+781,Sunil Narine,batter,48,14,5,503.0,True,eligible,False,hp_balls 48 < 60,False,hp_balls 48 < 100,inclusive
+786,Chris Jordan,batter,11,4,2,123.0,False,hp_balls 11 < 40; hp_matches 4 < 6,False,hp_balls 11 < 60; hp_matches 4 < 8,False,hp_balls 11 < 100; hp_matches 4 < 12,ineligible
+796,Matthew Wade,batter,118,18,3,328.0,True,eligible,True,eligible,True,eligible,strict
+813,Jos Buttler,batter,545,68,5,2307.0,True,eligible,True,eligible,True,eligible,strict
+818,Mitchell Marsh,batter,292,44,5,1491.0,True,eligible,True,eligible,True,eligible,strict
+829,Mitchell Starc,batter,12,4,3,18.0,False,hp_balls 12 < 40; hp_matches 4 < 6,False,hp_balls 12 < 60; hp_matches 4 < 8,False,hp_balls 12 < 100; hp_matches 4 < 12,ineligible
+830,Josh Hazlewood,batter,10,1,1,30.0,False,hp_balls 10 < 40; hp_matches 1 < 6,False,hp_balls 10 < 60; hp_matches 1 < 8,False,hp_balls 10 < 100; hp_matches 1 < 12,ineligible
+838,Glenn Maxwell,batter,234,37,4,751.0,True,eligible,True,eligible,True,eligible,strict
+914,Krishnappa Gowtham,batter,9,3,2,34.0,False,hp_balls 9 < 40; hp_matches 3 < 6,False,hp_balls 9 < 60; hp_matches 3 < 8,False,hp_balls 9 < 100; hp_matches 3 < 12,ineligible
+930,Karun Nair,batter,48,7,3,109.0,True,eligible,False,hp_balls 48 < 60; hp_matches 7 < 8,False,hp_balls 48 < 100; hp_matches 7 < 12,inclusive
+953,Lokesh Rahul,batter,580,50,6,1489.0,True,eligible,True,eligible,True,eligible,strict
+985,Brendan Taylor,batter,15,4,1,47.0,False,hp_balls 15 < 40; hp_matches 4 < 6,False,hp_balls 15 < 60; hp_matches 4 < 8,False,hp_balls 15 < 100; hp_matches 4 < 12,ineligible
+992,Mayank Agarwal,batter,100,14,4,410.0,True,eligible,True,eligible,True,eligible,strict
+1039,Mandeep Singh,batter,21,3,2,19.0,False,hp_balls 21 < 40; hp_matches 3 < 6,False,hp_balls 21 < 60; hp_matches 3 < 8,False,hp_balls 21 < 100; hp_matches 3 < 12,ineligible
+1040,Harpreet Bhatia,batter,19,2,1,74.0,False,hp_balls 19 < 40; hp_matches 2 < 6,False,hp_balls 19 < 60; hp_matches 2 < 8,False,hp_balls 19 < 100; hp_matches 2 < 12,ineligible
+1071,Jaydev Unadkat,batter,6,1,1,68.0,False,hp_balls 6 < 40; hp_matches 1 < 6,False,hp_balls 6 < 60; hp_matches 1 < 8,False,hp_balls 6 < 100; hp_matches 1 < 12,ineligible
+1077,David Miller,batter,361,39,5,977.0,True,eligible,True,eligible,True,eligible,strict
+1100,Dinesh Chandimal,batter,11,3,1,65.0,False,hp_balls 11 < 40; hp_matches 3 < 6,False,hp_balls 11 < 60; hp_matches 3 < 8,False,hp_balls 11 < 100; hp_matches 3 < 12,ineligible
+1101,George Dockrell,batter,107,20,6,412.0,True,eligible,True,eligible,True,eligible,strict
+1107,Mohammad Nabi,batter,181,31,5,500.0,True,eligible,True,eligible,True,eligible,strict
+1116,Craig Ervine,batter,137,11,3,116.0,True,eligible,True,eligible,False,hp_matches 11 < 12,moderate
+1171,Chris Woakes,batter,10,4,2,39.0,False,hp_balls 10 < 40; hp_matches 4 < 6,False,hp_balls 10 < 60; hp_matches 4 < 8,False,hp_balls 10 < 100; hp_matches 4 < 12,ineligible
+1183,Alex Hales,batter,6,3,1,148.0,False,hp_balls 6 < 40; hp_matches 3 < 6,False,hp_balls 6 < 60; hp_matches 3 < 8,False,hp_balls 6 < 100; hp_matches 3 < 12,ineligible
+1187,Jason Roy,batter,81,12,2,320.0,True,eligible,True,eligible,False,hp_balls 81 < 100,moderate
+1195,Ben Stokes,batter,1,1,1,34.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+1205,Jonny Bairstow,batter,102,19,3,590.0,True,eligible,True,eligible,True,eligible,strict
+1210,James Vince,batter,38,4,1,48.0,False,hp_balls 38 < 40; hp_matches 4 < 6,False,hp_balls 38 < 60; hp_matches 4 < 8,False,hp_balls 38 < 100; hp_matches 4 < 12,ineligible
+1219,David Willey,batter,12,2,1,88.0,False,hp_balls 12 < 40; hp_matches 2 < 6,False,hp_balls 12 < 60; hp_matches 2 < 8,False,hp_balls 12 < 100; hp_matches 2 < 12,ineligible
+1318,Andre Russell,batter,92,13,4,693.0,True,eligible,True,eligible,False,hp_balls 92 < 100,moderate
+1327,Johnson Charles,batter,128,12,5,300.0,True,eligible,True,eligible,True,eligible,strict
+1440,Rahul Tripathi,batter,179,22,4,555.0,True,eligible,True,eligible,True,eligible,strict
+1481,Kusal Perera,batter,149,18,4,447.0,True,eligible,True,eligible,True,eligible,strict
+1487,Adam Milne,batter,6,2,2,53.0,False,hp_balls 6 < 40; hp_matches 2 < 6,False,hp_balls 6 < 60; hp_matches 2 < 8,False,hp_balls 6 < 100; hp_matches 2 < 12,ineligible
+1541,Sean Williams,batter,37,7,5,122.0,False,hp_balls 37 < 40,False,hp_balls 37 < 60; hp_matches 7 < 8,False,hp_balls 37 < 100; hp_matches 7 < 12,ineligible
+1566,Mohammed Shami,batter,9,4,1,42.0,False,hp_balls 9 < 40; hp_matches 4 < 6,False,hp_balls 9 < 60; hp_matches 4 < 8,False,hp_balls 9 < 100; hp_matches 4 < 12,ineligible
+1568,Kane Williamson,batter,139,16,3,407.0,True,eligible,True,eligible,True,eligible,strict
+1596,Moeen Ali,batter,209,23,3,592.0,True,eligible,True,eligible,True,eligible,strict
+1612,Yuzvendra Chahal,batter,1,1,1,9.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+1617,Rishi Dhawan,batter,13,1,1,40.0,False,hp_balls 13 < 40; hp_matches 1 < 6,False,hp_balls 13 < 60; hp_matches 1 < 8,False,hp_balls 13 < 100; hp_matches 1 < 12,ineligible
+1649,Regis Chakabva,batter,3,2,1,52.0,False,hp_balls 3 < 40; hp_matches 2 < 6,False,hp_balls 3 < 60; hp_matches 2 < 8,False,hp_balls 3 < 100; hp_matches 2 < 12,ineligible
+1699,Suryakumar Yadav,batter,545,63,6,2277.0,True,eligible,True,eligible,True,eligible,strict
+1758,Patrick Cummins,batter,14,7,2,239.0,False,hp_balls 14 < 40,False,hp_balls 14 < 60; hp_matches 7 < 8,False,hp_balls 14 < 100; hp_matches 7 < 12,ineligible
+1791,Wesley Barresi,batter,5,2,1,4.0,False,hp_balls 5 < 40; hp_matches 2 < 6,False,hp_balls 5 < 60; hp_matches 2 < 8,False,hp_balls 5 < 100; hp_matches 2 < 12,ineligible
+1801,Nitish Kumar,batter,9,1,1,11.0,False,hp_balls 9 < 40; hp_matches 1 < 6,False,hp_balls 9 < 60; hp_matches 1 < 8,False,hp_balls 9 < 100; hp_matches 1 < 12,ineligible
+1810,Devon Thomas,batter,4,2,1,46.0,False,hp_balls 4 < 40; hp_matches 2 < 6,False,hp_balls 4 < 60; hp_matches 2 < 8,False,hp_balls 4 < 100; hp_matches 2 < 12,ineligible
+1813,Deepak Chahar,batter,2,1,1,63.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+1924,Sam Billings,batter,44,4,1,144.0,False,hp_matches 4 < 6,False,hp_balls 44 < 60; hp_matches 4 < 8,False,hp_balls 44 < 100; hp_matches 4 < 12,ineligible
+1941,Devon Conway,batter,311,35,6,1218.0,True,eligible,True,eligible,True,eligible,strict
+2003,Bhanuka Rajapaksa,batter,123,18,5,315.0,True,eligible,True,eligible,True,eligible,strict
+2101,Quinton de Kock,batter,296,36,6,1030.0,True,eligible,True,eligible,True,eligible,strict
+2210,Sabbir Rahman,batter,20,1,1,19.0,False,hp_balls 20 < 40; hp_matches 1 < 6,False,hp_balls 20 < 60; hp_matches 1 < 8,False,hp_balls 20 < 100; hp_matches 1 < 12,ineligible
+2213,Soumya Sarkar,batter,40,10,3,171.0,True,eligible,False,hp_balls 40 < 60,False,hp_balls 40 < 100; hp_matches 10 < 12,inclusive
+2214,Gulbadin Naib,batter,74,9,3,139.0,True,eligible,True,eligible,False,hp_balls 74 < 100; hp_matches 9 < 12,moderate
+2218,Anamul Haque,batter,22,5,1,65.0,False,hp_balls 22 < 40; hp_matches 5 < 6,False,hp_balls 22 < 60; hp_matches 5 < 8,False,hp_balls 22 < 100; hp_matches 5 < 12,ineligible
+2246,Tom Latham,batter,62,6,2,184.0,True,eligible,False,hp_matches 6 < 8,False,hp_balls 62 < 100; hp_matches 6 < 12,inclusive
+2258,Sanju Samson,batter,402,62,5,1888.0,True,eligible,True,eligible,True,eligible,strict
+2261,Harshal Patel,batter,10,3,2,141.0,False,hp_balls 10 < 40; hp_matches 3 < 6,False,hp_balls 10 < 60; hp_matches 3 < 8,False,hp_balls 10 < 100; hp_matches 3 < 12,ineligible
+2320,Trent Boult,batter,1,1,1,83.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+2334,Dwaine Pretorius,batter,30,5,1,56.0,False,hp_balls 30 < 40; hp_matches 5 < 6,False,hp_balls 30 < 60; hp_matches 5 < 8,False,hp_balls 30 < 100; hp_matches 5 < 12,ineligible
+2351,Danushka Gunathilaka,batter,35,8,1,85.0,False,hp_balls 35 < 40,False,hp_balls 35 < 60,False,hp_balls 35 < 100; hp_matches 8 < 12,ineligible
+2361,Temba Bavuma,batter,40,4,2,58.0,False,hp_matches 4 < 6,False,hp_balls 40 < 60; hp_matches 4 < 8,False,hp_balls 40 < 100; hp_matches 4 < 12,ineligible
+2364,Ashton Agar,batter,9,2,1,40.0,False,hp_balls 9 < 40; hp_matches 2 < 6,False,hp_balls 9 < 60; hp_matches 2 < 8,False,hp_balls 9 < 100; hp_matches 2 < 12,ineligible
+2367,Travis Head,batter,138,30,4,1041.0,True,eligible,True,eligible,True,eligible,strict
+2379,Ben Duckett,batter,54,9,3,293.0,True,eligible,False,hp_balls 54 < 60,False,hp_balls 54 < 100; hp_matches 9 < 12,inclusive
+2382,Jamie Overton,batter,26,5,3,127.0,False,hp_balls 26 < 40; hp_matches 5 < 6,False,hp_balls 26 < 60; hp_matches 5 < 8,False,hp_balls 26 < 100; hp_matches 5 < 12,ineligible
+2399,Dushmantha Chameera,batter,5,4,3,100.0,False,hp_balls 5 < 40; hp_matches 4 < 6,False,hp_balls 5 < 60; hp_matches 4 < 8,False,hp_balls 5 < 100; hp_matches 4 < 12,ineligible
+2407,Dhananjaya de Silva,batter,38,13,4,173.0,False,hp_balls 38 < 40,False,hp_balls 38 < 60,False,hp_balls 38 < 100,ineligible
+2416,Kyle Mayers,batter,228,28,4,539.0,True,eligible,True,eligible,True,eligible,strict
+2417,Akeal Hosein,batter,13,5,4,217.0,False,hp_balls 13 < 40; hp_matches 5 < 6,False,hp_balls 13 < 60; hp_matches 5 < 8,False,hp_balls 13 < 100; hp_matches 5 < 12,ineligible
+2418,Justin Greaves,batter,16,1,1,5.0,False,hp_balls 16 < 40; hp_matches 1 < 6,False,hp_balls 16 < 60; hp_matches 1 < 8,False,hp_balls 16 < 100; hp_matches 1 < 12,ineligible
+2436,Dasun Shanaka,batter,213,27,5,589.0,True,eligible,True,eligible,True,eligible,strict
+2463,Ryan Burl,batter,222,25,6,480.0,True,eligible,True,eligible,True,eligible,strict
+2485,Babar Azam,batter,280,34,6,940.0,True,eligible,True,eligible,True,eligible,strict
+2490,Mohammad Nawaz,batter,168,27,5,355.0,True,eligible,True,eligible,True,eligible,strict
+2523,Will Young,batter,90,8,2,85.0,True,eligible,True,eligible,False,hp_balls 90 < 100; hp_matches 8 < 12,moderate
+2526,Ish Sodhi,batter,15,7,4,122.0,False,hp_balls 15 < 40,False,hp_balls 15 < 60; hp_matches 7 < 8,False,hp_balls 15 < 100; hp_matches 7 < 12,ineligible
+2531,Joe Root,batter,1,1,1,14.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+2533,Najibullah Zadran,batter,150,14,3,177.0,True,eligible,True,eligible,True,eligible,strict
+2534,Rahmat Shah,batter,5,1,1,1.0,False,hp_balls 5 < 40; hp_matches 1 < 6,False,hp_balls 5 < 60; hp_matches 1 < 8,False,hp_balls 5 < 100; hp_matches 1 < 12,ineligible
+2573,Evin Lewis,batter,70,10,4,204.0,True,eligible,True,eligible,False,hp_balls 70 < 100; hp_matches 10 < 12,moderate
+2633,Jason Holder,batter,68,19,4,397.0,True,eligible,True,eligible,False,hp_balls 68 < 100,moderate
+2636,Adam Zampa,batter,2,1,1,51.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+2639,Marcus Stoinis,batter,253,37,4,1039.0,True,eligible,True,eligible,True,eligible,strict
+2650,Raymon Reifer,batter,3,2,2,40.0,False,hp_balls 3 < 40; hp_matches 2 < 6,False,hp_balls 3 < 60; hp_matches 2 < 8,False,hp_balls 3 < 100; hp_matches 2 < 12,ineligible
+2661,Shamarh Brooks,batter,5,3,1,152.0,False,hp_balls 5 < 40; hp_matches 3 < 6,False,hp_balls 5 < 60; hp_matches 3 < 8,False,hp_balls 5 < 100; hp_matches 3 < 12,ineligible
+2671,Liton Das,batter,256,29,6,857.0,True,eligible,True,eligible,True,eligible,strict
+2680,Nurul Hasan,batter,93,14,4,124.0,True,eligible,True,eligible,False,hp_balls 93 < 100,moderate
+2681,Taskin Ahmed,batter,5,3,2,91.0,False,hp_balls 5 < 40; hp_matches 3 < 6,False,hp_balls 5 < 60; hp_matches 3 < 8,False,hp_balls 5 < 100; hp_matches 3 < 12,ineligible
+2687,Roston Chase,batter,109,13,4,425.0,True,eligible,True,eligible,True,eligible,strict
+2756,Shashank Singh,batter,55,11,4,533.0,True,eligible,False,hp_balls 55 < 60,False,hp_balls 55 < 100; hp_matches 11 < 12,inclusive
+2790,Praveen Dubey,batter,10,1,1,10.0,False,hp_balls 10 < 40; hp_matches 1 < 6,False,hp_balls 10 < 60; hp_matches 1 < 8,False,hp_balls 10 < 100; hp_matches 1 < 12,ineligible
+2847,Shardul Thakur,batter,20,7,2,208.0,False,hp_balls 20 < 40,False,hp_balls 20 < 60; hp_matches 7 < 8,False,hp_balls 20 < 100; hp_matches 7 < 12,ineligible
+2876,Axar Patel,batter,235,38,5,1101.0,True,eligible,True,eligible,True,eligible,strict
+2877,Vijay Shankar,batter,108,16,4,297.0,True,eligible,True,eligible,True,eligible,strict
+2878,Mohit Sharma,batter,1,1,1,19.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+2887,Harmeet Singh,batter,14,1,1,14.0,False,hp_balls 14 < 40; hp_matches 1 < 6,False,hp_balls 14 < 60; hp_matches 1 < 8,False,hp_balls 14 < 100; hp_matches 1 < 12,ineligible
+2892,Asif Ali,batter,41,8,2,43.0,True,eligible,False,hp_balls 41 < 60,False,hp_balls 41 < 100; hp_matches 8 < 12,inclusive
+2921,Fakhar Zaman,batter,380,30,5,509.0,True,eligible,True,eligible,True,eligible,strict
+2930,Rassie van der Dussen,batter,105,12,2,213.0,True,eligible,True,eligible,True,eligible,strict
+2933,Jasprit Bumrah,batter,4,1,1,29.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+2972,Yasim Murtaza,batter,41,4,2,135.0,False,hp_matches 4 < 6,False,hp_balls 41 < 60; hp_matches 4 < 8,False,hp_balls 41 < 100; hp_matches 4 < 12,ineligible
+2984,Sikandar Raza,batter,330,34,6,688.0,True,eligible,True,eligible,True,eligible,strict
+2996,Stephanus Myburgh,batter,4,2,1,27.0,False,hp_balls 4 < 40; hp_matches 2 < 6,False,hp_balls 4 < 60; hp_matches 2 < 8,False,hp_balls 4 < 100; hp_matches 2 < 12,ineligible
+3024,Mohammad Rizwan,batter,467,28,4,723.0,True,eligible,True,eligible,True,eligible,strict
+3038,Hussain Talat,batter,8,3,1,48.0,False,hp_balls 8 < 40; hp_matches 3 < 6,False,hp_balls 8 < 60; hp_matches 3 < 8,False,hp_balls 8 < 100; hp_matches 3 < 12,ineligible
+3056,Iftikhar Ahmed,batter,184,20,4,291.0,True,eligible,True,eligible,True,eligible,strict
+3077,Usama Mir,batter,1,1,1,6.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+3091,Sahibzada Farhan,batter,142,20,3,692.0,True,eligible,True,eligible,True,eligible,strict
+3097,Shan Masood,batter,90,7,2,95.0,True,eligible,False,hp_matches 7 < 8,False,hp_balls 90 < 100; hp_matches 7 < 12,inclusive
+3125,Nicholas Pooran,batter,478,53,5,1582.0,True,eligible,True,eligible,True,eligible,strict
+3260,Hashmatullah Shahidi,batter,3,2,1,55.0,False,hp_balls 3 < 40; hp_matches 2 < 6,False,hp_balls 3 < 60; hp_matches 2 < 8,False,hp_balls 3 < 100; hp_matches 2 < 12,ineligible
+3272,Fabian Allen,batter,1,1,1,49.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+3275,Alzarri Joseph,batter,12,3,3,123.0,False,hp_balls 12 < 40; hp_matches 3 < 6,False,hp_balls 12 < 60; hp_matches 3 < 8,False,hp_balls 12 < 100; hp_matches 3 < 12,ineligible
+3276,Gudakesh Motie,batter,21,1,1,133.0,False,hp_balls 21 < 40; hp_matches 1 < 6,False,hp_balls 21 < 60; hp_matches 1 < 8,False,hp_balls 21 < 100; hp_matches 1 < 12,ineligible
+3280,Nazmul Hossain Shanto,batter,94,12,4,437.0,True,eligible,True,eligible,False,hp_balls 94 < 100,moderate
+3281,Mosaddek Hossain,batter,31,7,2,86.0,False,hp_balls 31 < 40,False,hp_balls 31 < 60; hp_matches 7 < 8,False,hp_balls 31 < 100; hp_matches 7 < 12,ineligible
+3282,Mehidy Hasan Miraz,batter,63,6,4,210.0,True,eligible,False,hp_matches 6 < 8,False,hp_balls 63 < 100; hp_matches 6 < 12,inclusive
+3297,Shimron Hetmyer,batter,263,42,5,1043.0,True,eligible,True,eligible,True,eligible,strict
+3298,Jofra Archer,batter,12,5,2,139.0,False,hp_balls 12 < 40; hp_matches 5 < 6,False,hp_balls 12 < 60; hp_matches 5 < 8,False,hp_balls 12 < 100; hp_matches 5 < 12,ineligible
+3306,Afsar Zazai,batter,9,1,1,21.0,False,hp_balls 9 < 40; hp_matches 1 < 6,False,hp_balls 9 < 60; hp_matches 1 < 8,False,hp_balls 9 < 100; hp_matches 1 < 12,ineligible
+3323,Jimmy Neesham,batter,87,16,5,354.0,True,eligible,True,eligible,False,hp_balls 87 < 100,moderate
+3330,Hardik Pandya,batter,334,48,6,1659.0,True,eligible,True,eligible,True,eligible,strict
+3361,Michael Leask,batter,5,3,1,57.0,False,hp_balls 5 < 40; hp_matches 3 < 6,False,hp_balls 5 < 60; hp_matches 3 < 8,False,hp_balls 5 < 100; hp_matches 3 < 12,ineligible
+3373,Aizaz Khan,batter,14,3,2,34.0,False,hp_balls 14 < 40; hp_matches 3 < 6,False,hp_balls 14 < 60; hp_matches 3 < 8,False,hp_balls 14 < 100; hp_matches 3 < 12,ineligible
+3374,Mark Chapman,batter,202,21,6,660.0,True,eligible,True,eligible,True,eligible,strict
+3377,Babar Hayat,batter,23,4,2,144.0,False,hp_balls 23 < 40; hp_matches 4 < 6,False,hp_balls 23 < 60; hp_matches 4 < 8,False,hp_balls 23 < 100; hp_matches 4 < 12,ineligible
+3382,Nizakat Khan,batter,84,4,2,108.0,False,hp_matches 4 < 6,False,hp_matches 4 < 8,False,hp_balls 84 < 100; hp_matches 4 < 12,ineligible
+3383,Kinchit Shah,batter,20,2,2,73.0,False,hp_balls 20 < 40; hp_matches 2 < 6,False,hp_balls 20 < 60; hp_matches 2 < 8,False,hp_balls 20 < 100; hp_matches 2 < 12,ineligible
+3415,Matthew Cross,batter,15,5,1,95.0,False,hp_balls 15 < 40; hp_matches 5 < 6,False,hp_balls 15 < 60; hp_matches 5 < 8,False,hp_balls 15 < 100; hp_matches 5 < 12,ineligible
+3451,Baba Indrajith,batter,12,2,1,19.0,False,hp_balls 12 < 40; hp_matches 2 < 6,False,hp_balls 12 < 60; hp_matches 2 < 8,False,hp_balls 12 < 100; hp_matches 2 < 12,ineligible
+3489,Salman Agha,batter,185,22,2,532.0,True,eligible,True,eligible,True,eligible,strict
+3539,Ben McDermott,batter,67,5,2,72.0,False,hp_matches 5 < 6,False,hp_matches 5 < 8,False,hp_balls 67 < 100; hp_matches 5 < 12,ineligible
+3543,Shahidullah Kamal,batter,4,4,2,62.0,False,hp_balls 4 < 40; hp_matches 4 < 6,False,hp_balls 4 < 60; hp_matches 4 < 8,False,hp_balls 4 < 100; hp_matches 4 < 12,ineligible
+3544,Usman Ghani,batter,44,3,1,86.0,False,hp_matches 3 < 6,False,hp_balls 44 < 60; hp_matches 3 < 8,False,hp_balls 44 < 100; hp_matches 3 < 12,ineligible
+3545,Ihsanullah Janat,batter,2,1,1,12.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+3550,Sharafuddin Ashraf,batter,1,1,1,20.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+3578,Imad Wasim,batter,21,5,2,142.0,False,hp_balls 21 < 40; hp_matches 5 < 6,False,hp_balls 21 < 60; hp_matches 5 < 8,False,hp_balls 21 < 100; hp_matches 5 < 12,ineligible
+3605,Aiden Markram,batter,270,45,5,1448.0,True,eligible,True,eligible,True,eligible,strict
+3627,Andile Phehlukwayo,batter,6,1,1,36.0,False,hp_balls 6 < 40; hp_matches 1 < 6,False,hp_balls 6 < 60; hp_matches 1 < 8,False,hp_balls 6 < 100; hp_matches 1 < 12,ineligible
+3628,Kagiso Rabada,batter,24,5,4,129.0,False,hp_balls 24 < 40; hp_matches 5 < 6,False,hp_balls 24 < 60; hp_matches 5 < 8,False,hp_balls 24 < 100; hp_matches 5 < 12,ineligible
+3629,Corbin Bosch,batter,5,3,2,139.0,False,hp_balls 5 < 40; hp_matches 3 < 6,False,hp_balls 5 < 60; hp_matches 3 < 8,False,hp_balls 5 < 100; hp_matches 3 < 12,ineligible
+3635,Jason Smith,batter,25,4,2,44.0,False,hp_balls 25 < 40; hp_matches 4 < 6,False,hp_balls 25 < 60; hp_matches 4 < 8,False,hp_balls 25 < 100; hp_matches 4 < 12,ineligible
+3639,Brandon King,batter,273,36,5,891.0,True,eligible,True,eligible,True,eligible,strict
+3641,Ben Dwarshuis,batter,3,2,2,71.0,False,hp_balls 3 < 40; hp_matches 2 < 6,False,hp_balls 3 < 60; hp_matches 2 < 8,False,hp_balls 3 < 100; hp_matches 2 < 12,ineligible
+3644,Kuldeep Yadav,batter,28,9,4,182.0,False,hp_balls 28 < 40,False,hp_balls 28 < 60,False,hp_balls 28 < 100; hp_matches 9 < 12,ineligible
+3645,Sarfaraz Khan,batter,47,5,3,184.0,False,hp_matches 5 < 6,False,hp_balls 47 < 60; hp_matches 5 < 8,False,hp_balls 47 < 100; hp_matches 5 < 12,ineligible
+3647,Shreyas Iyer,batter,274,35,5,1580.0,True,eligible,True,eligible,True,eligible,strict
+3648,Deepak Hooda,batter,210,24,5,616.0,True,eligible,True,eligible,True,eligible,strict
+3651,Ricky Bhui,batter,2,1,1,7.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+3653,Avesh Khan,batter,9,4,3,51.0,False,hp_balls 9 < 40; hp_matches 4 < 6,False,hp_balls 9 < 60; hp_matches 4 < 8,False,hp_balls 9 < 100; hp_matches 4 < 12,ineligible
+3664,Binura Fernando,batter,1,1,1,26.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+3669,Sadeera Samarawickrama,batter,48,8,1,119.0,True,eligible,False,hp_balls 48 < 60,False,hp_balls 48 < 100; hp_matches 8 < 12,inclusive
+3672,Kusal Mendis,batter,316,37,6,1060.0,True,eligible,True,eligible,True,eligible,strict
+3686,CB Sole,batter,1,1,1,21.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+3689,Mark Watt,batter,2,1,1,57.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+3697,Kyle Jamieson,batter,1,1,1,68.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+3700,Tim Seifert,batter,65,19,5,689.0,True,eligible,True,eligible,False,hp_balls 65 < 100,moderate
+3727,Matthew Short,batter,68,13,4,367.0,True,eligible,True,eligible,False,hp_balls 68 < 100,moderate
+3772,Logan van Beek,batter,12,3,1,22.0,False,hp_balls 12 < 40; hp_matches 3 < 6,False,hp_balls 12 < 60; hp_matches 3 < 8,False,hp_balls 12 < 100; hp_matches 3 < 12,ineligible
+3775,Sompal Kami,batter,2,2,1,7.0,False,hp_balls 2 < 40; hp_matches 2 < 6,False,hp_balls 2 < 60; hp_matches 2 < 8,False,hp_balls 2 < 100; hp_matches 2 < 12,ineligible
+3782,M Shahrukh Khan,batter,71,15,5,362.0,True,eligible,True,eligible,False,hp_balls 71 < 100,moderate
+3802,Anshuman Rath,batter,36,2,1,19.0,False,hp_balls 36 < 40; hp_matches 2 < 6,False,hp_balls 36 < 60; hp_matches 2 < 8,False,hp_balls 36 < 100; hp_matches 2 < 12,ineligible
+3832,Rezza Gaznavi,batter,23,2,1,19.0,False,hp_balls 23 < 40; hp_matches 2 < 6,False,hp_balls 23 < 60; hp_matches 2 < 8,False,hp_balls 23 < 100; hp_matches 2 < 12,ineligible
+3839,Amjad Mahboob,batter,1,1,1,18.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+3858,Jatinder Singh,batter,30,3,1,17.0,False,hp_balls 30 < 40; hp_matches 3 < 6,False,hp_balls 30 < 60; hp_matches 3 < 8,False,hp_balls 30 < 100; hp_matches 3 < 12,ineligible
+3871,Aamir Kaleem,batter,46,2,1,16.0,False,hp_matches 2 < 6,False,hp_balls 46 < 60; hp_matches 2 < 8,False,hp_balls 46 < 100; hp_matches 2 < 12,ineligible
+3876,Sufyan Mehmood,batter,4,1,1,1.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+3916,Jitesh Sharma,batter,145,24,5,714.0,True,eligible,True,eligible,True,eligible,strict
+3926,Rahul Tewatia,batter,169,28,5,393.0,True,eligible,True,eligible,True,eligible,strict
+3954,Andrew Balbirnie,batter,84,17,4,496.0,True,eligible,True,eligible,False,hp_balls 84 < 100,moderate
+3967,Tom Kohler,batter,12,2,1,42.0,False,hp_balls 12 < 40; hp_matches 2 < 6,False,hp_balls 12 < 60; hp_matches 2 < 8,False,hp_balls 12 < 100; hp_matches 2 < 12,ineligible
+3986,Matthew Renshaw,batter,2,1,1,109.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+3995,Donald Tiripano,batter,1,1,1,2.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+4007,Ryan Rickelton,batter,159,25,3,724.0,True,eligible,True,eligible,True,eligible,strict
+4101,Mitchell Santner,batter,105,20,6,455.0,True,eligible,True,eligible,True,eligible,strict
+4102,George Munsey,batter,37,5,1,64.0,False,hp_balls 37 < 40; hp_matches 5 < 6,False,hp_balls 37 < 60; hp_matches 5 < 8,False,hp_balls 37 < 100; hp_matches 5 < 12,ineligible
+4106,Daryl Mitchell,batter,219,31,7,932.0,True,eligible,True,eligible,True,eligible,strict
+4111,Khushdil Shah,batter,95,10,2,124.0,True,eligible,True,eligible,False,hp_balls 95 < 100; hp_matches 10 < 12,moderate
+4117,Ishan Kishan,batter,458,61,6,2026.0,True,eligible,True,eligible,True,eligible,strict
+4211,Vishnu Vinod,batter,4,1,1,36.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+4219,Krunal Pandya,batter,172,23,5,513.0,True,eligible,True,eligible,True,eligible,strict
+4229,George Linde,batter,18,5,3,129.0,False,hp_balls 18 < 40; hp_matches 5 < 6,False,hp_balls 18 < 60; hp_matches 5 < 8,False,hp_balls 18 < 100; hp_matches 5 < 12,ineligible
+4235,Sisanda Magala,batter,5,1,1,,False,hp_balls 5 < 40; hp_matches 1 < 6,False,hp_balls 5 < 60; hp_matches 1 < 8,False,hp_balls 5 < 100; hp_matches 1 < 12,ineligible
+4246,Nitish Rana,batter,125,25,4,771.0,True,eligible,True,eligible,True,eligible,strict
+4260,Heinrich Klaasen,batter,231,25,5,1249.0,True,eligible,True,eligible,True,eligible,strict
+4369,Shai Hope,batter,179,27,5,936.0,True,eligible,True,eligible,True,eligible,strict
+4372,Rony Talukder,batter,12,3,1,138.0,False,hp_balls 12 < 40; hp_matches 3 < 6,False,hp_balls 12 < 60; hp_matches 3 < 8,False,hp_balls 12 < 100; hp_matches 3 < 12,ineligible
+4373,Mustafizur Rahman,batter,1,1,1,61.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+4391,Liam Livingstone,batter,157,27,5,900.0,True,eligible,True,eligible,True,eligible,strict
+4409,Sam Curran,batter,151,25,5,706.0,True,eligible,True,eligible,True,eligible,strict
+4412,Max ODowd,batter,33,8,3,175.0,False,hp_balls 33 < 40,False,hp_balls 33 < 60,False,hp_balls 33 < 100; hp_matches 8 < 12,ineligible
+4486,BR Sharath,batter,2,1,1,3.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+4487,Vyshak Kumar,batter,1,1,1,16.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+4494,Abhinav Manohar,batter,103,13,4,140.0,True,eligible,True,eligible,True,eligible,strict
+4636,Bjorn Fortuin,batter,10,4,2,53.0,False,hp_balls 10 < 40; hp_matches 4 < 6,False,hp_balls 10 < 60; hp_matches 4 < 8,False,hp_balls 10 < 100; hp_matches 4 < 12,ineligible
+4639,Wellington Masakadza,batter,24,6,3,130.0,False,hp_balls 24 < 40,False,hp_balls 24 < 60; hp_matches 6 < 8,False,hp_balls 24 < 100; hp_matches 6 < 12,ineligible
+4658,Nasum Ahmed,batter,9,3,1,69.0,False,hp_balls 9 < 40; hp_matches 3 < 6,False,hp_balls 9 < 60; hp_matches 3 < 8,False,hp_balls 9 < 100; hp_matches 3 < 12,ineligible
+4662,Cole McConchie,batter,18,5,3,84.0,False,hp_balls 18 < 40; hp_matches 5 < 6,False,hp_balls 18 < 60; hp_matches 5 < 8,False,hp_balls 18 < 100; hp_matches 5 < 12,ineligible
+4665,Tom Blundell,batter,3,1,1,17.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+4684,Dane Cleaver,batter,41,4,3,113.0,False,hp_matches 4 < 6,False,hp_balls 41 < 60; hp_matches 4 < 8,False,hp_balls 41 < 100; hp_matches 4 < 12,ineligible
+4686,Joshua Clarkson,batter,39,4,2,79.0,False,hp_balls 39 < 40; hp_matches 4 < 6,False,hp_balls 39 < 60; hp_matches 4 < 8,False,hp_balls 39 < 100; hp_matches 4 < 12,ineligible
+4692,Lockie Ferguson,batter,1,1,1,29.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+4695,Nick Kelly,batter,13,4,1,79.0,False,hp_balls 13 < 40; hp_matches 4 < 6,False,hp_balls 13 < 60; hp_matches 4 < 8,False,hp_balls 13 < 100; hp_matches 4 < 12,ineligible
+4703,Rishabh Pant,batter,193,28,5,1100.0,True,eligible,True,eligible,True,eligible,strict
+4708,Rinku Singh,batter,167,22,5,1183.0,True,eligible,True,eligible,True,eligible,strict
+4722,Rashid Khan,batter,118,28,5,422.0,True,eligible,True,eligible,True,eligible,strict
+4736,Josh Inglis,batter,146,19,4,788.0,True,eligible,True,eligible,True,eligible,strict
+4755,Shivam Dube,batter,321,41,5,1296.0,True,eligible,True,eligible,True,eligible,strict
+4773,Jaker Ali Anik,batter,142,15,2,377.0,True,eligible,True,eligible,True,eligible,strict
+4779,Pieter Willem Mulder,batter,60,7,2,57.0,True,eligible,False,hp_matches 7 < 8,False,hp_balls 60 < 100; hp_matches 7 < 12,inclusive
+4780,Mohammad Saif Hassan,batter,99,14,2,362.0,True,eligible,True,eligible,False,hp_balls 99 < 100,moderate
+4784,Tony de Zorzi,batter,17,4,1,77.0,False,hp_balls 17 < 40; hp_matches 4 < 6,False,hp_balls 17 < 60; hp_matches 4 < 8,False,hp_balls 17 < 100; hp_matches 4 < 12,ineligible
+4793,Dean Foxcroft,batter,30,4,3,74.0,False,hp_balls 30 < 40; hp_matches 4 < 6,False,hp_balls 30 < 60; hp_matches 4 < 8,False,hp_balls 30 < 100; hp_matches 4 < 12,ineligible
+4802,Stephen Doheny,batter,7,1,1,14.0,False,hp_balls 7 < 40; hp_matches 1 < 6,False,hp_balls 7 < 60; hp_matches 1 < 8,False,hp_balls 7 < 100; hp_matches 1 < 12,ineligible
+4812,Harry Tector,batter,204,24,6,653.0,True,eligible,True,eligible,True,eligible,strict
+4814,Lorcan Tucker,batter,143,23,6,539.0,True,eligible,True,eligible,True,eligible,strict
+4816,Khaleel Ahmed,batter,1,1,1,4.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+4817,Anmolpreet Singh,batter,37,6,3,66.0,False,hp_balls 37 < 40,False,hp_balls 37 < 60; hp_matches 6 < 8,False,hp_balls 37 < 100; hp_matches 6 < 12,ineligible
+4821,Mahipal Lomror,batter,83,13,3,152.0,True,eligible,True,eligible,False,hp_balls 83 < 100,moderate
+4823,Washington Sundar,batter,151,21,5,520.0,True,eligible,True,eligible,True,eligible,strict
+4830,Keacy Carty,batter,29,3,2,44.0,False,hp_balls 29 < 40; hp_matches 3 < 6,False,hp_balls 29 < 60; hp_matches 3 < 8,False,hp_balls 29 < 100; hp_matches 3 < 12,ineligible
+4840,Odean Smith,batter,15,4,1,131.0,False,hp_balls 15 < 40; hp_matches 4 < 6,False,hp_balls 15 < 60; hp_matches 4 < 8,False,hp_balls 15 < 100; hp_matches 4 < 12,ineligible
+4842,Shamar Springer,batter,8,2,2,62.0,False,hp_balls 8 < 40; hp_matches 2 < 6,False,hp_balls 8 < 60; hp_matches 2 < 8,False,hp_balls 8 < 100; hp_matches 2 < 12,ineligible
+4847,Finn Allen,batter,87,21,6,772.0,True,eligible,True,eligible,False,hp_balls 87 < 100,moderate
+4853,Glenn Phillips,batter,254,28,6,853.0,True,eligible,True,eligible,True,eligible,strict
+4854,Rachin Ravindra,batter,129,21,5,454.0,True,eligible,True,eligible,True,eligible,strict
+4856,Benjamin Sears,batter,6,2,2,31.0,False,hp_balls 6 < 40; hp_matches 2 < 6,False,hp_balls 6 < 60; hp_matches 2 < 8,False,hp_balls 6 < 100; hp_matches 2 < 12,ineligible
+4867,Wesley Madhevere,batter,136,17,5,297.0,True,eligible,True,eligible,True,eligible,strict
+4871,Brandon Mavuta,batter,1,1,1,15.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+4874,Richard Ngarava,batter,5,3,3,61.0,False,hp_balls 5 < 40; hp_matches 3 < 6,False,hp_balls 5 < 60; hp_matches 3 < 8,False,hp_balls 5 < 100; hp_matches 3 < 12,ineligible
+4876,Milton Shumba,batter,10,2,1,54.0,False,hp_balls 10 < 40; hp_matches 2 < 6,False,hp_balls 10 < 60; hp_matches 2 < 8,False,hp_balls 10 < 100; hp_matches 2 < 12,ineligible
+4880,Aarif Sheikh,batter,3,1,1,,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+4881,Dipendra Airee,batter,19,1,1,2.0,False,hp_balls 19 < 40; hp_matches 1 < 6,False,hp_balls 19 < 60; hp_matches 1 < 8,False,hp_balls 19 < 100; hp_matches 1 < 12,ineligible
+4882,Kushal Bhurtel,batter,27,2,1,18.0,False,hp_balls 27 < 40; hp_matches 2 < 6,False,hp_balls 27 < 60; hp_matches 2 < 8,False,hp_balls 27 < 100; hp_matches 2 < 12,ineligible
+4895,Charith Asalanka,batter,211,29,6,550.0,True,eligible,True,eligible,True,eligible,strict
+4900,Wanindu Hasaranga,batter,62,19,6,420.0,True,eligible,True,eligible,False,hp_balls 62 < 100,moderate
+4901,Asitha Fernando,batter,4,2,2,2.0,False,hp_balls 4 < 40; hp_matches 2 < 6,False,hp_balls 4 < 60; hp_matches 2 < 8,False,hp_balls 4 < 100; hp_matches 2 < 12,ineligible
+4902,Avishka Fernando,batter,6,3,3,56.0,False,hp_balls 6 < 40; hp_matches 3 < 6,False,hp_balls 6 < 60; hp_matches 3 < 8,False,hp_balls 6 < 100; hp_matches 3 < 12,ineligible
+4904,Kamindu Mendis,batter,136,18,4,479.0,True,eligible,True,eligible,True,eligible,strict
+4926,Shadab Khan,batter,49,9,5,298.0,True,eligible,False,hp_balls 49 < 60,False,hp_balls 49 < 100; hp_matches 9 < 12,inclusive
+4947,Kasun Rajitha,batter,3,1,1,8.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+4974,Mohammad Nadeem,batter,1,1,1,6.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+4986,Rovman Powell,batter,354,46,5,1297.0,True,eligible,True,eligible,True,eligible,strict
+5029,Prerak Mankad,batter,50,3,1,25.0,False,hp_matches 3 < 6,False,hp_balls 50 < 60; hp_matches 3 < 8,False,hp_balls 50 < 100; hp_matches 3 < 12,ineligible
+5034,Murugan Ashwin,batter,5,3,1,9.0,False,hp_balls 5 < 40; hp_matches 3 < 6,False,hp_balls 5 < 60; hp_matches 3 < 8,False,hp_balls 5 < 100; hp_matches 3 < 12,ineligible
+5039,Rajat Patidar,batter,165,23,4,805.0,True,eligible,True,eligible,True,eligible,strict
+5041,Mukesh Kumar,batter,2,2,2,23.0,False,hp_balls 2 < 40; hp_matches 2 < 6,False,hp_balls 2 < 60; hp_matches 2 < 8,False,hp_balls 2 < 100; hp_matches 2 < 12,ineligible
+5189,Faheem Ashraf,batter,51,12,2,159.0,True,eligible,False,hp_balls 51 < 60,False,hp_balls 51 < 100,inclusive
+5379,Mark Adair,batter,28,7,3,256.0,False,hp_balls 28 < 40,False,hp_balls 28 < 60; hp_matches 7 < 8,False,hp_balls 28 < 100; hp_matches 7 < 12,ineligible
+5441,Barry McCarthy,batter,1,1,1,115.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+5553,Phil Salt,batter,188,42,5,1508.0,True,eligible,True,eligible,True,eligible,strict
+5577,Sai Kishore,batter,1,1,1,15.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+5608,Narayan Jagadeesan,batter,49,4,2,75.0,False,hp_matches 4 < 6,False,hp_balls 49 < 60; hp_matches 4 < 8,False,hp_balls 49 < 100; hp_matches 4 < 12,ineligible
+5665,Sanjay Yadav,batter,1,1,1,1.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+5808,Karim Janat,batter,88,11,3,167.0,True,eligible,True,eligible,False,hp_balls 88 < 100; hp_matches 11 < 12,moderate
+5809,Naveen ul Haq,batter,2,1,1,68.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+5837,Mahedi Hasan,batter,57,9,4,204.0,True,eligible,False,hp_balls 57 < 60,False,hp_balls 57 < 100; hp_matches 9 < 12,inclusive
+5839,Yasir Ali Chowdhury,batter,33,5,3,90.0,False,hp_balls 33 < 40; hp_matches 5 < 6,False,hp_balls 33 < 60; hp_matches 5 < 8,False,hp_balls 33 < 100; hp_matches 5 < 12,ineligible
+5866,Patrick Kruger,batter,18,3,1,44.0,False,hp_balls 18 < 40; hp_matches 3 < 6,False,hp_balls 18 < 60; hp_matches 3 < 8,False,hp_balls 18 < 100; hp_matches 3 < 12,ineligible
+5877,Andries Gous,batter,5,1,1,54.0,False,hp_balls 5 < 40; hp_matches 1 < 6,False,hp_balls 5 < 60; hp_matches 1 < 8,False,hp_balls 5 < 100; hp_matches 1 < 12,ineligible
+5882,Afif Hossain,batter,113,10,3,260.0,True,eligible,True,eligible,False,hp_matches 10 < 12,moderate
+5928,Prithvi Shaw,batter,58,14,3,350.0,True,eligible,False,hp_balls 58 < 60,False,hp_balls 58 < 100,inclusive
+5939,Cameron Green,batter,145,27,5,967.0,True,eligible,True,eligible,True,eligible,strict
+5944,Mohammed Siraj,batter,2,2,1,73.0,False,hp_balls 2 < 40; hp_matches 2 < 6,False,hp_balls 2 < 60; hp_matches 2 < 8,False,hp_balls 2 < 100; hp_matches 2 < 12,ineligible
+6035,Chirag Suri,batter,51,3,1,56.0,False,hp_matches 3 < 6,False,hp_balls 51 < 60; hp_matches 3 < 8,False,hp_balls 51 < 100; hp_matches 3 < 12,ineligible
+6059,Ruturaj Gaikwad,batter,448,48,5,1429.0,True,eligible,True,eligible,True,eligible,strict
+6097,Brydon Carse,batter,2,1,1,32.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+6160,Chamika Karunaratne,batter,25,4,2,129.0,False,hp_balls 25 < 40; hp_matches 4 < 6,False,hp_balls 25 < 60; hp_matches 4 < 8,False,hp_balls 25 < 100; hp_matches 4 < 12,ineligible
+6161,Rahul Chahar,batter,3,2,1,92.0,False,hp_balls 3 < 40; hp_matches 2 < 6,False,hp_balls 3 < 60; hp_matches 2 < 8,False,hp_balls 3 < 100; hp_matches 2 < 12,ineligible
+6203,Surendran Chandramohan,batter,16,3,1,10.0,False,hp_balls 16 < 40; hp_matches 3 < 6,False,hp_balls 16 < 60; hp_matches 3 < 8,False,hp_balls 16 < 100; hp_matches 3 < 12,ineligible
+6256,Varun Chakravarthy,batter,1,1,1,50.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+6272,William Jacks,batter,90,21,5,625.0,True,eligible,True,eligible,False,hp_balls 90 < 100,moderate
+6273,Tom Banton,batter,48,5,3,228.0,False,hp_matches 5 < 6,False,hp_balls 48 < 60; hp_matches 5 < 8,False,hp_balls 48 < 100; hp_matches 5 < 12,ineligible
+6280,Harry Brook,batter,125,19,4,799.0,True,eligible,True,eligible,True,eligible,strict
+6281,Abhishek Sharma,batter,336,55,5,1978.0,True,eligible,True,eligible,True,eligible,strict
+6284,Anukul Roy,batter,11,2,1,55.0,False,hp_balls 11 < 40; hp_matches 2 < 6,False,hp_balls 11 < 60; hp_matches 2 < 8,False,hp_balls 11 < 100; hp_matches 2 < 12,ineligible
+6286,Shivam Mavi,batter,5,2,1,21.0,False,hp_balls 5 < 40; hp_matches 2 < 6,False,hp_balls 5 < 60; hp_matches 2 < 8,False,hp_balls 5 < 100; hp_matches 2 < 12,ineligible
+6288,Shubman Gill,batter,462,57,5,2306.0,True,eligible,True,eligible,True,eligible,strict
+6314,Devdutt Padikkal,batter,199,28,5,840.0,True,eligible,True,eligible,True,eligible,strict
+6342,Matthew Breetzke,batter,21,4,3,133.0,False,hp_balls 21 < 40; hp_matches 4 < 6,False,hp_balls 21 < 60; hp_matches 4 < 8,False,hp_balls 21 < 100; hp_matches 4 < 12,ineligible
+6355,Shaheen Afridi,batter,21,5,3,172.0,False,hp_balls 21 < 40; hp_matches 5 < 6,False,hp_balls 21 < 60; hp_matches 5 < 8,False,hp_balls 21 < 100; hp_matches 5 < 12,ineligible
+6395,Josh Philippe,batter,15,3,3,32.0,False,hp_balls 15 < 40; hp_matches 3 < 6,False,hp_balls 15 < 60; hp_matches 3 < 8,False,hp_balls 15 < 100; hp_matches 3 < 12,ineligible
+6396,Tim David,batter,211,33,5,1082.0,True,eligible,True,eligible,True,eligible,strict
+6398,Aaron Hardie,batter,18,3,3,131.0,False,hp_balls 18 < 40; hp_matches 3 < 6,False,hp_balls 18 < 60; hp_matches 3 < 8,False,hp_balls 18 < 100; hp_matches 3 < 12,ineligible
+6423,Riyan Parag,batter,255,32,5,876.0,True,eligible,True,eligible,True,eligible,strict
+6433,Darwish Rasooli,batter,118,13,4,198.0,True,eligible,True,eligible,True,eligible,strict
+6436,Qais Ahmad,batter,4,1,1,3.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+6440,Omair Yousuf,batter,3,1,1,40.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+6441,Abdullah Shafique,batter,3,2,1,13.0,False,hp_balls 3 < 40; hp_matches 2 < 6,False,hp_balls 3 < 60; hp_matches 2 < 8,False,hp_balls 3 < 100; hp_matches 2 < 12,ineligible
+6448,Ibrahim Zadran,batter,428,34,5,736.0,True,eligible,True,eligible,True,eligible,strict
+6450,Mujeeb Ur Rahman,batter,1,1,1,73.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+6457,Urvil Patel,batter,9,4,2,93.0,False,hp_balls 9 < 40; hp_matches 4 < 6,False,hp_balls 9 < 60; hp_matches 4 < 8,False,hp_balls 9 < 100; hp_matches 4 < 12,ineligible
+6460,Ayush Badoni,batter,204,27,5,646.0,True,eligible,True,eligible,True,eligible,strict
+6464,Arshdeep Singh,batter,13,6,3,128.0,False,hp_balls 13 < 40,False,hp_balls 13 < 60; hp_matches 6 < 8,False,hp_balls 13 < 100; hp_matches 6 < 12,ineligible
+6466,Atharwa Taide,batter,30,6,3,158.0,False,hp_balls 30 < 40,False,hp_balls 30 < 60; hp_matches 6 < 8,False,hp_balls 30 < 100; hp_matches 6 < 12,ineligible
+6467,Anuj Rawat,batter,56,9,3,219.0,True,eligible,False,hp_balls 56 < 60,False,hp_balls 56 < 100; hp_matches 9 < 12,inclusive
+6473,Nuwanidu Fernando,batter,11,2,1,1.0,False,hp_balls 11 < 40; hp_matches 2 < 6,False,hp_balls 11 < 60; hp_matches 2 < 8,False,hp_balls 11 < 100; hp_matches 2 < 12,ineligible
+6487,Priyam Garg,batter,12,3,2,44.0,False,hp_balls 12 < 40; hp_matches 3 < 6,False,hp_balls 12 < 60; hp_matches 3 < 8,False,hp_balls 12 < 100; hp_matches 3 < 12,ineligible
+6489,Darshan Nalkande,batter,11,1,1,1.0,False,hp_balls 11 < 40; hp_matches 1 < 6,False,hp_balls 11 < 60; hp_matches 1 < 8,False,hp_balls 11 < 100; hp_matches 1 < 12,ineligible
+6512,Michael Bracewell,batter,56,15,6,313.0,True,eligible,False,hp_balls 56 < 60,False,hp_balls 56 < 100,inclusive
+6514,Anil Nidamanuru,batter,29,4,3,14.0,False,hp_balls 29 < 40; hp_matches 4 < 6,False,hp_balls 29 < 60; hp_matches 4 < 8,False,hp_balls 29 < 100; hp_matches 4 < 12,ineligible
+6518,Daniel Sams,batter,28,7,1,54.0,False,hp_balls 28 < 40,False,hp_balls 28 < 60; hp_matches 7 < 8,False,hp_balls 28 < 100; hp_matches 7 < 12,ineligible
+6523,Blessing Muzarabani,batter,5,2,2,39.0,False,hp_balls 5 < 40; hp_matches 2 < 6,False,hp_balls 5 < 60; hp_matches 2 < 8,False,hp_balls 5 < 100; hp_matches 2 < 12,ineligible
+6526,Himmat Singh,batter,19,2,1,55.0,False,hp_balls 19 < 40; hp_matches 2 < 6,False,hp_balls 19 < 60; hp_matches 2 < 8,False,hp_balls 19 < 100; hp_matches 2 < 12,ineligible
+6565,Katene Clarke,batter,1,1,1,50.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+6574,Alick Athanaze,batter,101,9,3,154.0,True,eligible,True,eligible,False,hp_matches 9 < 12,moderate
+6628,Gerald Coetzee,batter,16,5,2,90.0,False,hp_balls 16 < 40; hp_matches 5 < 6,False,hp_balls 16 < 60; hp_matches 5 < 8,False,hp_balls 16 < 100; hp_matches 5 < 12,ineligible
+6645,Mohammad Sheikh,batter,13,1,1,49.0,False,hp_balls 13 < 40; hp_matches 1 < 6,False,hp_balls 13 < 60; hp_matches 1 < 8,False,hp_balls 13 < 100; hp_matches 1 < 12,ineligible
+6651,Towhid Hridoy,batter,131,19,4,815.0,True,eligible,True,eligible,True,eligible,strict
+6664,Dion Myers,batter,122,13,3,227.0,True,eligible,True,eligible,True,eligible,strict
+6671,Lalit Yadav,batter,51,5,1,175.0,False,hp_matches 5 < 6,False,hp_balls 51 < 60; hp_matches 5 < 8,False,hp_balls 51 < 100; hp_matches 5 < 12,ineligible
+6674,Rahmanullah Gurbaz,batter,284,31,5,887.0,True,eligible,True,eligible,True,eligible,strict
+6676,Azmatullah Omarzai,batter,146,24,5,542.0,True,eligible,True,eligible,True,eligible,strict
+6683,Mayank Markande,batter,2,1,1,12.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+6725,Sherfane Rutherford,batter,181,20,4,689.0,True,eligible,True,eligible,True,eligible,strict
+6726,Romario Shepherd,batter,84,19,5,643.0,True,eligible,True,eligible,False,hp_balls 84 < 100,moderate
+6739,Amir Jangoo,batter,28,3,1,92.0,False,hp_balls 28 < 40; hp_matches 3 < 6,False,hp_balls 28 < 60; hp_matches 3 < 8,False,hp_balls 28 < 100; hp_matches 3 < 12,ineligible
+6783,Azam Khan,batter,4,3,1,57.0,False,hp_balls 4 < 40; hp_matches 3 < 6,False,hp_balls 4 < 60; hp_matches 3 < 8,False,hp_balls 4 < 100; hp_matches 3 < 12,ineligible
+6819,Yashasvi Jaiswal,batter,287,46,5,1649.0,True,eligible,True,eligible,True,eligible,strict
+6881,Scott Edwards,batter,57,9,3,121.0,True,eligible,False,hp_balls 57 < 60,False,hp_balls 57 < 100; hp_matches 9 < 12,inclusive
+6900,Michael Jones,batter,6,2,1,15.0,False,hp_balls 6 < 40; hp_matches 2 < 6,False,hp_balls 6 < 60; hp_matches 2 < 8,False,hp_balls 6 < 100; hp_matches 2 < 12,ineligible
+6922,Abdul Samad,batter,7,1,1,63.0,False,hp_balls 7 < 40; hp_matches 1 < 6,False,hp_balls 7 < 60; hp_matches 1 < 8,False,hp_balls 7 < 100; hp_matches 1 < 12,ineligible
+6931,Pathum Nissanka,batter,395,49,6,1294.0,True,eligible,True,eligible,True,eligible,strict
+6985,Bas de Leede,batter,58,5,2,111.0,False,hp_matches 5 < 6,False,hp_balls 58 < 60; hp_matches 5 < 8,False,hp_balls 58 < 100; hp_matches 5 < 12,ineligible
+6995,Saad Zafar,batter,4,1,1,35.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+7001,Dilon Heyliger,batter,1,1,1,15.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+7002,Nicholas Kirton,batter,21,3,1,60.0,False,hp_balls 21 < 40; hp_matches 3 < 6,False,hp_balls 21 < 60; hp_matches 3 < 8,False,hp_balls 21 < 100; hp_matches 3 < 12,ineligible
+7044,Jamie Smith,batter,3,1,1,65.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+7046,Tinashe Kamunhukamwe,batter,28,3,1,51.0,False,hp_balls 28 < 40; hp_matches 3 < 6,False,hp_balls 28 < 60; hp_matches 3 < 8,False,hp_balls 28 < 100; hp_matches 3 < 12,ineligible
+7049,Kamil Mishara,batter,65,11,3,357.0,True,eligible,True,eligible,False,hp_balls 65 < 100; hp_matches 11 < 12,moderate
+7052,Dunith Wellalage,batter,1,1,1,92.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+7059,Nehal Wadhera,batter,98,11,4,485.0,True,eligible,True,eligible,False,hp_balls 98 < 100; hp_matches 11 < 12,moderate
+7094,Curtis Campher,batter,85,14,6,460.0,True,eligible,True,eligible,False,hp_balls 85 < 100,moderate
+7120,Rohit Paudel,batter,61,3,1,4.0,False,hp_matches 3 < 6,False,hp_matches 3 < 8,False,hp_balls 61 < 100; hp_matches 3 < 12,ineligible
+7152,Hazratullah Zazai,batter,45,9,3,214.0,True,eligible,False,hp_balls 45 < 60,False,hp_balls 45 < 100; hp_matches 9 < 12,inclusive
+7216,Prabhsimran Singh,batter,182,31,5,904.0,True,eligible,True,eligible,True,eligible,strict
+7260,Dhruv Jurel,batter,183,21,4,641.0,True,eligible,True,eligible,True,eligible,strict
+7270,Anrich Nortje,batter,4,2,1,66.0,False,hp_balls 4 < 40; hp_matches 2 < 6,False,hp_balls 4 < 60; hp_matches 2 < 8,False,hp_balls 4 < 100; hp_matches 2 < 12,ineligible
+7325,Harpreet Brar,batter,26,3,2,116.0,False,hp_balls 26 < 40; hp_matches 3 < 6,False,hp_balls 26 < 60; hp_matches 3 < 8,False,hp_balls 26 < 100; hp_matches 3 < 12,ineligible
+7327,Rasikh Salam,batter,10,2,2,29.0,False,hp_balls 10 < 40; hp_matches 2 < 6,False,hp_balls 10 < 60; hp_matches 2 < 8,False,hp_balls 10 < 100; hp_matches 2 < 12,ineligible
+7338,Haider Ali,batter,32,5,2,43.0,False,hp_balls 32 < 40; hp_matches 5 < 6,False,hp_balls 32 < 60; hp_matches 5 < 8,False,hp_balls 32 < 100; hp_matches 5 < 12,ineligible
+7341,Jake McGurk,batter,13,10,2,278.0,False,hp_balls 13 < 40,False,hp_balls 13 < 60,False,hp_balls 13 < 100; hp_matches 10 < 12,ineligible
+7344,Shoriful Islam,batter,4,2,2,76.0,False,hp_balls 4 < 40; hp_matches 2 < 6,False,hp_balls 4 < 60; hp_matches 2 < 8,False,hp_balls 4 < 100; hp_matches 2 < 12,ineligible
+7355,Tayyab Tahir,batter,46,5,2,62.0,False,hp_matches 5 < 6,False,hp_balls 46 < 60; hp_matches 5 < 8,False,hp_balls 46 < 100; hp_matches 5 < 12,ineligible
+7364,Haris Rauf,batter,3,3,2,107.0,False,hp_balls 3 < 40; hp_matches 3 < 6,False,hp_balls 3 < 60; hp_matches 3 < 8,False,hp_balls 3 < 100; hp_matches 3 < 12,ineligible
+7406,Rizwan CP,batter,4,2,1,101.0,False,hp_balls 4 < 40; hp_matches 2 < 6,False,hp_balls 4 < 60; hp_matches 2 < 8,False,hp_balls 4 < 100; hp_matches 2 < 12,ineligible
+7409,Sundeep Jora,batter,49,3,1,17.0,False,hp_matches 3 < 6,False,hp_balls 49 < 60; hp_matches 3 < 8,False,hp_balls 49 < 100; hp_matches 3 < 12,ineligible
+7446,Abdul Samad,batter,49,9,4,392.0,True,eligible,False,hp_balls 49 < 60,False,hp_balls 49 < 100; hp_matches 9 < 12,inclusive
+7472,Shahbaz Ahmed,batter,60,9,4,400.0,True,eligible,True,eligible,False,hp_balls 60 < 100; hp_matches 9 < 12,moderate
+7503,Ravi Bishnoi,batter,15,4,3,93.0,False,hp_balls 15 < 40; hp_matches 4 < 6,False,hp_balls 15 < 60; hp_matches 4 < 8,False,hp_balls 15 < 100; hp_matches 4 < 12,ineligible
+7533,Simarjeet Singh,batter,3,1,1,12.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+7544,Venkatesh Iyer,batter,168,23,4,811.0,True,eligible,True,eligible,True,eligible,strict
+7566,Ben Curran,batter,10,2,1,33.0,False,hp_balls 10 < 40; hp_matches 2 < 6,False,hp_balls 10 < 60; hp_matches 2 < 8,False,hp_balls 10 < 100; hp_matches 2 < 12,ineligible
+7574,Kumar Kartikeya Singh,batter,1,1,1,17.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+7625,Suryansh Shedge,batter,1,1,1,114.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+7634,Aaron Jones,batter,5,1,1,35.0,False,hp_balls 5 < 40; hp_matches 1 < 6,False,hp_balls 5 < 60; hp_matches 1 < 8,False,hp_balls 5 < 100; hp_matches 1 < 12,ineligible
+7690,Saim Ayub,batter,169,27,4,752.0,True,eligible,True,eligible,True,eligible,strict
+7696,Mohammad Wasim,batter,1,1,1,34.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+7699,Abbas Afridi,batter,8,5,2,90.0,False,hp_balls 8 < 40; hp_matches 5 < 6,False,hp_balls 8 < 60; hp_matches 5 < 8,False,hp_balls 8 < 100; hp_matches 5 < 12,ineligible
+7702,Chamindu Wickramasinghe,batter,3,2,1,32.0,False,hp_balls 3 < 40; hp_matches 2 < 6,False,hp_balls 3 < 60; hp_matches 2 < 8,False,hp_balls 3 < 100; hp_matches 2 < 12,ineligible
+7704,Pavan Rathnayake,batter,18,4,2,43.0,False,hp_balls 18 < 40; hp_matches 4 < 6,False,hp_balls 18 < 60; hp_matches 4 < 8,False,hp_balls 18 < 100; hp_matches 4 < 12,ineligible
+7741,Gareth Delany,batter,28,10,4,270.0,False,hp_balls 28 < 40,False,hp_balls 28 < 60,False,hp_balls 28 < 100; hp_matches 10 < 12,ineligible
+7744,Jordan Cox,batter,5,3,2,51.0,False,hp_balls 5 < 40; hp_matches 3 < 6,False,hp_balls 5 < 60; hp_matches 3 < 8,False,hp_balls 5 < 100; hp_matches 3 < 12,ineligible
+7755,Harsh Thaker,batter,19,3,1,20.0,False,hp_balls 19 < 40; hp_matches 3 < 6,False,hp_balls 19 < 60; hp_matches 3 < 8,False,hp_balls 19 < 100; hp_matches 3 < 12,ineligible
+7761,Ravinderpal Singh,batter,7,1,1,14.0,False,hp_balls 7 < 40; hp_matches 1 < 6,False,hp_balls 7 < 60; hp_matches 1 < 8,False,hp_balls 7 < 100; hp_matches 1 < 12,ineligible
+7808,Marco Jansen,batter,22,10,4,260.0,False,hp_balls 22 < 40,False,hp_balls 22 < 60,False,hp_balls 22 < 100; hp_matches 10 < 12,ineligible
+7894,Tony Munyonga,batter,50,5,2,68.0,False,hp_matches 5 < 6,False,hp_balls 50 < 60; hp_matches 5 < 8,False,hp_balls 50 < 100; hp_matches 5 < 12,ineligible
+7897,Namboori Tilak Varma,batter,430,50,5,2078.0,True,eligible,True,eligible,True,eligible,strict
+7900,Tanzid Hasan,batter,167,23,3,777.0,True,eligible,True,eligible,True,eligible,strict
+7901,Parvez Emon,batter,81,16,4,455.0,True,eligible,True,eligible,False,hp_balls 81 < 100,moderate
+7903,Shamim Hossain,batter,95,13,4,297.0,True,eligible,True,eligible,False,hp_balls 95 < 100,moderate
+7905,Tanzim Sakib,batter,7,3,1,159.0,False,hp_balls 7 < 40; hp_matches 3 < 6,False,hp_balls 7 < 60; hp_matches 3 < 8,False,hp_balls 7 < 100; hp_matches 3 < 12,ineligible
+7911,Oliver Hairs,batter,27,3,1,24.0,False,hp_balls 27 < 40; hp_matches 3 < 6,False,hp_balls 27 < 60; hp_matches 3 < 8,False,hp_balls 27 < 100; hp_matches 3 < 12,ineligible
+7912,Vikramjit Singh,batter,35,6,3,106.0,False,hp_balls 35 < 40,False,hp_balls 35 < 60; hp_matches 6 < 8,False,hp_balls 35 < 100; hp_matches 6 < 12,ineligible
+7920,Nathan Ellis,batter,8,3,2,50.0,False,hp_balls 8 < 40; hp_matches 3 < 6,False,hp_balls 8 < 60; hp_matches 3 < 8,False,hp_balls 8 < 100; hp_matches 3 < 12,ineligible
+7924,Kushal Malla,batter,47,3,1,8.0,False,hp_matches 3 < 6,False,hp_balls 47 < 60; hp_matches 3 < 8,False,hp_balls 47 < 100; hp_matches 3 < 12,ineligible
+7926,Manpreet Singh,batter,4,1,1,11.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+7927,Janak Prakash,batter,22,2,1,60.0,False,hp_balls 22 < 40; hp_matches 2 < 6,False,hp_balls 22 < 60; hp_matches 2 < 8,False,hp_balls 22 < 100; hp_matches 2 < 12,ineligible
+7928,Vinoth Baskaran,batter,1,1,1,8.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+7929,Aryaman Sunil Uchil,batter,6,3,1,12.0,False,hp_balls 6 < 40; hp_matches 3 < 6,False,hp_balls 6 < 60; hp_matches 3 < 8,False,hp_balls 6 < 100; hp_matches 3 < 12,ineligible
+7931,Aritra Dutta,batter,37,2,1,28.0,False,hp_balls 37 < 40; hp_matches 2 < 6,False,hp_balls 37 < 60; hp_matches 2 < 8,False,hp_balls 37 < 100; hp_matches 2 < 12,ineligible
+7967,Noor Ahmad,batter,7,4,4,108.0,False,hp_balls 7 < 40; hp_matches 4 < 6,False,hp_balls 7 < 60; hp_matches 4 < 8,False,hp_balls 7 < 100; hp_matches 4 < 12,ineligible
+7978,Johnathan Campbell,batter,29,4,1,72.0,False,hp_balls 29 < 40; hp_matches 4 < 6,False,hp_balls 29 < 60; hp_matches 4 < 8,False,hp_balls 29 < 100; hp_matches 4 < 12,ineligible
+8005,Zawar Farid,batter,12,4,1,39.0,False,hp_balls 12 < 40; hp_matches 4 < 6,False,hp_balls 12 < 60; hp_matches 4 < 8,False,hp_balls 12 < 100; hp_matches 4 < 12,ineligible
+8009,Junaid Siddique,batter,8,3,3,32.0,False,hp_balls 8 < 40; hp_matches 3 < 6,False,hp_balls 8 < 60; hp_matches 3 < 8,False,hp_balls 8 < 100; hp_matches 3 < 12,ineligible
+8014,Avi Dixit,batter,14,1,1,19.0,False,hp_balls 14 < 40; hp_matches 1 < 6,False,hp_balls 14 < 60; hp_matches 1 < 8,False,hp_balls 14 < 100; hp_matches 1 < 12,ineligible
+8040,Ripal Patel,batter,16,2,1,31.0,False,hp_balls 16 < 40; hp_matches 2 < 6,False,hp_balls 16 < 60; hp_matches 2 < 8,False,hp_balls 16 < 100; hp_matches 2 < 12,ineligible
+8049,Naseem Shah,batter,9,4,3,42.0,False,hp_balls 9 < 40; hp_matches 4 < 6,False,hp_balls 9 < 60; hp_matches 4 < 8,False,hp_balls 9 < 100; hp_matches 4 < 12,ineligible
+8085,Suyash Prabhudessai,batter,43,5,3,70.0,False,hp_matches 5 < 6,False,hp_balls 43 < 60; hp_matches 5 < 8,False,hp_balls 43 < 100; hp_matches 5 < 12,ineligible
+8101,Ashutosh Sharma,batter,71,11,3,257.0,True,eligible,True,eligible,False,hp_balls 71 < 100; hp_matches 11 < 12,moderate
+8141,Auqib Nabi,batter,2,1,1,2.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+8182,Donovan Ferreira,batter,37,8,4,317.0,False,hp_balls 37 < 40,False,hp_balls 37 < 60,False,hp_balls 37 < 100; hp_matches 8 < 12,ineligible
+8221,Nitish Reddy,batter,116,11,3,588.0,True,eligible,True,eligible,False,hp_matches 11 < 12,moderate
+8238,Sameer Rizvi,batter,54,10,3,250.0,True,eligible,False,hp_balls 54 < 60,False,hp_balls 54 < 100; hp_matches 10 < 12,inclusive
+8251,Kumar Kushagra,batter,6,1,1,15.0,False,hp_balls 6 < 40; hp_matches 1 < 6,False,hp_balls 6 < 60; hp_matches 1 < 8,False,hp_balls 6 < 100; hp_matches 1 < 12,ineligible
+8295,Matthew Forde,batter,21,4,2,95.0,False,hp_balls 21 < 40; hp_matches 4 < 6,False,hp_balls 21 < 60; hp_matches 4 < 8,False,hp_balls 21 < 100; hp_matches 4 < 12,ineligible
+8301,Asif Khan,batter,84,10,2,123.0,True,eligible,True,eligible,False,hp_balls 84 < 100; hp_matches 10 < 12,moderate
+8380,Mohammad Rishad Hossain,batter,30,9,3,147.0,False,hp_balls 30 < 40,False,hp_balls 30 < 60,False,hp_balls 30 < 100; hp_matches 9 < 12,ineligible
+8405,Kanwarpal Tathgur,batter,1,1,1,8.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+8408,Shreyas Movva,batter,23,2,1,50.0,False,hp_balls 23 < 40; hp_matches 2 < 6,False,hp_balls 23 < 60; hp_matches 2 < 8,False,hp_balls 23 < 100; hp_matches 2 < 12,ineligible
+8580,Yudhvir Singh,batter,1,1,1,15.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+8600,Tadiwanashe Marumani,batter,86,16,4,343.0,True,eligible,True,eligible,False,hp_balls 86 < 100,moderate
+8637,Vriitya Aravind,batter,64,6,2,42.0,True,eligible,False,hp_matches 6 < 8,False,hp_balls 64 < 100; hp_matches 6 < 12,inclusive
+8638,Basil Hameed,batter,12,3,1,134.0,False,hp_balls 12 < 40; hp_matches 3 < 6,False,hp_balls 12 < 60; hp_matches 3 < 8,False,hp_balls 12 < 100; hp_matches 3 < 12,ineligible
+8639,Kartik Meiyappan,batter,4,1,1,13.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+8647,Sediqullah Atal,batter,241,22,4,305.0,True,eligible,True,eligible,True,eligible,strict
+8652,Mohammad Ishaq,batter,27,5,2,49.0,False,hp_balls 27 < 40; hp_matches 5 < 6,False,hp_balls 27 < 60; hp_matches 5 < 8,False,hp_balls 27 < 100; hp_matches 5 < 12,ineligible
+8654,Cooper Connolly,batter,29,9,2,350.0,False,hp_balls 29 < 40,False,hp_balls 29 < 60,False,hp_balls 29 < 100; hp_matches 9 < 12,ineligible
+8661,Matheesha Pathirana,batter,4,2,2,28.0,False,hp_balls 4 < 40; hp_matches 2 < 6,False,hp_balls 4 < 60; hp_matches 2 < 8,False,hp_balls 4 < 100; hp_matches 2 < 12,ineligible
+8719,Aryan Lakra,batter,9,2,1,34.0,False,hp_balls 9 < 40; hp_matches 2 < 6,False,hp_balls 9 < 60; hp_matches 2 < 8,False,hp_balls 9 < 100; hp_matches 2 < 12,ineligible
+8723,Mohammed Faraazuddin,batter,3,1,1,7.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+8726,Alishan Sharafu,batter,86,6,2,144.0,True,eligible,False,hp_matches 6 < 8,False,hp_balls 86 < 100; hp_matches 6 < 12,inclusive
+8727,Sanchit Sharma,batter,5,1,1,,False,hp_balls 5 < 40; hp_matches 1 < 6,False,hp_balls 5 < 60; hp_matches 1 < 8,False,hp_balls 5 < 100; hp_matches 1 < 12,ineligible
+8739,Muhammad Irfan,batter,53,7,2,92.0,True,eligible,False,hp_balls 53 < 60; hp_matches 7 < 8,False,hp_balls 53 < 100; hp_matches 7 < 12,inclusive
+8741,Mohammad Haris,batter,73,16,3,276.0,True,eligible,True,eligible,False,hp_balls 73 < 100,moderate
+8771,Rubin Hermann,batter,47,2,1,35.0,False,hp_matches 2 < 6,False,hp_balls 47 < 60; hp_matches 2 < 8,False,hp_balls 47 < 100; hp_matches 2 < 12,ineligible
+15269,Mohammed Aslam,batter,9,2,1,31.0,False,hp_balls 9 < 40; hp_matches 2 < 6,False,hp_balls 9 < 60; hp_matches 2 < 8,False,hp_balls 9 < 100; hp_matches 2 < 12,ineligible
+15271,Usmangani Ibrahim Patel,batter,8,2,1,30.0,False,hp_balls 8 < 40; hp_matches 2 < 6,False,hp_balls 8 < 60; hp_matches 2 < 8,False,hp_balls 8 < 100; hp_matches 2 < 12,ineligible
+15274,Ravija Sandaruwan,batter,16,2,1,30.0,False,hp_balls 16 < 40; hp_matches 2 < 6,False,hp_balls 16 < 60; hp_matches 2 < 8,False,hp_balls 16 < 100; hp_matches 2 < 12,ineligible
+15279,Shiraz Khan,batter,7,1,1,7.0,False,hp_balls 7 < 40; hp_matches 1 < 6,False,hp_balls 7 < 60; hp_matches 1 < 8,False,hp_balls 7 < 100; hp_matches 1 < 12,ineligible
+15303,Bilal Tahir,batter,8,1,1,15.0,False,hp_balls 8 < 40; hp_matches 1 < 6,False,hp_balls 8 < 60; hp_matches 1 < 8,False,hp_balls 8 < 100; hp_matches 1 < 12,ineligible
+15551,Ackeem Auguste,batter,19,5,2,109.0,False,hp_balls 19 < 40; hp_matches 5 < 6,False,hp_balls 19 < 60; hp_matches 5 < 8,False,hp_balls 19 < 100; hp_matches 5 < 12,ineligible
+15629,Shayan Jahangir,batter,4,1,1,43.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+16559,Alexander Patmore,batter,4,1,1,,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+17413,Neil Rock,batter,14,2,2,47.0,False,hp_balls 14 < 40; hp_matches 2 < 6,False,hp_balls 14 < 60; hp_matches 2 < 8,False,hp_balls 14 < 100; hp_matches 2 < 12,ineligible
+17419,Tim Tector,batter,3,1,1,79.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+17424,Graham Hume,batter,1,1,1,31.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+17432,Ross Adair,batter,37,5,4,260.0,False,hp_balls 37 < 40; hp_matches 5 < 6,False,hp_balls 37 < 60; hp_matches 5 < 8,False,hp_balls 37 < 100; hp_matches 5 < 12,ineligible
+19012,Zeeshan Ali,batter,29,2,1,69.0,False,hp_balls 29 < 40; hp_matches 2 < 6,False,hp_balls 29 < 60; hp_matches 2 < 8,False,hp_balls 29 < 100; hp_matches 2 < 12,ineligible
+19147,Faraz Akram,batter,15,3,1,46.0,False,hp_balls 15 < 40; hp_matches 3 < 6,False,hp_balls 15 < 60; hp_matches 3 < 8,False,hp_balls 15 < 100; hp_matches 3 < 12,ineligible
+19309,Lahiru Udara,batter,5,2,1,91.0,False,hp_balls 5 < 40; hp_matches 2 < 6,False,hp_balls 5 < 60; hp_matches 2 < 8,False,hp_balls 5 < 100; hp_matches 2 < 12,ineligible
+19312,Nuwan Thushara,batter,1,1,1,19.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+19316,Maheesh Theekshana,batter,36,10,6,169.0,False,hp_balls 36 < 40,False,hp_balls 36 < 60,False,hp_balls 36 < 100; hp_matches 10 < 12,ineligible
+19714,Abishek Porel,batter,85,16,3,453.0,True,eligible,True,eligible,False,hp_balls 85 < 100,moderate
+19781,Mitchell Owen,batter,4,2,1,124.0,False,hp_balls 4 < 40; hp_matches 2 < 6,False,hp_balls 4 < 60; hp_matches 2 < 8,False,hp_balls 4 < 100; hp_matches 2 < 12,ineligible
+19894,Mitchell Hay,batter,13,2,1,57.0,False,hp_balls 13 < 40; hp_matches 2 < 6,False,hp_balls 13 < 60; hp_matches 2 < 8,False,hp_balls 13 < 100; hp_matches 2 < 12,ineligible
+19902,Tim Pringle,batter,1,1,1,37.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+20005,Arshad Khan,batter,14,6,4,92.0,False,hp_balls 14 < 40,False,hp_balls 14 < 60; hp_matches 6 < 8,False,hp_balls 14 < 100; hp_matches 6 < 12,ineligible
+20006,Ramandeep Singh,batter,34,4,3,184.0,False,hp_balls 34 < 40; hp_matches 4 < 6,False,hp_balls 34 < 60; hp_matches 4 < 8,False,hp_balls 34 < 100; hp_matches 4 < 12,ineligible
+20023,Karan Sharma,batter,3,2,2,6.0,False,hp_balls 3 < 40; hp_matches 2 < 6,False,hp_balls 3 < 60; hp_matches 2 < 8,False,hp_balls 3 < 100; hp_matches 2 < 12,ineligible
+20163,Aasif Sheikh,batter,38,2,1,17.0,False,hp_balls 38 < 40; hp_matches 2 < 6,False,hp_balls 38 < 60; hp_matches 2 < 8,False,hp_balls 38 < 100; hp_matches 2 < 12,ineligible
+20310,Ahmed Daniyal,batter,3,1,1,8.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+20327,Usman Khan,batter,71,7,2,262.0,True,eligible,False,hp_matches 7 < 8,False,hp_balls 71 < 100; hp_matches 7 < 12,inclusive
+20702,Tristan Stubbs,batter,193,29,5,884.0,True,eligible,True,eligible,True,eligible,strict
+20894,Aman Khan,batter,36,2,1,73.0,False,hp_balls 36 < 40; hp_matches 2 < 6,False,hp_balls 36 < 60; hp_matches 2 < 8,False,hp_balls 36 < 100; hp_matches 2 < 12,ineligible
+20989,Vivrant Sharma,batter,9,1,1,40.0,False,hp_balls 9 < 40; hp_matches 1 < 6,False,hp_balls 9 < 60; hp_matches 1 < 8,False,hp_balls 9 < 100; hp_matches 1 < 12,ineligible
+21781,Clive Madande,batter,65,13,6,242.0,True,eligible,True,eligible,False,hp_balls 65 < 100,moderate
+21784,Brad Evans,batter,13,4,3,115.0,False,hp_balls 13 < 40; hp_matches 4 < 6,False,hp_balls 13 < 60; hp_matches 4 < 8,False,hp_balls 13 < 100; hp_matches 4 < 12,ineligible
+21790,Tashinga Musekiwa,batter,61,10,3,128.0,True,eligible,True,eligible,False,hp_balls 61 < 100; hp_matches 10 < 12,moderate
+21791,J Gumbie,batter,29,3,1,24.0,False,hp_balls 29 < 40; hp_matches 3 < 6,False,hp_balls 29 < 60; hp_matches 3 < 8,False,hp_balls 29 < 100; hp_matches 3 < 12,ineligible
+22134,Luke Jongwe,batter,22,4,2,106.0,False,hp_balls 22 < 40; hp_matches 4 < 6,False,hp_balls 22 < 60; hp_matches 4 < 8,False,hp_balls 22 < 100; hp_matches 4 < 12,ineligible
+22137,Fionn Hand,batter,1,1,1,36.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+22187,Ryan Klein,batter,8,1,1,58.0,False,hp_balls 8 < 40; hp_matches 1 < 6,False,hp_balls 8 < 60; hp_matches 1 < 8,False,hp_balls 8 < 100; hp_matches 1 < 12,ineligible
+22188,Aryan Dutt,batter,2,1,1,44.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+22471,Matthew Humphreys,batter,1,1,1,10.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+22565,Muhammad Waseem,batter,161,18,4,311.0,True,eligible,True,eligible,True,eligible,strict
+23311,Jacob Bethell,batter,82,14,3,373.0,True,eligible,True,eligible,False,hp_balls 82 < 100,moderate
+23450,Sai Sudharsan,batter,284,37,5,1476.0,True,eligible,True,eligible,True,eligible,strict
+24017,Brian Bennett,batter,226,31,4,565.0,True,eligible,True,eligible,True,eligible,strict
+24475,Rehan Ahmed,batter,1,1,1,45.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+24779,Ijaz Ahmadzai,batter,7,3,2,79.0,False,hp_balls 7 < 40; hp_matches 3 < 6,False,hp_balls 7 < 60; hp_matches 3 < 8,False,hp_balls 7 < 100; hp_matches 3 < 12,ineligible
+24803,Gulshan Jha,batter,37,3,1,,False,hp_balls 37 < 40; hp_matches 3 < 6,False,hp_balls 37 < 60; hp_matches 3 < 8,False,hp_balls 37 < 100; hp_matches 3 < 12,ineligible
+24887,Innocent Kaia,batter,72,5,3,104.0,False,hp_matches 5 < 6,False,hp_matches 5 < 8,False,hp_balls 72 < 100; hp_matches 5 < 12,ineligible
+24982,Charlie Tear,batter,9,2,1,17.0,False,hp_balls 9 < 40; hp_matches 2 < 6,False,hp_balls 9 < 60; hp_matches 2 < 8,False,hp_balls 9 < 100; hp_matches 2 < 12,ineligible
+25011,Liam Mccarthy,batter,2,1,1,22.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+25128,Nqabayomzi Peter,batter,3,1,1,17.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+25139,Shubham Dubey,batter,41,6,3,107.0,True,eligible,False,hp_balls 41 < 60; hp_matches 6 < 8,False,hp_balls 41 < 100; hp_matches 6 < 12,inclusive
+25213,Dewald Brevis,batter,142,21,4,516.0,True,eligible,True,eligible,True,eligible,strict
+25216,Andile Simelane,batter,13,2,1,23.0,False,hp_balls 13 < 40; hp_matches 2 < 6,False,hp_balls 13 < 60; hp_matches 2 < 8,False,hp_balls 13 < 100; hp_matches 2 < 12,ineligible
+25501,Meet Bhavsar,batter,4,1,1,38.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+25502,Adnan Idrees,batter,1,1,1,7.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+25507,Edson Silva,batter,7,2,1,43.0,False,hp_balls 7 < 40; hp_matches 2 < 6,False,hp_balls 7 < 60; hp_matches 2 < 8,False,hp_balls 7 < 100; hp_matches 2 < 12,ineligible
+25534,Chad Bowes,batter,32,5,1,90.0,False,hp_balls 32 < 40; hp_matches 5 < 6,False,hp_balls 32 < 60; hp_matches 5 < 8,False,hp_balls 32 < 100; hp_matches 5 < 12,ineligible
+25669,Priyansh Arya,batter,54,15,2,366.0,True,eligible,False,hp_balls 54 < 60,False,hp_balls 54 < 100,inclusive
+25679,Salil Arora,batter,2,1,1,104.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+26519,Janith Liyanage,batter,13,4,2,127.0,False,hp_balls 13 < 40; hp_matches 4 < 6,False,hp_balls 13 < 60; hp_matches 4 < 8,False,hp_balls 13 < 100; hp_matches 4 < 12,ineligible
+26646,Rahul Chopra,batter,58,10,2,102.0,True,eligible,False,hp_balls 58 < 60,False,hp_balls 58 < 100; hp_matches 10 < 12,inclusive
+26663,Kwena Maphaka,batter,2,1,1,24.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+26830,Nishant Kumar Sindhu,batter,4,2,1,47.0,False,hp_balls 4 < 40; hp_matches 2 < 6,False,hp_balls 4 < 60; hp_matches 2 < 8,False,hp_balls 4 < 100; hp_matches 2 < 12,ineligible
+26839,Haseebullah Khan,batter,3,2,1,27.0,False,hp_balls 3 < 40; hp_matches 2 < 6,False,hp_balls 3 < 60; hp_matches 2 < 8,False,hp_balls 3 < 100; hp_matches 2 < 12,ineligible
+26843,Maaz Sadaqat,batter,6,1,1,82.0,False,hp_balls 6 < 40; hp_matches 1 < 6,False,hp_balls 6 < 60; hp_matches 1 < 8,False,hp_balls 6 < 100; hp_matches 1 < 12,ineligible
+26906,Angkrish Raghuvanshi,batter,58,13,3,563.0,True,eligible,False,hp_balls 58 < 60,False,hp_balls 58 < 100,inclusive
+26913,Shaik Rasheed,batter,15,4,1,52.0,False,hp_balls 15 < 40; hp_matches 4 < 6,False,hp_balls 15 < 60; hp_matches 4 < 8,False,hp_balls 15 < 100; hp_matches 4 < 12,ineligible
+27137,Hammad Mirza,batter,28,2,1,38.0,False,hp_balls 28 < 40; hp_matches 2 < 6,False,hp_balls 28 < 60; hp_matches 2 < 8,False,hp_balls 28 < 100; hp_matches 2 < 12,ineligible
+27364,Simranjeet Kang,batter,2,2,1,7.0,False,hp_balls 2 < 40; hp_matches 2 < 6,False,hp_balls 2 < 60; hp_matches 2 < 8,False,hp_balls 2 < 100; hp_matches 2 < 12,ineligible
+27380,Harshit Kaushik,batter,32,5,2,17.0,False,hp_balls 32 < 40; hp_matches 5 < 6,False,hp_balls 32 < 60; hp_matches 5 < 8,False,hp_balls 32 < 100; hp_matches 5 < 12,ineligible
+27390,Matiullah Khan,batter,1,1,1,5.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+27460,Ali Naseer,batter,11,1,1,4.0,False,hp_balls 11 < 40; hp_matches 1 < 6,False,hp_balls 11 < 60; hp_matches 1 < 8,False,hp_balls 11 < 100; hp_matches 1 < 12,ineligible
+27464,Aayan Afzal Khan,batter,15,2,2,50.0,False,hp_balls 15 < 40; hp_matches 2 < 6,False,hp_balls 15 < 60; hp_matches 2 < 8,False,hp_balls 15 < 100; hp_matches 2 < 12,ineligible
+27466,Dhruv Parashar,batter,31,5,1,64.0,False,hp_balls 31 < 40; hp_matches 5 < 6,False,hp_balls 31 < 60; hp_matches 5 < 8,False,hp_balls 31 < 100; hp_matches 5 < 12,ineligible
+27469,Aryansh Sharma,batter,63,5,3,69.0,False,hp_matches 5 < 6,False,hp_matches 5 < 8,False,hp_balls 63 < 100; hp_matches 5 < 12,ineligible
+27504,Dushan Hemantha,batter,4,1,1,15.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+27959,Hrithik Shokeen,batter,2,1,1,65.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+27960,Mayank Yadav,batter,1,1,1,12.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+27962,Saurav Chauhan,batter,6,1,1,10.0,False,hp_balls 6 < 40; hp_matches 1 < 6,False,hp_balls 6 < 60; hp_matches 1 < 8,False,hp_balls 6 < 100; hp_matches 1 < 12,ineligible
+27964,Anshul Kamboj,batter,4,1,1,51.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+28756,Haider Ali,batter,7,3,1,34.0,False,hp_balls 7 < 40; hp_matches 3 < 6,False,hp_balls 7 < 60; hp_matches 3 < 8,False,hp_balls 7 < 100; hp_matches 3 < 12,ineligible
+28915,Trevor Gwandu,batter,4,1,1,23.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+28967,Tim Robinson,batter,65,13,4,363.0,True,eligible,True,eligible,False,hp_balls 65 < 100,moderate
+28970,Connor Esterhuizen,batter,56,4,1,87.0,False,hp_matches 4 < 6,False,hp_balls 56 < 60; hp_matches 4 < 8,False,hp_balls 56 < 100; hp_matches 4 < 12,ineligible
+29066,Zakary Foulkes,batter,4,3,2,69.0,False,hp_balls 4 < 40; hp_matches 3 < 6,False,hp_balls 4 < 60; hp_matches 3 < 8,False,hp_balls 4 < 100; hp_matches 3 < 12,ineligible
+29075,Aadil Ansari,batter,9,2,1,1.0,False,hp_balls 9 < 40; hp_matches 2 < 6,False,hp_balls 9 < 60; hp_matches 2 < 8,False,hp_balls 9 < 100; hp_matches 2 < 12,ineligible
+29080,Muhammad Khan,batter,4,1,1,9.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+29888,Harshit Rana,batter,2,2,2,150.0,False,hp_balls 2 < 40; hp_matches 2 < 6,False,hp_balls 2 < 60; hp_matches 2 < 8,False,hp_balls 2 < 100; hp_matches 2 < 12,ineligible
+30927,Saiteja Mukkamalla,batter,1,1,1,42.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+31107,Yasin Patel,batter,2,1,1,5.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+31513,Ethan Dsouza,batter,17,2,1,12.0,False,hp_balls 17 < 40; hp_matches 2 < 6,False,hp_balls 17 < 60; hp_matches 2 < 8,False,hp_balls 17 < 100; hp_matches 2 < 12,ineligible
+31529,Robin Minz,batter,6,1,1,14.0,False,hp_balls 6 < 40; hp_matches 1 < 6,False,hp_balls 6 < 60; hp_matches 1 < 8,False,hp_balls 6 < 100; hp_matches 1 < 12,ineligible
+31836,Aman Desai,batter,8,2,1,19.0,False,hp_balls 8 < 40; hp_matches 2 < 6,False,hp_balls 8 < 60; hp_matches 2 < 8,False,hp_balls 8 < 100; hp_matches 2 < 12,ineligible
+32399,Aaron Johnson,batter,3,1,1,17.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+32862,Allah Ghazanfar,batter,1,1,1,10.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+33067,Ravichandran Smaran,batter,4,1,1,21.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+33969,Tinotenda Maposa,batter,3,1,1,42.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+34466,Arafat Minhas,batter,3,2,2,44.0,False,hp_balls 3 < 40; hp_matches 2 < 6,False,hp_balls 3 < 60; hp_matches 2 < 8,False,hp_balls 3 < 100; hp_matches 2 < 12,ineligible
+34485,Sufiyan Muqeem,batter,1,1,1,23.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+34522,Brandon McMullen,batter,6,2,1,92.0,False,hp_balls 6 < 40; hp_matches 2 < 6,False,hp_balls 6 < 60; hp_matches 2 < 8,False,hp_balls 6 < 100; hp_matches 2 < 12,ineligible
+34928,Kendel Fleming,batter,6,1,1,7.0,False,hp_balls 6 < 40; hp_matches 1 < 6,False,hp_balls 6 < 60; hp_matches 1 < 8,False,hp_balls 6 < 100; hp_matches 1 < 12,ineligible
+35102,Zikria Islam,batter,2,1,1,8.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+35506,Quentin Sampson,batter,7,1,1,46.0,False,hp_balls 7 < 40; hp_matches 1 < 6,False,hp_balls 7 < 60; hp_matches 1 < 8,False,hp_balls 7 < 100; hp_matches 1 < 12,ineligible
+37052,Naman Dhir,batter,36,12,3,486.0,False,hp_balls 36 < 40,False,hp_balls 36 < 60,False,hp_balls 36 < 100,ineligible
+37201,Jewel Andrew,batter,44,5,2,55.0,False,hp_matches 5 < 6,False,hp_balls 44 < 60; hp_matches 5 < 8,False,hp_balls 44 < 100; hp_matches 5 < 12,ineligible
+38855,Mohammad Saifuddin,batter,11,4,4,71.0,False,hp_balls 11 < 40; hp_matches 4 < 6,False,hp_balls 11 < 60; hp_matches 4 < 8,False,hp_balls 11 < 100; hp_matches 4 < 12,ineligible
+39374,Muhammad Zohaib,batter,39,7,2,117.0,False,hp_balls 39 < 40,False,hp_balls 39 < 60; hp_matches 7 < 8,False,hp_balls 39 < 100; hp_matches 7 < 12,ineligible
+39640,Sineth Jayawardena,batter,4,1,1,45.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+39991,Parveen Kumar,batter,1,1,1,9.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+41110,Mayank Kumar,batter,1,1,1,6.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+42810,Noah Croes,batter,16,1,1,40.0,False,hp_balls 16 < 40; hp_matches 1 < 6,False,hp_balls 16 < 60; hp_matches 1 < 8,False,hp_balls 16 < 100; hp_matches 1 < 12,ineligible
+42811,Michael Levitt,batter,16,5,1,190.0,False,hp_balls 16 < 40; hp_matches 5 < 6,False,hp_balls 16 < 60; hp_matches 5 < 8,False,hp_balls 16 < 100; hp_matches 5 < 12,ineligible
+43250,Dilpreet Singh Bajwa,batter,16,1,1,39.0,False,hp_balls 16 < 40; hp_matches 1 < 6,False,hp_balls 16 < 60; hp_matches 1 < 8,False,hp_balls 16 < 100; hp_matches 1 < 12,ineligible
+43798,Lhuan Pretorius,batter,8,4,2,70.0,False,hp_balls 8 < 40; hp_matches 4 < 6,False,hp_balls 8 < 60; hp_matches 4 < 8,False,hp_balls 8 < 100; hp_matches 4 < 12,ineligible
+45457,Zach Lion Cachet,batter,16,1,1,32.0,False,hp_balls 16 < 40; hp_matches 1 < 6,False,hp_balls 16 < 60; hp_matches 1 < 8,False,hp_balls 16 < 100; hp_matches 1 < 12,ineligible
+45749,Mukul Choudhary,batter,19,4,1,103.0,False,hp_balls 19 < 40; hp_matches 4 < 6,False,hp_balls 19 < 60; hp_matches 4 < 8,False,hp_balls 19 < 100; hp_matches 4 < 12,ineligible
+45966,Prashant Veer,batter,4,2,1,68.0,False,hp_balls 4 < 40; hp_matches 2 < 6,False,hp_balls 4 < 60; hp_matches 2 < 8,False,hp_balls 4 < 100; hp_matches 2 < 12,ineligible
+46066,Vipraj Nigam,batter,25,6,2,50.0,False,hp_balls 25 < 40,False,hp_balls 25 < 60; hp_matches 6 < 8,False,hp_balls 25 < 100; hp_matches 6 < 12,ineligible
+46137,Kartik Sharma,batter,5,3,1,215.0,False,hp_balls 5 < 40; hp_matches 3 < 6,False,hp_balls 5 < 60; hp_matches 3 < 8,False,hp_balls 5 < 100; hp_matches 3 < 12,ineligible
+46929,Dian Forrester,batter,18,2,1,62.0,False,hp_balls 18 < 40; hp_matches 2 < 6,False,hp_balls 18 < 60; hp_matches 2 < 8,False,hp_balls 18 < 100; hp_matches 2 < 12,ineligible
+47050,Shamar Joseph,batter,2,1,1,28.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+47314,Wafiullah Tarakhil,batter,12,2,1,5.0,False,hp_balls 12 < 40; hp_matches 2 < 6,False,hp_balls 12 < 60; hp_matches 2 < 8,False,hp_balls 12 < 100; hp_matches 2 < 12,ineligible
+47370,Aniket Verma,batter,19,4,1,186.0,False,hp_balls 19 < 40; hp_matches 4 < 6,False,hp_balls 19 < 60; hp_matches 4 < 8,False,hp_balls 19 < 100; hp_matches 4 < 12,ineligible
+47371,Zuhaid Zubair,batter,2,1,1,,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+47403,Newman Nyamhuri,batter,1,1,1,22.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+47724,Jahandad Khan,batter,6,1,1,28.0,False,hp_balls 6 < 40; hp_matches 1 < 6,False,hp_balls 6 < 60; hp_matches 1 < 8,False,hp_balls 6 < 100; hp_matches 1 < 12,ineligible
+48504,Ayush Mhatre,batter,28,6,2,222.0,False,hp_balls 28 < 40,False,hp_balls 28 < 60; hp_matches 6 < 8,False,hp_balls 28 < 100; hp_matches 6 < 12,ineligible
+48616,Abdul Saqlain,batter,2,1,1,21.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+49003,Hasan Nawaz,batter,84,13,2,257.0,True,eligible,True,eligible,False,hp_balls 84 < 100,moderate
+49027,Bevon Jacobs,batter,31,3,2,163.0,False,hp_balls 31 < 40; hp_matches 3 < 6,False,hp_balls 31 < 60; hp_matches 3 < 8,False,hp_balls 31 < 100; hp_matches 3 < 12,ineligible
+49268,Sohaib Khan,batter,7,1,1,,False,hp_balls 7 < 40; hp_matches 1 < 6,False,hp_balls 7 < 60; hp_matches 1 < 8,False,hp_balls 7 < 100; hp_matches 1 < 12,ineligible
+50284,Vaibhav Sooryavanshi,batter,63,18,2,549.0,True,eligible,True,eligible,False,hp_balls 63 < 100,moderate
+54404,Benjamin Ito,batter,4,1,1,4.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+55747,Benjamin Calitz,batter,17,3,2,64.0,False,hp_balls 17 < 40; hp_matches 3 < 6,False,hp_balls 17 < 60; hp_matches 3 < 8,False,hp_balls 17 < 100; hp_matches 3 < 12,ineligible
+56830,Madhav Tiwari,batter,3,1,1,9.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+58135,Tejasvi Dahiya,batter,3,1,1,12.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+58246,Prince Yadav,batter,2,2,1,39.0,False,hp_balls 2 < 40; hp_matches 2 < 6,False,hp_balls 2 < 60; hp_matches 2 < 8,False,hp_balls 2 < 100; hp_matches 2 < 12,ineligible
+60609,Navin Bidaisee,batter,6,1,1,26.0,False,hp_balls 6 < 40; hp_matches 1 < 6,False,hp_balls 6 < 60; hp_matches 1 < 8,False,hp_balls 6 < 100; hp_matches 1 < 12,ineligible
+64604,Kalhan Challu,batter,1,1,1,10.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+23,Piyush Chawla,bowler,30,6,2,556.0,False,hp_balls 30 < 40,False,hp_balls 30 < 60; hp_matches 6 < 8,False,hp_balls 30 < 100; hp_matches 6 < 12,ineligible
+28,Ishant Sharma,bowler,51,11,3,405.0,True,eligible,False,hp_balls 51 < 60,False,hp_balls 51 < 100; hp_matches 11 < 12,inclusive
+147,Pradeep Sangwan,bowler,17,1,1,39.0,False,hp_balls 17 < 40; hp_matches 1 < 6,False,hp_balls 17 < 60; hp_matches 1 < 8,False,hp_balls 17 < 100; hp_matches 1 < 12,ineligible
+152,Ravindra Jadeja,bowler,282,30,5,1123.0,True,eligible,True,eligible,True,eligible,strict
+158,Amit Mishra,bowler,48,5,2,79.0,False,hp_matches 5 < 6,False,hp_balls 48 < 60; hp_matches 5 < 8,False,hp_balls 48 < 100; hp_matches 5 < 12,ineligible
+161,Dwayne Bravo,bowler,66,3,1,163.0,False,hp_matches 3 < 6,False,hp_matches 3 < 8,False,hp_balls 66 < 100; hp_matches 3 < 12,ineligible
+278,Tim Southee,bowler,209,23,4,652.0,True,eligible,True,eligible,True,eligible,strict
+286,Kane Richardson,bowler,47,7,2,160.0,True,eligible,False,hp_balls 47 < 60; hp_matches 7 < 8,False,hp_balls 47 < 100; hp_matches 7 < 12,inclusive
+295,Wayne Parnell,bowler,75,13,3,343.0,True,eligible,True,eligible,False,hp_balls 75 < 100,moderate
+305,Ravichandran Ashwin,bowler,360,34,5,1102.0,True,eligible,True,eligible,True,eligible,strict
+332,Angelo Mathews,bowler,32,6,1,82.0,False,hp_balls 32 < 40,False,hp_balls 32 < 60; hp_matches 6 < 8,False,hp_balls 32 < 100; hp_matches 6 < 12,ineligible
+360,Bhuvneshwar Kumar,bowler,557,64,6,1757.0,True,eligible,True,eligible,True,eligible,strict
+395,Karn Sharma,bowler,42,8,3,330.0,True,eligible,False,hp_balls 42 < 60,False,hp_balls 42 < 100; hp_matches 8 < 12,inclusive
+403,Umesh Yadav,bowler,153,18,4,419.0,True,eligible,True,eligible,True,eligible,strict
+470,Mohammad Amir,bowler,12,5,1,145.0,False,hp_balls 12 < 40; hp_matches 5 < 6,False,hp_balls 12 < 60; hp_matches 5 < 8,False,hp_balls 12 < 100; hp_matches 5 < 12,ineligible
+479,Adil Rashid,bowler,160,23,4,1163.0,True,eligible,True,eligible,True,eligible,strict
+494,Kieron Pollard,bowler,58,7,1,139.0,True,eligible,False,hp_balls 58 < 60; hp_matches 7 < 8,False,hp_balls 58 < 100; hp_matches 7 < 12,inclusive
+499,Shakib Al Hasan,bowler,73,11,4,271.0,True,eligible,True,eligible,False,hp_balls 73 < 100; hp_matches 11 < 12,moderate
+507,Mohammad Mahmudullah,bowler,3,1,1,38.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+722,Liam Dawson,bowler,63,11,3,343.0,True,eligible,True,eligible,False,hp_balls 63 < 100; hp_matches 11 < 12,moderate
+773,Shadley Van Schalkwyk,bowler,8,2,1,59.0,False,hp_balls 8 < 40; hp_matches 2 < 6,False,hp_balls 8 < 60; hp_matches 2 < 8,False,hp_balls 8 < 100; hp_matches 2 < 12,ineligible
+781,Sunil Narine,bowler,291,28,5,1237.0,True,eligible,True,eligible,True,eligible,strict
+786,Chris Jordan,bowler,123,14,3,451.0,True,eligible,True,eligible,True,eligible,strict
+818,Mitchell Marsh,bowler,50,8,3,270.0,True,eligible,False,hp_balls 50 < 60,False,hp_balls 50 < 100; hp_matches 8 < 12,inclusive
+829,Mitchell Starc,bowler,115,19,4,719.0,True,eligible,True,eligible,True,eligible,strict
+830,Josh Hazlewood,bowler,271,42,5,1207.0,True,eligible,True,eligible,True,eligible,strict
+838,Glenn Maxwell,bowler,159,26,4,486.0,True,eligible,True,eligible,True,eligible,strict
+914,Krishnappa Gowtham,bowler,41,7,2,144.0,True,eligible,False,hp_balls 41 < 60; hp_matches 7 < 8,False,hp_balls 41 < 100; hp_matches 7 < 12,inclusive
+988,Graeme Cremer,bowler,16,1,1,26.0,False,hp_balls 16 < 40; hp_matches 1 < 6,False,hp_balls 16 < 60; hp_matches 1 < 8,False,hp_balls 16 < 100; hp_matches 1 < 12,ineligible
+1028,Varun Aaron,bowler,16,2,1,17.0,False,hp_balls 16 < 40; hp_matches 2 < 6,False,hp_balls 16 < 60; hp_matches 2 < 8,False,hp_balls 16 < 100; hp_matches 2 < 12,ineligible
+1045,David Wiese,bowler,2,1,1,16.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+1071,Jaydev Unadkat,bowler,75,12,5,500.0,True,eligible,True,eligible,False,hp_balls 75 < 100,moderate
+1101,George Dockrell,bowler,53,8,4,137.0,True,eligible,False,hp_balls 53 < 60,False,hp_balls 53 < 100; hp_matches 8 < 12,inclusive
+1107,Mohammad Nabi,bowler,160,21,5,533.0,True,eligible,True,eligible,True,eligible,strict
+1159,Tendai Chatara,bowler,48,8,3,175.0,True,eligible,False,hp_balls 48 < 60,False,hp_balls 48 < 100; hp_matches 8 < 12,inclusive
+1171,Chris Woakes,bowler,15,3,2,138.0,False,hp_balls 15 < 40; hp_matches 3 < 6,False,hp_balls 15 < 60; hp_matches 3 < 8,False,hp_balls 15 < 100; hp_matches 3 < 12,ineligible
+1195,Ben Stokes,bowler,29,3,2,4.0,False,hp_balls 29 < 40; hp_matches 3 < 6,False,hp_balls 29 < 60; hp_matches 3 < 8,False,hp_balls 29 < 100; hp_matches 3 < 12,ineligible
+1219,David Willey,bowler,146,16,2,245.0,True,eligible,True,eligible,True,eligible,strict
+1318,Andre Russell,bowler,160,27,4,614.0,True,eligible,True,eligible,True,eligible,strict
+1389,Sean Abbott,bowler,60,12,4,416.0,True,eligible,True,eligible,False,hp_balls 60 < 100,moderate
+1487,Adam Milne,bowler,96,16,4,485.0,True,eligible,True,eligible,False,hp_balls 96 < 100,moderate
+1541,Sean Williams,bowler,62,9,4,103.0,True,eligible,True,eligible,False,hp_balls 62 < 100; hp_matches 9 < 12,moderate
+1556,David Payne,bowler,1,1,1,30.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+1566,Mohammed Shami,bowler,234,41,4,1095.0,True,eligible,True,eligible,True,eligible,strict
+1596,Moeen Ali,bowler,119,25,4,678.0,True,eligible,True,eligible,True,eligible,strict
+1612,Yuzvendra Chahal,bowler,543,57,6,1675.0,True,eligible,True,eligible,True,eligible,strict
+1617,Rishi Dhawan,bowler,47,9,3,133.0,True,eligible,False,hp_balls 47 < 60,False,hp_balls 47 < 100; hp_matches 9 < 12,inclusive
+1699,Suryakumar Yadav,bowler,4,1,1,2.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+1701,Swapnil Singh,bowler,12,3,1,92.0,False,hp_balls 12 < 40; hp_matches 3 < 6,False,hp_balls 12 < 60; hp_matches 3 < 8,False,hp_balls 12 < 100; hp_matches 3 < 12,ineligible
+1758,Patrick Cummins,bowler,195,25,4,1031.0,True,eligible,True,eligible,True,eligible,strict
+1772,Sheldon Cottrell,bowler,64,9,2,165.0,True,eligible,True,eligible,False,hp_balls 64 < 100; hp_matches 9 < 12,moderate
+1813,Deepak Chahar,bowler,193,30,6,747.0,True,eligible,True,eligible,True,eligible,strict
+1944,Keshav Maharaj,bowler,59,13,4,546.0,True,eligible,False,hp_balls 59 < 60,False,hp_balls 59 < 100,inclusive
+2054,Jason Behrendorff,bowler,96,15,2,359.0,True,eligible,True,eligible,False,hp_balls 96 < 100,moderate
+2214,Gulbadin Naib,bowler,6,1,1,50.0,False,hp_balls 6 < 40; hp_matches 1 < 6,False,hp_balls 6 < 60; hp_matches 1 < 8,False,hp_balls 6 < 100; hp_matches 1 < 12,ineligible
+2261,Harshal Patel,bowler,377,40,5,1345.0,True,eligible,True,eligible,True,eligible,strict
+2304,Tymal Mills,bowler,56,8,2,186.0,True,eligible,False,hp_balls 56 < 60,False,hp_balls 56 < 100; hp_matches 8 < 12,inclusive
+2315,Reece Topley,bowler,150,19,4,482.0,True,eligible,True,eligible,True,eligible,strict
+2320,Trent Boult,bowler,350,41,5,1255.0,True,eligible,True,eligible,True,eligible,strict
+2321,Olly Stone,bowler,13,1,1,12.0,False,hp_balls 13 < 40; hp_matches 1 < 6,False,hp_balls 13 < 60; hp_matches 1 < 8,False,hp_balls 13 < 100; hp_matches 1 < 12,ineligible
+2334,Dwaine Pretorius,bowler,86,8,1,250.0,True,eligible,True,eligible,False,hp_balls 86 < 100; hp_matches 8 < 12,moderate
+2359,Prenelan Subrayen,bowler,5,1,1,37.0,False,hp_balls 5 < 40; hp_matches 1 < 6,False,hp_balls 5 < 60; hp_matches 1 < 8,False,hp_balls 5 < 100; hp_matches 1 < 12,ineligible
+2364,Ashton Agar,bowler,55,5,1,90.0,False,hp_matches 5 < 6,False,hp_balls 55 < 60; hp_matches 5 < 8,False,hp_balls 55 < 100; hp_matches 5 < 12,ineligible
+2382,Jamie Overton,bowler,47,9,2,472.0,True,eligible,False,hp_balls 47 < 60,False,hp_balls 47 < 100; hp_matches 9 < 12,inclusive
+2399,Dushmantha Chameera,bowler,310,31,4,881.0,True,eligible,True,eligible,True,eligible,strict
+2407,Dhananjaya de Silva,bowler,40,4,3,42.0,False,hp_matches 4 < 6,False,hp_balls 40 < 60; hp_matches 4 < 8,False,hp_balls 40 < 100; hp_matches 4 < 12,ineligible
+2411,Sandeep Sharma,bowler,265,26,5,753.0,True,eligible,True,eligible,True,eligible,strict
+2416,Kyle Mayers,bowler,25,4,2,121.0,False,hp_balls 25 < 40; hp_matches 4 < 6,False,hp_balls 25 < 60; hp_matches 4 < 8,False,hp_balls 25 < 100; hp_matches 4 < 12,ineligible
+2417,Akeal Hosein,bowler,454,50,5,1262.0,True,eligible,True,eligible,True,eligible,strict
+2436,Dasun Shanaka,bowler,125,20,5,432.0,True,eligible,True,eligible,True,eligible,strict
+2463,Ryan Burl,bowler,63,10,6,262.0,True,eligible,True,eligible,False,hp_balls 63 < 100; hp_matches 10 < 12,moderate
+2483,Lizaad Williams,bowler,20,5,3,260.0,False,hp_balls 20 < 40; hp_matches 5 < 6,False,hp_balls 20 < 60; hp_matches 5 < 8,False,hp_balls 20 < 100; hp_matches 5 < 12,ineligible
+2490,Mohammad Nawaz,bowler,278,29,5,739.0,True,eligible,True,eligible,True,eligible,strict
+2526,Ish Sodhi,bowler,224,26,6,979.0,True,eligible,True,eligible,True,eligible,strict
+2531,Joe Root,bowler,5,1,1,7.0,False,hp_balls 5 < 40; hp_matches 1 < 6,False,hp_balls 5 < 60; hp_matches 1 < 8,False,hp_balls 5 < 100; hp_matches 1 < 12,ineligible
+2633,Jason Holder,bowler,483,52,5,1549.0,True,eligible,True,eligible,True,eligible,strict
+2636,Adam Zampa,bowler,211,24,5,952.0,True,eligible,True,eligible,True,eligible,strict
+2639,Marcus Stoinis,bowler,168,30,5,620.0,True,eligible,True,eligible,True,eligible,strict
+2681,Taskin Ahmed,bowler,335,36,6,748.0,True,eligible,True,eligible,True,eligible,strict
+2687,Roston Chase,bowler,233,25,5,629.0,True,eligible,True,eligible,True,eligible,strict
+2790,Praveen Dubey,bowler,14,2,2,17.0,False,hp_balls 14 < 40; hp_matches 2 < 6,False,hp_balls 14 < 60; hp_matches 2 < 8,False,hp_balls 14 < 100; hp_matches 2 < 12,ineligible
+2847,Shardul Thakur,bowler,192,28,5,855.0,True,eligible,True,eligible,True,eligible,strict
+2852,Jagadeesha Suchith,bowler,10,1,1,105.0,False,hp_balls 10 < 40; hp_matches 1 < 6,False,hp_balls 10 < 60; hp_matches 1 < 8,False,hp_balls 10 < 100; hp_matches 1 < 12,ineligible
+2863,Sandeep Warrier,bowler,5,1,1,65.0,False,hp_balls 5 < 40; hp_matches 1 < 6,False,hp_balls 5 < 60; hp_matches 1 < 8,False,hp_balls 5 < 100; hp_matches 1 < 12,ineligible
+2872,Siddarth Kaul,bowler,10,1,1,14.0,False,hp_balls 10 < 40; hp_matches 1 < 6,False,hp_balls 10 < 60; hp_matches 1 < 8,False,hp_balls 10 < 100; hp_matches 1 < 12,ineligible
+2876,Axar Patel,bowler,507,68,5,2188.0,True,eligible,True,eligible,True,eligible,strict
+2877,Vijay Shankar,bowler,4,1,1,6.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+2878,Mohit Sharma,bowler,142,17,3,534.0,True,eligible,True,eligible,True,eligible,strict
+2887,Harmeet Singh,bowler,14,2,1,58.0,False,hp_balls 14 < 40; hp_matches 2 < 6,False,hp_balls 14 < 60; hp_matches 2 < 8,False,hp_balls 14 < 100; hp_matches 2 < 12,ineligible
+2933,Jasprit Bumrah,bowler,288,47,5,1492.0,True,eligible,True,eligible,True,eligible,strict
+2972,Yasim Murtaza,bowler,69,5,2,126.0,False,hp_matches 5 < 6,False,hp_matches 5 < 8,False,hp_balls 69 < 100; hp_matches 5 < 12,ineligible
+2984,Sikandar Raza,bowler,250,33,6,866.0,True,eligible,True,eligible,True,eligible,strict
+2985,Mark Wood,bowler,59,7,3,240.0,True,eligible,False,hp_balls 59 < 60; hp_matches 7 < 8,False,hp_balls 59 < 100; hp_matches 7 < 12,inclusive
+2997,Paul van Meekeren,bowler,26,4,1,152.0,False,hp_balls 26 < 40; hp_matches 4 < 6,False,hp_balls 26 < 60; hp_matches 4 < 8,False,hp_balls 26 < 100; hp_matches 4 < 12,ineligible
+3033,Usman Qadir,bowler,8,1,1,90.0,False,hp_balls 8 < 40; hp_matches 1 < 6,False,hp_balls 8 < 60; hp_matches 1 < 8,False,hp_balls 8 < 100; hp_matches 1 < 12,ineligible
+3040,Kashif Daud,bowler,7,1,1,4.0,False,hp_balls 7 < 40; hp_matches 1 < 6,False,hp_balls 7 < 60; hp_matches 1 < 8,False,hp_balls 7 < 100; hp_matches 1 < 12,ineligible
+3056,Iftikhar Ahmed,bowler,50,6,3,139.0,True,eligible,False,hp_balls 50 < 60; hp_matches 6 < 8,False,hp_balls 50 < 100; hp_matches 6 < 12,inclusive
+3077,Usama Mir,bowler,14,2,1,109.0,False,hp_balls 14 < 40; hp_matches 2 < 6,False,hp_balls 14 < 60; hp_matches 2 < 8,False,hp_balls 14 < 100; hp_matches 2 < 12,ineligible
+3135,Yannic Cariah,bowler,5,2,1,31.0,False,hp_balls 5 < 40; hp_matches 2 < 6,False,hp_balls 5 < 60; hp_matches 2 < 8,False,hp_balls 5 < 100; hp_matches 2 < 12,ineligible
+3174,Matt Henry,bowler,134,22,5,472.0,True,eligible,True,eligible,True,eligible,strict
+3253,Rohan Mustafa,bowler,12,1,1,14.0,False,hp_balls 12 < 40; hp_matches 1 < 6,False,hp_balls 12 < 60; hp_matches 1 < 8,False,hp_balls 12 < 100; hp_matches 1 < 12,ineligible
+3255,Ahmed Raza 1,bowler,6,1,1,6.0,False,hp_balls 6 < 40; hp_matches 1 < 6,False,hp_balls 6 < 60; hp_matches 1 < 8,False,hp_balls 6 < 100; hp_matches 1 < 12,ineligible
+3272,Fabian Allen,bowler,78,9,3,102.0,True,eligible,True,eligible,False,hp_balls 78 < 100; hp_matches 9 < 12,moderate
+3275,Alzarri Joseph,bowler,330,38,4,884.0,True,eligible,True,eligible,True,eligible,strict
+3276,Gudakesh Motie,bowler,140,19,4,599.0,True,eligible,True,eligible,True,eligible,strict
+3281,Mosaddek Hossain,bowler,41,5,2,122.0,False,hp_matches 5 < 6,False,hp_balls 41 < 60; hp_matches 5 < 8,False,hp_balls 41 < 100; hp_matches 5 < 12,ineligible
+3282,Mehidy Hasan Miraz,bowler,38,9,5,198.0,False,hp_balls 38 < 40,False,hp_balls 38 < 60,False,hp_balls 38 < 100; hp_matches 9 < 12,ineligible
+3298,Jofra Archer,bowler,157,23,4,1151.0,True,eligible,True,eligible,True,eligible,strict
+3299,Andrew Tye,bowler,34,2,1,35.0,False,hp_balls 34 < 40; hp_matches 2 < 6,False,hp_balls 34 < 60; hp_matches 2 < 8,False,hp_balls 34 < 100; hp_matches 2 < 12,ineligible
+3323,Jimmy Neesham,bowler,103,17,6,425.0,True,eligible,True,eligible,True,eligible,strict
+3330,Hardik Pandya,bowler,387,53,5,1543.0,True,eligible,True,eligible,True,eligible,strict
+3337,Jeremy Gordon,bowler,4,1,1,16.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+3361,Michael Leask,bowler,19,2,1,13.0,False,hp_balls 19 < 40; hp_matches 2 < 6,False,hp_balls 19 < 60; hp_matches 2 < 8,False,hp_balls 19 < 100; hp_matches 2 < 12,ineligible
+3373,Aizaz Khan,bowler,42,4,2,98.0,False,hp_matches 4 < 6,False,hp_balls 42 < 60; hp_matches 4 < 8,False,hp_balls 42 < 100; hp_matches 4 < 12,ineligible
+3383,Kinchit Shah,bowler,28,3,2,26.0,False,hp_balls 28 < 40; hp_matches 3 < 6,False,hp_balls 28 < 60; hp_matches 3 < 8,False,hp_balls 28 < 100; hp_matches 3 < 12,ineligible
+3469,Shreyas Gopal,bowler,2,1,1,58.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+3489,Salman Agha,bowler,16,4,1,95.0,False,hp_balls 16 < 40; hp_matches 4 < 6,False,hp_balls 16 < 60; hp_matches 4 < 8,False,hp_balls 16 < 100; hp_matches 4 < 12,ineligible
+3543,Shahidullah Kamal,bowler,6,1,1,25.0,False,hp_balls 6 < 40; hp_matches 1 < 6,False,hp_balls 6 < 60; hp_matches 1 < 8,False,hp_balls 6 < 100; hp_matches 1 < 12,ineligible
+3550,Sharafuddin Ashraf,bowler,37,6,3,81.0,False,hp_balls 37 < 40,False,hp_balls 37 < 60; hp_matches 6 < 8,False,hp_balls 37 < 100; hp_matches 6 < 12,ineligible
+3578,Imad Wasim,bowler,54,7,2,176.0,True,eligible,False,hp_balls 54 < 60; hp_matches 7 < 8,False,hp_balls 54 < 100; hp_matches 7 < 12,inclusive
+3595,Andy McBrine,bowler,32,3,1,42.0,False,hp_balls 32 < 40; hp_matches 3 < 6,False,hp_balls 32 < 60; hp_matches 3 < 8,False,hp_balls 32 < 100; hp_matches 3 < 12,ineligible
+3605,Aiden Markram,bowler,34,8,4,374.0,False,hp_balls 34 < 40,False,hp_balls 34 < 60,False,hp_balls 34 < 100; hp_matches 8 < 12,ineligible
+3613,Shakeel Ahmed,bowler,30,3,1,31.0,False,hp_balls 30 < 40; hp_matches 3 < 6,False,hp_balls 30 < 60; hp_matches 3 < 8,False,hp_balls 30 < 100; hp_matches 3 < 12,ineligible
+3622,Hayden Walsh,bowler,58,5,1,111.0,False,hp_matches 5 < 6,False,hp_balls 58 < 60; hp_matches 5 < 8,False,hp_balls 58 < 100; hp_matches 5 < 12,ineligible
+3623,Hasan Ali,bowler,28,7,3,140.0,False,hp_balls 28 < 40,False,hp_balls 28 < 60; hp_matches 7 < 8,False,hp_balls 28 < 100; hp_matches 7 < 12,ineligible
+3627,Andile Phehlukwayo,bowler,7,2,2,145.0,False,hp_balls 7 < 40; hp_matches 2 < 6,False,hp_balls 7 < 60; hp_matches 2 < 8,False,hp_balls 7 < 100; hp_matches 2 < 12,ineligible
+3628,Kagiso Rabada,bowler,243,35,5,1367.0,True,eligible,True,eligible,True,eligible,strict
+3629,Corbin Bosch,bowler,46,7,2,338.0,True,eligible,False,hp_balls 46 < 60; hp_matches 7 < 8,False,hp_balls 46 < 100; hp_matches 7 < 12,inclusive
+3637,Dayyaan Galiem,bowler,7,1,1,20.0,False,hp_balls 7 < 40; hp_matches 1 < 6,False,hp_balls 7 < 60; hp_matches 1 < 8,False,hp_balls 7 < 100; hp_matches 1 < 12,ineligible
+3641,Ben Dwarshuis,bowler,64,10,3,258.0,True,eligible,True,eligible,False,hp_balls 64 < 100; hp_matches 10 < 12,moderate
+3644,Kuldeep Yadav,bowler,433,43,5,1519.0,True,eligible,True,eligible,True,eligible,strict
+3648,Deepak Hooda,bowler,47,4,3,86.0,False,hp_matches 4 < 6,False,hp_balls 47 < 60; hp_matches 4 < 8,False,hp_balls 47 < 100; hp_matches 4 < 12,ineligible
+3653,Avesh Khan,bowler,413,51,5,1332.0,True,eligible,True,eligible,True,eligible,strict
+3660,Luke Wood,bowler,42,8,3,263.0,True,eligible,False,hp_balls 42 < 60,False,hp_balls 42 < 100; hp_matches 8 < 12,inclusive
+3664,Binura Fernando,bowler,71,11,5,285.0,True,eligible,True,eligible,False,hp_balls 71 < 100; hp_matches 11 < 12,moderate
+3683,Gavin Main,bowler,15,2,1,26.0,False,hp_balls 15 < 40; hp_matches 2 < 6,False,hp_balls 15 < 60; hp_matches 2 < 8,False,hp_balls 15 < 100; hp_matches 2 < 12,ineligible
+3686,CB Sole,bowler,17,2,1,80.0,False,hp_balls 17 < 40; hp_matches 2 < 6,False,hp_balls 17 < 60; hp_matches 2 < 8,False,hp_balls 17 < 100; hp_matches 2 < 12,ineligible
+3689,Mark Watt,bowler,18,2,1,110.0,False,hp_balls 18 < 40; hp_matches 2 < 6,False,hp_balls 18 < 60; hp_matches 2 < 8,False,hp_balls 18 < 100; hp_matches 2 < 12,ineligible
+3697,Kyle Jamieson,bowler,103,15,3,526.0,True,eligible,True,eligible,True,eligible,strict
+3720,Craig Young,bowler,112,14,5,331.0,True,eligible,True,eligible,True,eligible,strict
+3727,Matthew Short,bowler,29,8,4,132.0,False,hp_balls 29 < 40,False,hp_balls 29 < 60,False,hp_balls 29 < 100; hp_matches 8 < 12,ineligible
+3771,Vivian Kingma,bowler,34,4,1,72.0,False,hp_balls 34 < 40; hp_matches 4 < 6,False,hp_balls 34 < 60; hp_matches 4 < 8,False,hp_balls 34 < 100; hp_matches 4 < 12,ineligible
+3772,Logan van Beek,bowler,49,5,2,89.0,False,hp_matches 5 < 6,False,hp_balls 49 < 60; hp_matches 5 < 8,False,hp_balls 49 < 100; hp_matches 5 < 12,ineligible
+3775,Sompal Kami,bowler,6,1,1,41.0,False,hp_balls 6 < 40; hp_matches 1 < 6,False,hp_balls 6 < 60; hp_matches 1 < 8,False,hp_balls 6 < 100; hp_matches 1 < 12,ineligible
+3782,M Shahrukh Khan,bowler,6,1,1,12.0,False,hp_balls 6 < 40; hp_matches 1 < 6,False,hp_balls 6 < 60; hp_matches 1 < 8,False,hp_balls 6 < 100; hp_matches 1 < 12,ineligible
+3839,Amjad Mahboob,bowler,5,1,1,51.0,False,hp_balls 5 < 40; hp_matches 1 < 6,False,hp_balls 5 < 60; hp_matches 1 < 8,False,hp_balls 5 < 100; hp_matches 1 < 12,ineligible
+3871,Aamir Kaleem,bowler,24,2,1,24.0,False,hp_balls 24 < 40; hp_matches 2 < 6,False,hp_balls 24 < 60; hp_matches 2 < 8,False,hp_balls 24 < 100; hp_matches 2 < 12,ineligible
+3876,Sufyan Mehmood,bowler,1,1,1,5.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+3926,Rahul Tewatia,bowler,4,2,1,46.0,False,hp_balls 4 < 40; hp_matches 2 < 6,False,hp_balls 4 < 60; hp_matches 2 < 8,False,hp_balls 4 < 100; hp_matches 2 < 12,ineligible
+3986,Matthew Renshaw,bowler,3,1,1,33.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+3995,Donald Tiripano,bowler,16,2,1,19.0,False,hp_balls 16 < 40; hp_matches 2 < 6,False,hp_balls 16 < 60; hp_matches 2 < 8,False,hp_balls 16 < 100; hp_matches 2 < 12,ineligible
+4101,Mitchell Santner,bowler,332,40,7,1437.0,True,eligible,True,eligible,True,eligible,strict
+4106,Daryl Mitchell,bowler,12,2,1,74.0,False,hp_balls 12 < 40; hp_matches 2 < 6,False,hp_balls 12 < 60; hp_matches 2 < 8,False,hp_balls 12 < 100; hp_matches 2 < 12,ineligible
+4201,Fareed Malik,bowler,79,14,4,237.0,True,eligible,True,eligible,False,hp_balls 79 < 100,moderate
+4219,Krunal Pandya,bowler,270,34,5,1016.0,True,eligible,True,eligible,True,eligible,strict
+4221,Chris Green,bowler,5,1,1,19.0,False,hp_balls 5 < 40; hp_matches 1 < 6,False,hp_balls 5 < 60; hp_matches 1 < 8,False,hp_balls 5 < 100; hp_matches 1 < 12,ineligible
+4229,George Linde,bowler,33,7,3,262.0,False,hp_balls 33 < 40,False,hp_balls 33 < 60; hp_matches 7 < 8,False,hp_balls 33 < 100; hp_matches 7 < 12,ineligible
+4235,Sisanda Magala,bowler,2,1,1,71.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+4237,Tabraiz Shamsi,bowler,6,2,1,315.0,False,hp_balls 6 < 40; hp_matches 2 < 6,False,hp_balls 6 < 60; hp_matches 2 < 8,False,hp_balls 6 < 100; hp_matches 2 < 12,ineligible
+4246,Nitish Rana,bowler,6,3,3,98.0,False,hp_balls 6 < 40; hp_matches 3 < 6,False,hp_balls 6 < 60; hp_matches 3 < 8,False,hp_balls 6 < 100; hp_matches 3 < 12,ineligible
+4265,T Natarajan,bowler,185,22,4,918.0,True,eligible,True,eligible,True,eligible,strict
+4276,Basil Thampi,bowler,26,4,1,76.0,False,hp_balls 26 < 40; hp_matches 4 < 6,False,hp_balls 26 < 60; hp_matches 4 < 8,False,hp_balls 26 < 100; hp_matches 4 < 12,ineligible
+4288,Navdeep Saini,bowler,36,3,2,62.0,False,hp_balls 36 < 40; hp_matches 3 < 6,False,hp_balls 36 < 60; hp_matches 3 < 8,False,hp_balls 36 < 100; hp_matches 3 < 12,ineligible
+4373,Mustafizur Rahman,bowler,477,48,6,1157.0,True,eligible,True,eligible,True,eligible,strict
+4391,Liam Livingstone,bowler,90,17,4,529.0,True,eligible,True,eligible,False,hp_balls 90 < 100,moderate
+4409,Sam Curran,bowler,250,32,5,1154.0,True,eligible,True,eligible,True,eligible,strict
+4417,Karan KC,bowler,12,2,1,30.0,False,hp_balls 12 < 40; hp_matches 2 < 6,False,hp_balls 12 < 60; hp_matches 2 < 8,False,hp_balls 12 < 100; hp_matches 2 < 12,ineligible
+4438,Jasdeep Singh,bowler,1,1,1,67.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+4460,Jeffrey Vandersay,bowler,14,3,2,108.0,False,hp_balls 14 < 40; hp_matches 3 < 6,False,hp_balls 14 < 60; hp_matches 3 < 8,False,hp_balls 14 < 100; hp_matches 3 < 12,ineligible
+4487,Vyshak Kumar,bowler,98,13,4,452.0,True,eligible,True,eligible,False,hp_balls 98 < 100,moderate
+4489,Prasidh Krishna,bowler,166,30,4,1068.0,True,eligible,True,eligible,True,eligible,strict
+4499,Saqib Mahmood,bowler,18,4,2,200.0,False,hp_balls 18 < 40; hp_matches 4 < 6,False,hp_balls 18 < 60; hp_matches 4 < 8,False,hp_balls 18 < 100; hp_matches 4 < 12,ineligible
+4505,Jhye Richardson,bowler,41,4,1,83.0,False,hp_matches 4 < 6,False,hp_balls 41 < 60; hp_matches 4 < 8,False,hp_balls 41 < 100; hp_matches 4 < 12,ineligible
+4636,Bjorn Fortuin,bowler,20,6,2,197.0,False,hp_balls 20 < 40,False,hp_balls 20 < 60; hp_matches 6 < 8,False,hp_balls 20 < 100; hp_matches 6 < 12,ineligible
+4639,Wellington Masakadza,bowler,102,13,6,384.0,True,eligible,True,eligible,True,eligible,strict
+4641,Lungi Ngidi,bowler,75,20,6,744.0,True,eligible,True,eligible,False,hp_balls 75 < 100,moderate
+4658,Nasum Ahmed,bowler,178,25,5,429.0,True,eligible,True,eligible,True,eligible,strict
+4662,Cole McConchie,bowler,27,2,1,94.0,False,hp_balls 27 < 40; hp_matches 2 < 6,False,hp_balls 27 < 60; hp_matches 2 < 8,False,hp_balls 27 < 100; hp_matches 2 < 12,ineligible
+4686,Joshua Clarkson,bowler,27,2,1,24.0,False,hp_balls 27 < 40; hp_matches 2 < 6,False,hp_balls 27 < 60; hp_matches 2 < 8,False,hp_balls 27 < 100; hp_matches 2 < 12,ineligible
+4692,Lockie Ferguson,bowler,283,37,6,855.0,True,eligible,True,eligible,True,eligible,strict
+4716,Mayank Dagar,bowler,24,4,2,114.0,False,hp_balls 24 < 40; hp_matches 4 < 6,False,hp_balls 24 < 60; hp_matches 4 < 8,False,hp_balls 24 < 100; hp_matches 4 < 12,ineligible
+4722,Rashid Khan,bowler,490,53,5,2290.0,True,eligible,True,eligible,True,eligible,strict
+4755,Shivam Dube,bowler,135,15,4,356.0,True,eligible,True,eligible,True,eligible,strict
+4779,Pieter Willem Mulder,bowler,14,4,2,108.0,False,hp_balls 14 < 40; hp_matches 4 < 6,False,hp_balls 14 < 60; hp_matches 4 < 8,False,hp_balls 14 < 100; hp_matches 4 < 12,ineligible
+4780,Mohammad Saif Hassan,bowler,15,2,1,85.0,False,hp_balls 15 < 40; hp_matches 2 < 6,False,hp_balls 15 < 60; hp_matches 2 < 8,False,hp_balls 15 < 100; hp_matches 2 < 12,ineligible
+4807,Joshua Little,bowler,165,23,5,614.0,True,eligible,True,eligible,True,eligible,strict
+4812,Harry Tector,bowler,14,5,3,228.0,False,hp_balls 14 < 40; hp_matches 5 < 6,False,hp_balls 14 < 60; hp_matches 5 < 8,False,hp_balls 14 < 100; hp_matches 5 < 12,ineligible
+4815,Benjamin White,bowler,90,9,3,314.0,True,eligible,True,eligible,False,hp_balls 90 < 100; hp_matches 9 < 12,moderate
+4816,Khaleel Ahmed,bowler,229,31,5,1038.0,True,eligible,True,eligible,True,eligible,strict
+4821,Mahipal Lomror,bowler,4,1,1,29.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+4823,Washington Sundar,bowler,137,18,6,665.0,True,eligible,True,eligible,True,eligible,strict
+4826,George Garton,bowler,4,1,1,21.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+4837,Obed McCoy,bowler,207,26,4,472.0,True,eligible,True,eligible,True,eligible,strict
+4838,Keemo Paul,bowler,5,1,1,85.0,False,hp_balls 5 < 40; hp_matches 1 < 6,False,hp_balls 5 < 60; hp_matches 1 < 8,False,hp_balls 5 < 100; hp_matches 1 < 12,ineligible
+4840,Odean Smith,bowler,110,13,2,291.0,True,eligible,True,eligible,True,eligible,strict
+4842,Shamar Springer,bowler,21,4,2,179.0,False,hp_balls 21 < 40; hp_matches 4 < 6,False,hp_balls 21 < 60; hp_matches 4 < 8,False,hp_balls 21 < 100; hp_matches 4 < 12,ineligible
+4853,Glenn Phillips,bowler,36,5,4,79.0,False,hp_balls 36 < 40; hp_matches 5 < 6,False,hp_balls 36 < 60; hp_matches 5 < 8,False,hp_balls 36 < 100; hp_matches 5 < 12,ineligible
+4854,Rachin Ravindra,bowler,22,5,2,114.0,False,hp_balls 22 < 40; hp_matches 5 < 6,False,hp_balls 22 < 60; hp_matches 5 < 8,False,hp_balls 22 < 100; hp_matches 5 < 12,ineligible
+4856,Benjamin Sears,bowler,100,12,4,362.0,True,eligible,True,eligible,True,eligible,strict
+4857,Nathan Smith,bowler,31,5,1,78.0,False,hp_balls 31 < 40; hp_matches 5 < 6,False,hp_balls 31 < 60; hp_matches 5 < 8,False,hp_balls 31 < 100; hp_matches 5 < 12,ineligible
+4867,Wesley Madhevere,bowler,19,4,3,80.0,False,hp_balls 19 < 40; hp_matches 4 < 6,False,hp_balls 19 < 60; hp_matches 4 < 8,False,hp_balls 19 < 100; hp_matches 4 < 12,ineligible
+4870,Kundai Matigimu,bowler,12,1,1,14.0,False,hp_balls 12 < 40; hp_matches 1 < 6,False,hp_balls 12 < 60; hp_matches 1 < 8,False,hp_balls 12 < 100; hp_matches 1 < 12,ineligible
+4871,Brandon Mavuta,bowler,20,2,2,24.0,False,hp_balls 20 < 40; hp_matches 2 < 6,False,hp_balls 20 < 60; hp_matches 2 < 8,False,hp_balls 20 < 100; hp_matches 2 < 12,ineligible
+4874,Richard Ngarava,bowler,188,23,6,701.0,True,eligible,True,eligible,True,eligible,strict
+4881,Dipendra Airee,bowler,15,2,1,21.0,False,hp_balls 15 < 40; hp_matches 2 < 6,False,hp_balls 15 < 60; hp_matches 2 < 8,False,hp_balls 15 < 100; hp_matches 2 < 12,ineligible
+4882,Kushal Bhurtel,bowler,3,1,1,47.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+4895,Charith Asalanka,bowler,40,4,3,124.0,False,hp_matches 4 < 6,False,hp_balls 40 < 60; hp_matches 4 < 8,False,hp_balls 40 < 100; hp_matches 4 < 12,ineligible
+4900,Wanindu Hasaranga,bowler,479,45,6,1574.0,True,eligible,True,eligible,True,eligible,strict
+4901,Asitha Fernando,bowler,17,3,1,107.0,False,hp_balls 17 < 40; hp_matches 3 < 6,False,hp_balls 17 < 60; hp_matches 3 < 8,False,hp_balls 17 < 100; hp_matches 3 < 12,ineligible
+4903,Lahiru Kumara,bowler,18,3,2,60.0,False,hp_balls 18 < 40; hp_matches 3 < 6,False,hp_balls 18 < 60; hp_matches 3 < 8,False,hp_balls 18 < 100; hp_matches 3 < 12,ineligible
+4904,Kamindu Mendis,bowler,6,1,1,148.0,False,hp_balls 6 < 40; hp_matches 1 < 6,False,hp_balls 6 < 60; hp_matches 1 < 8,False,hp_balls 6 < 100; hp_matches 1 < 12,ineligible
+4926,Shadab Khan,bowler,169,16,6,661.0,True,eligible,True,eligible,True,eligible,strict
+4947,Kasun Rajitha,bowler,22,3,1,94.0,False,hp_balls 22 < 40; hp_matches 3 < 6,False,hp_balls 22 < 60; hp_matches 3 < 8,False,hp_balls 22 < 100; hp_matches 3 < 12,ineligible
+4974,Mohammad Nadeem,bowler,15,2,1,11.0,False,hp_balls 15 < 40; hp_matches 2 < 6,False,hp_balls 15 < 60; hp_matches 2 < 8,False,hp_balls 15 < 100; hp_matches 2 < 12,ineligible
+4986,Rovman Powell,bowler,8,2,2,74.0,False,hp_balls 8 < 40; hp_matches 2 < 6,False,hp_balls 8 < 60; hp_matches 2 < 8,False,hp_balls 8 < 100; hp_matches 2 < 12,ineligible
+5034,Murugan Ashwin,bowler,43,4,2,161.0,False,hp_matches 4 < 6,False,hp_balls 43 < 60; hp_matches 4 < 8,False,hp_balls 43 < 100; hp_matches 4 < 12,ineligible
+5041,Mukesh Kumar,bowler,230,34,4,997.0,True,eligible,True,eligible,True,eligible,strict
+5189,Faheem Ashraf,bowler,88,14,2,358.0,True,eligible,True,eligible,False,hp_balls 88 < 100,moderate
+5231,Oshane Thomas,bowler,9,1,1,15.0,False,hp_balls 9 < 40; hp_matches 1 < 6,False,hp_balls 9 < 60; hp_matches 1 < 8,False,hp_balls 9 < 100; hp_matches 1 < 12,ineligible
+5379,Mark Adair,bowler,204,32,6,702.0,True,eligible,True,eligible,True,eligible,strict
+5441,Barry McCarthy,bowler,140,21,6,522.0,True,eligible,True,eligible,True,eligible,strict
+5547,Nosthush Kenjige,bowler,8,2,1,59.0,False,hp_balls 8 < 40; hp_matches 2 < 6,False,hp_balls 8 < 60; hp_matches 2 < 8,False,hp_balls 8 < 100; hp_matches 2 < 12,ineligible
+5561,Brad Wheal,bowler,2,1,1,34.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+5562,Richard Gleeson,bowler,40,4,3,163.0,False,hp_matches 4 < 6,False,hp_balls 40 < 60; hp_matches 4 < 8,False,hp_balls 40 < 100; hp_matches 4 < 12,ineligible
+5577,Sai Kishore,bowler,93,9,3,384.0,True,eligible,True,eligible,False,hp_balls 93 < 100; hp_matches 9 < 12,moderate
+5738,Xavier Bartlett,bowler,104,17,3,503.0,True,eligible,True,eligible,True,eligible,strict
+5750,Ehsan Khan,bowler,60,6,2,131.0,True,eligible,False,hp_matches 6 < 8,False,hp_balls 60 < 100; hp_matches 6 < 12,inclusive
+5808,Karim Janat,bowler,17,5,3,141.0,False,hp_balls 17 < 40; hp_matches 5 < 6,False,hp_balls 17 < 60; hp_matches 5 < 8,False,hp_balls 17 < 100; hp_matches 5 < 12,ineligible
+5809,Naveen ul Haq,bowler,106,25,3,718.0,True,eligible,True,eligible,True,eligible,strict
+5837,Mahedi Hasan,bowler,197,25,4,726.0,True,eligible,True,eligible,True,eligible,strict
+5844,Ebadot Hossain,bowler,24,2,1,59.0,False,hp_balls 24 < 40; hp_matches 2 < 6,False,hp_balls 24 < 60; hp_matches 2 < 8,False,hp_balls 24 < 100; hp_matches 2 < 12,ineligible
+5866,Patrick Kruger,bowler,2,1,1,125.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+5882,Afif Hossain,bowler,15,3,2,17.0,False,hp_balls 15 < 40; hp_matches 3 < 6,False,hp_balls 15 < 60; hp_matches 3 < 8,False,hp_balls 15 < 100; hp_matches 3 < 12,ineligible
+5892,Blair Tickner,bowler,75,9,3,150.0,True,eligible,True,eligible,False,hp_balls 75 < 100; hp_matches 9 < 12,moderate
+5939,Cameron Green,bowler,126,25,4,673.0,True,eligible,True,eligible,True,eligible,strict
+5940,Riley Meredith,bowler,70,9,3,261.0,True,eligible,True,eligible,False,hp_balls 70 < 100; hp_matches 9 < 12,moderate
+5944,Mohammed Siraj,bowler,423,57,6,1502.0,True,eligible,True,eligible,True,eligible,strict
+5977,Khary Pierre,bowler,35,5,2,89.0,False,hp_balls 35 < 40; hp_matches 5 < 6,False,hp_balls 35 < 60; hp_matches 5 < 8,False,hp_balls 35 < 100; hp_matches 5 < 12,ineligible
+5979,Abrar Ahmed,bowler,121,15,3,655.0,True,eligible,True,eligible,True,eligible,strict
+6025,Henry Shipley,bowler,2,1,1,81.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+6097,Brydon Carse,bowler,32,6,2,239.0,False,hp_balls 32 < 40,False,hp_balls 32 < 60; hp_matches 6 < 8,False,hp_balls 32 < 100; hp_matches 6 < 12,ineligible
+6160,Chamika Karunaratne,bowler,112,14,3,239.0,True,eligible,True,eligible,True,eligible,strict
+6161,Rahul Chahar,bowler,160,20,4,651.0,True,eligible,True,eligible,True,eligible,strict
+6162,Kulwant Khejroliya,bowler,4,1,1,58.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+6180,Praveen Jayawickrama,bowler,10,1,1,38.0,False,hp_balls 10 < 40; hp_matches 1 < 6,False,hp_balls 10 < 60; hp_matches 1 < 8,False,hp_balls 10 < 100; hp_matches 1 < 12,ineligible
+6188,Simi Singh,bowler,11,2,1,1.0,False,hp_balls 11 < 40; hp_matches 2 < 6,False,hp_balls 11 < 60; hp_matches 2 < 8,False,hp_balls 11 < 100; hp_matches 2 < 12,ineligible
+6196,Josh Tongue,bowler,9,3,1,117.0,False,hp_balls 9 < 40; hp_matches 3 < 6,False,hp_balls 9 < 60; hp_matches 3 < 8,False,hp_balls 9 < 100; hp_matches 3 < 12,ineligible
+6237,Manimaran Siddharth,bowler,54,5,2,139.0,False,hp_matches 5 < 6,False,hp_balls 54 < 60; hp_matches 5 < 8,False,hp_balls 54 < 100; hp_matches 5 < 12,ineligible
+6256,Varun Chakravarthy,bowler,356,50,5,1802.0,True,eligible,True,eligible,True,eligible,strict
+6272,William Jacks,bowler,54,13,3,359.0,True,eligible,False,hp_balls 54 < 60,False,hp_balls 54 < 100,inclusive
+6281,Abhishek Sharma,bowler,93,13,4,334.0,True,eligible,True,eligible,False,hp_balls 93 < 100,moderate
+6284,Anukul Roy,bowler,61,7,5,275.0,True,eligible,False,hp_matches 7 < 8,False,hp_balls 61 < 100; hp_matches 7 < 12,inclusive
+6285,Kamlesh Nagarkoti,bowler,9,1,1,4.0,False,hp_balls 9 < 40; hp_matches 1 < 6,False,hp_balls 9 < 60; hp_matches 1 < 8,False,hp_balls 9 < 100; hp_matches 1 < 12,ineligible
+6286,Shivam Mavi,bowler,78,8,2,154.0,True,eligible,True,eligible,False,hp_balls 78 < 100; hp_matches 8 < 12,moderate
+6287,Yash Thakur,bowler,67,10,4,498.0,True,eligible,True,eligible,False,hp_balls 67 < 100; hp_matches 10 < 12,moderate
+6350,Matthew Kuhnemann,bowler,19,3,2,92.0,False,hp_balls 19 < 40; hp_matches 3 < 6,False,hp_balls 19 < 60; hp_matches 3 < 8,False,hp_balls 19 < 100; hp_matches 3 < 12,ineligible
+6354,Spencer Johnson,bowler,78,12,4,388.0,True,eligible,True,eligible,False,hp_balls 78 < 100,moderate
+6355,Shaheen Afridi,bowler,197,33,4,811.0,True,eligible,True,eligible,True,eligible,strict
+6356,Khaled Ahmed,bowler,3,1,1,21.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+6359,Raghu Sharma,bowler,3,2,1,87.0,False,hp_balls 3 < 40; hp_matches 2 < 6,False,hp_balls 3 < 60; hp_matches 2 < 8,False,hp_balls 3 < 100; hp_matches 2 < 12,ineligible
+6389,Tanvir Islam,bowler,33,5,3,70.0,False,hp_balls 33 < 40; hp_matches 5 < 6,False,hp_balls 33 < 60; hp_matches 5 < 8,False,hp_balls 33 < 100; hp_matches 5 < 12,ineligible
+6398,Aaron Hardie,bowler,28,8,4,258.0,False,hp_balls 28 < 40,False,hp_balls 28 < 60,False,hp_balls 28 < 100; hp_matches 8 < 12,ineligible
+6423,Riyan Parag,bowler,33,7,4,240.0,False,hp_balls 33 < 40,False,hp_balls 33 < 60; hp_matches 7 < 8,False,hp_balls 33 < 100; hp_matches 7 < 12,ineligible
+6436,Qais Ahmad,bowler,23,2,1,32.0,False,hp_balls 23 < 40; hp_matches 2 < 6,False,hp_balls 23 < 60; hp_matches 2 < 8,False,hp_balls 23 < 100; hp_matches 2 < 12,ineligible
+6449,Wafadar Momand,bowler,2,1,1,32.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+6450,Mujeeb Ur Rahman,bowler,189,27,5,660.0,True,eligible,True,eligible,True,eligible,strict
+6460,Ayush Badoni,bowler,3,1,1,38.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+6464,Arshdeep Singh,bowler,598,84,6,2816.0,True,eligible,True,eligible,True,eligible,strict
+6489,Darshan Nalkande,bowler,26,4,3,63.0,False,hp_balls 26 < 40; hp_matches 4 < 6,False,hp_balls 26 < 60; hp_matches 4 < 8,False,hp_balls 26 < 100; hp_matches 4 < 12,ineligible
+6503,Zahoor Khan,bowler,55,4,2,68.0,False,hp_matches 4 < 6,False,hp_balls 55 < 60; hp_matches 4 < 8,False,hp_balls 55 < 100; hp_matches 4 < 12,ineligible
+6506,Mohammad Imran Randhawa,bowler,8,2,1,68.0,False,hp_balls 8 < 40; hp_matches 2 < 6,False,hp_balls 8 < 60; hp_matches 2 < 8,False,hp_balls 8 < 100; hp_matches 2 < 12,ineligible
+6512,Michael Bracewell,bowler,154,17,6,529.0,True,eligible,True,eligible,True,eligible,strict
+6515,Benjamin Lister,bowler,94,10,2,164.0,True,eligible,True,eligible,False,hp_balls 94 < 100; hp_matches 10 < 12,moderate
+6518,Daniel Sams,bowler,100,13,1,277.0,True,eligible,True,eligible,True,eligible,strict
+6523,Blessing Muzarabani,bowler,218,28,5,628.0,True,eligible,True,eligible,True,eligible,strict
+6566,Matthew John Fisher,bowler,11,1,1,51.0,False,hp_balls 11 < 40; hp_matches 1 < 6,False,hp_balls 11 < 60; hp_matches 1 < 8,False,hp_balls 11 < 100; hp_matches 1 < 12,ineligible
+6574,Alick Athanaze,bowler,2,1,1,5.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+6591,KM Asif,bowler,30,3,1,61.0,False,hp_balls 30 < 40; hp_matches 3 < 6,False,hp_balls 30 < 60; hp_matches 3 < 8,False,hp_balls 30 < 100; hp_matches 3 < 12,ineligible
+6628,Gerald Coetzee,bowler,63,12,4,584.0,True,eligible,True,eligible,False,hp_balls 63 < 100,moderate
+6643,Hasan Mahmud,bowler,94,12,5,318.0,True,eligible,True,eligible,False,hp_balls 94 < 100,moderate
+6664,Dion Myers,bowler,4,1,1,10.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+6669,Mohsin Khan,bowler,161,23,4,517.0,True,eligible,True,eligible,True,eligible,strict
+6671,Lalit Yadav,bowler,38,7,2,172.0,False,hp_balls 38 < 40,False,hp_balls 38 < 60; hp_matches 7 < 8,False,hp_balls 38 < 100; hp_matches 7 < 12,ineligible
+6676,Azmatullah Omarzai,bowler,274,35,5,844.0,True,eligible,True,eligible,True,eligible,strict
+6677,Mohammad Hasnain,bowler,47,8,2,191.0,True,eligible,False,hp_balls 47 < 60,False,hp_balls 47 < 100; hp_matches 8 < 12,inclusive
+6683,Mayank Markande,bowler,53,7,3,392.0,True,eligible,False,hp_balls 53 < 60; hp_matches 7 < 8,False,hp_balls 53 < 100; hp_matches 7 < 12,inclusive
+6697,Shams Mulani,bowler,1,1,1,32.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+6726,Romario Shepherd,bowler,348,47,5,1284.0,True,eligible,True,eligible,True,eligible,strict
+6772,Chetan Sakariya,bowler,45,5,2,81.0,False,hp_matches 5 < 6,False,hp_balls 45 < 60; hp_matches 5 < 8,False,hp_balls 45 < 100; hp_matches 5 < 12,ineligible
+6797,Dominic Drakes,bowler,42,4,1,89.0,False,hp_matches 4 < 6,False,hp_balls 42 < 60; hp_matches 4 < 8,False,hp_balls 42 < 100; hp_matches 4 < 12,ineligible
+6806,Tushar Deshpande,bowler,215,30,5,900.0,True,eligible,True,eligible,True,eligible,strict
+6926,Matty Potts,bowler,6,1,1,27.0,False,hp_balls 6 < 40; hp_matches 1 < 6,False,hp_balls 6 < 60; hp_matches 1 < 8,False,hp_balls 6 < 100; hp_matches 1 < 12,ineligible
+6932,Pramod Madushan,bowler,34,4,2,73.0,False,hp_balls 34 < 40; hp_matches 4 < 6,False,hp_balls 34 < 60; hp_matches 4 < 8,False,hp_balls 34 < 100; hp_matches 4 < 12,ineligible
+6984,Saqib Zulfiqar,bowler,3,1,1,9.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+6985,Bas de Leede,bowler,27,4,2,51.0,False,hp_balls 27 < 40; hp_matches 4 < 6,False,hp_balls 27 < 60; hp_matches 4 < 8,False,hp_balls 27 < 100; hp_matches 4 < 12,ineligible
+6995,Saad Zafar,bowler,29,2,1,44.0,False,hp_balls 29 < 40; hp_matches 2 < 6,False,hp_balls 29 < 60; hp_matches 2 < 8,False,hp_balls 29 < 100; hp_matches 2 < 12,ineligible
+7001,Dilon Heyliger,bowler,11,1,1,47.0,False,hp_balls 11 < 40; hp_matches 1 < 6,False,hp_balls 11 < 60; hp_matches 1 < 8,False,hp_balls 11 < 100; hp_matches 1 < 12,ineligible
+7008,Gus Atkinson,bowler,12,1,1,55.0,False,hp_balls 12 < 40; hp_matches 1 < 6,False,hp_balls 12 < 60; hp_matches 1 < 8,False,hp_balls 12 < 100; hp_matches 1 < 12,ineligible
+7052,Dunith Wellalage,bowler,64,8,3,196.0,True,eligible,True,eligible,False,hp_balls 64 < 100; hp_matches 8 < 12,moderate
+7060,Arjun Tendulkar,bowler,21,4,2,86.0,False,hp_balls 21 < 40; hp_matches 4 < 6,False,hp_balls 21 < 60; hp_matches 4 < 8,False,hp_balls 21 < 100; hp_matches 4 < 12,ineligible
+7094,Curtis Campher,bowler,127,19,6,268.0,True,eligible,True,eligible,True,eligible,strict
+7120,Rohit Paudel,bowler,11,1,1,32.0,False,hp_balls 11 < 40; hp_matches 1 < 6,False,hp_balls 11 < 60; hp_matches 1 < 8,False,hp_balls 11 < 100; hp_matches 1 < 12,ineligible
+7140,Senuran Muthusamy,bowler,7,1,1,36.0,False,hp_balls 7 < 40; hp_matches 1 < 6,False,hp_balls 7 < 60; hp_matches 1 < 8,False,hp_balls 7 < 100; hp_matches 1 < 12,ineligible
+7201,Haroon Arshad,bowler,20,3,1,59.0,False,hp_balls 20 < 40; hp_matches 3 < 6,False,hp_balls 20 < 60; hp_matches 3 < 8,False,hp_balls 20 < 100; hp_matches 3 < 12,ineligible
+7227,Nijat Masood,bowler,18,2,1,53.0,False,hp_balls 18 < 40; hp_matches 2 < 6,False,hp_balls 18 < 60; hp_matches 2 < 8,False,hp_balls 18 < 100; hp_matches 2 < 12,ineligible
+7240,FazalHaq Farooqi,bowler,237,35,5,826.0,True,eligible,True,eligible,True,eligible,strict
+7241,Ziaur Rahman,bowler,15,2,1,35.0,False,hp_balls 15 < 40; hp_matches 2 < 6,False,hp_balls 15 < 60; hp_matches 2 < 8,False,hp_balls 15 < 100; hp_matches 2 < 12,ineligible
+7250,Mukesh Choudhary,bowler,86,12,3,426.0,True,eligible,True,eligible,False,hp_balls 86 < 100,moderate
+7270,Anrich Nortje,bowler,94,22,4,784.0,True,eligible,True,eligible,False,hp_balls 94 < 100,moderate
+7312,Nandre Burger,bowler,89,14,3,379.0,True,eligible,True,eligible,False,hp_balls 89 < 100,moderate
+7322,Yash Dayal,bowler,214,23,4,706.0,True,eligible,True,eligible,True,eligible,strict
+7325,Harpreet Brar,bowler,144,20,5,535.0,True,eligible,True,eligible,True,eligible,strict
+7327,Rasikh Salam,bowler,63,10,4,427.0,True,eligible,True,eligible,False,hp_balls 63 < 100; hp_matches 10 < 12,moderate
+7344,Shoriful Islam,bowler,161,22,5,650.0,True,eligible,True,eligible,True,eligible,strict
+7364,Haris Rauf,bowler,253,32,5,787.0,True,eligible,True,eligible,True,eligible,strict
+7403,Lalit Rajbanshi,bowler,8,1,1,23.0,False,hp_balls 8 < 40; hp_matches 1 < 6,False,hp_balls 8 < 60; hp_matches 1 < 8,False,hp_balls 8 < 100; hp_matches 1 < 12,ineligible
+7472,Shahbaz Ahmed,bowler,129,17,5,425.0,True,eligible,True,eligible,True,eligible,strict
+7473,Akash Deep,bowler,95,12,4,207.0,True,eligible,True,eligible,False,hp_balls 95 < 100,moderate
+7503,Ravi Bishnoi,bowler,564,60,5,1865.0,True,eligible,True,eligible,True,eligible,strict
+7533,Simarjeet Singh,bowler,49,10,3,207.0,True,eligible,False,hp_balls 49 < 60,False,hp_balls 49 < 100; hp_matches 10 < 12,inclusive
+7544,Venkatesh Iyer,bowler,15,4,1,34.0,False,hp_balls 15 < 40; hp_matches 4 < 6,False,hp_balls 15 < 60; hp_matches 4 < 8,False,hp_balls 15 < 100; hp_matches 4 < 12,ineligible
+7545,Kuldeep Sen,bowler,73,9,3,182.0,True,eligible,True,eligible,False,hp_balls 73 < 100; hp_matches 9 < 12,moderate
+7574,Kumar Kartikeya Singh,bowler,29,5,3,261.0,False,hp_balls 29 < 40; hp_matches 5 < 6,False,hp_balls 29 < 60; hp_matches 5 < 8,False,hp_balls 29 < 100; hp_matches 5 < 12,ineligible
+7625,Suryansh Shedge,bowler,2,1,1,63.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+7634,Aaron Jones,bowler,8,1,1,10.0,False,hp_balls 8 < 40; hp_matches 1 < 6,False,hp_balls 8 < 60; hp_matches 1 < 8,False,hp_balls 8 < 100; hp_matches 1 < 12,ineligible
+7689,Dilshan Madushanka,bowler,86,8,3,311.0,True,eligible,True,eligible,False,hp_balls 86 < 100; hp_matches 8 < 12,moderate
+7690,Saim Ayub,bowler,171,16,2,352.0,True,eligible,True,eligible,True,eligible,strict
+7696,Mohammad Wasim,bowler,104,11,6,270.0,True,eligible,True,eligible,False,hp_matches 11 < 12,moderate
+7699,Abbas Afridi,bowler,73,13,2,345.0,True,eligible,True,eligible,False,hp_balls 73 < 100,moderate
+7702,Chamindu Wickramasinghe,bowler,9,2,1,34.0,False,hp_balls 9 < 40; hp_matches 2 < 6,False,hp_balls 9 < 60; hp_matches 2 < 8,False,hp_balls 9 < 100; hp_matches 2 < 12,ineligible
+7709,Ainsley Ndlovu,bowler,4,1,1,64.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+7710,Brandon Glover,bowler,3,1,1,16.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+7741,Gareth Delany,bowler,147,17,5,407.0,True,eligible,True,eligible,True,eligible,strict
+7755,Harsh Thaker,bowler,13,2,1,35.0,False,hp_balls 13 < 40; hp_matches 2 < 6,False,hp_balls 13 < 60; hp_matches 2 < 8,False,hp_balls 13 < 100; hp_matches 2 < 12,ineligible
+7756,Kaleem Sana,bowler,10,2,1,57.0,False,hp_balls 10 < 40; hp_matches 2 < 6,False,hp_balls 10 < 60; hp_matches 2 < 8,False,hp_balls 10 < 100; hp_matches 2 < 12,ineligible
+7808,Marco Jansen,bowler,189,27,5,1203.0,True,eligible,True,eligible,True,eligible,strict
+7896,Akash Singh,bowler,49,6,3,183.0,True,eligible,False,hp_balls 49 < 60; hp_matches 6 < 8,False,hp_balls 49 < 100; hp_matches 6 < 12,inclusive
+7897,Namboori Tilak Varma,bowler,6,1,1,56.0,False,hp_balls 6 < 40; hp_matches 1 < 6,False,hp_balls 6 < 60; hp_matches 1 < 8,False,hp_balls 6 < 100; hp_matches 1 < 12,ineligible
+7903,Shamim Hossain,bowler,9,2,1,83.0,False,hp_balls 9 < 40; hp_matches 2 < 6,False,hp_balls 9 < 60; hp_matches 2 < 8,False,hp_balls 9 < 100; hp_matches 2 < 12,ineligible
+7905,Tanzim Sakib,bowler,191,19,3,502.0,True,eligible,True,eligible,True,eligible,strict
+7912,Vikramjit Singh,bowler,2,1,1,44.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+7914,Clayton Floyd,bowler,10,1,1,26.0,False,hp_balls 10 < 40; hp_matches 1 < 6,False,hp_balls 10 < 60; hp_matches 1 < 8,False,hp_balls 10 < 100; hp_matches 1 < 12,ineligible
+7916,Karima Gore,bowler,20,1,1,,False,hp_balls 20 < 40; hp_matches 1 < 6,False,hp_balls 20 < 60; hp_matches 1 < 8,False,hp_balls 20 < 100; hp_matches 1 < 12,ineligible
+7920,Nathan Ellis,bowler,217,30,5,725.0,True,eligible,True,eligible,True,eligible,strict
+7927,Janak Prakash,bowler,2,1,1,57.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+7928,Vinoth Baskaran,bowler,8,1,1,57.0,False,hp_balls 8 < 40; hp_matches 1 < 6,False,hp_balls 8 < 60; hp_matches 1 < 8,False,hp_balls 8 < 100; hp_matches 1 < 12,ineligible
+7929,Aryaman Sunil Uchil,bowler,13,2,1,32.0,False,hp_balls 13 < 40; hp_matches 2 < 6,False,hp_balls 13 < 60; hp_matches 2 < 8,False,hp_balls 13 < 100; hp_matches 2 < 12,ineligible
+7935,Mohammad Ghazanfar,bowler,36,2,1,72.0,False,hp_balls 36 < 40; hp_matches 2 < 6,False,hp_balls 36 < 60; hp_matches 2 < 8,False,hp_balls 36 < 100; hp_matches 2 < 12,ineligible
+7967,Noor Ahmad,bowler,236,29,5,1301.0,True,eligible,True,eligible,True,eligible,strict
+8005,Zawar Farid,bowler,34,3,1,46.0,False,hp_balls 34 < 40; hp_matches 3 < 6,False,hp_balls 34 < 60; hp_matches 3 < 8,False,hp_balls 34 < 100; hp_matches 3 < 12,ineligible
+8009,Junaid Siddique,bowler,85,10,4,269.0,True,eligible,True,eligible,False,hp_balls 85 < 100; hp_matches 10 < 12,moderate
+8049,Naseem Shah,bowler,115,15,6,493.0,True,eligible,True,eligible,True,eligible,strict
+8093,Nikhil Chaudhary,bowler,15,2,1,29.0,False,hp_balls 15 < 40; hp_matches 2 < 6,False,hp_balls 15 < 60; hp_matches 2 < 8,False,hp_balls 15 < 100; hp_matches 2 < 12,ineligible
+8141,Auqib Nabi,bowler,19,3,1,65.0,False,hp_balls 19 < 40; hp_matches 3 < 6,False,hp_balls 19 < 60; hp_matches 3 < 8,False,hp_balls 19 < 100; hp_matches 3 < 12,ineligible
+8177,Akash Madhwal,bowler,52,8,3,324.0,True,eligible,False,hp_balls 52 < 60,False,hp_balls 52 < 100; hp_matches 8 < 12,inclusive
+8182,Donovan Ferreira,bowler,10,2,2,105.0,False,hp_balls 10 < 40; hp_matches 2 < 6,False,hp_balls 10 < 60; hp_matches 2 < 8,False,hp_balls 10 < 100; hp_matches 2 < 12,ineligible
+8221,Nitish Reddy,bowler,69,12,4,526.0,True,eligible,True,eligible,False,hp_balls 69 < 100,moderate
+8295,Matthew Forde,bowler,75,13,3,352.0,True,eligible,True,eligible,False,hp_balls 75 < 100,moderate
+8298,Ramon Simmonds,bowler,42,4,2,39.0,False,hp_matches 4 < 6,False,hp_balls 42 < 60; hp_matches 4 < 8,False,hp_balls 42 < 100; hp_matches 4 < 12,ineligible
+8311,Dan Mousley,bowler,4,1,1,51.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+8326,Jayden Seales,bowler,26,4,2,160.0,False,hp_balls 26 < 40; hp_matches 4 < 6,False,hp_balls 26 < 60; hp_matches 4 < 8,False,hp_balls 26 < 100; hp_matches 4 < 12,ineligible
+8380,Mohammad Rishad Hossain,bowler,227,24,3,788.0,True,eligible,True,eligible,True,eligible,strict
+8389,Jayden Lennox,bowler,3,1,1,15.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+8424,Tanveer Sangha,bowler,23,5,1,148.0,False,hp_balls 23 < 40; hp_matches 5 < 6,False,hp_balls 23 < 60; hp_matches 5 < 8,False,hp_balls 23 < 100; hp_matches 5 < 12,ineligible
+8530,Kartik Tyagi,bowler,81,10,3,360.0,True,eligible,True,eligible,False,hp_balls 81 < 100; hp_matches 10 < 12,moderate
+8580,Yudhvir Singh,bowler,20,5,3,125.0,False,hp_balls 20 < 40; hp_matches 5 < 6,False,hp_balls 20 < 60; hp_matches 5 < 8,False,hp_balls 20 < 100; hp_matches 5 < 12,ineligible
+8611,Adithya Ashok,bowler,2,1,1,23.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+8614,William ORourke,bowler,50,6,2,145.0,True,eligible,False,hp_balls 50 < 60; hp_matches 6 < 8,False,hp_balls 50 < 100; hp_matches 6 < 12,inclusive
+8634,Ashwani Kumar,bowler,45,6,2,151.0,True,eligible,False,hp_balls 45 < 60; hp_matches 6 < 8,False,hp_balls 45 < 100; hp_matches 6 < 12,inclusive
+8638,Basil Hameed,bowler,34,4,3,106.0,False,hp_balls 34 < 40; hp_matches 4 < 6,False,hp_balls 34 < 60; hp_matches 4 < 8,False,hp_balls 34 < 100; hp_matches 4 < 12,ineligible
+8639,Kartik Meiyappan,bowler,32,3,1,68.0,False,hp_balls 32 < 40; hp_matches 3 < 6,False,hp_balls 32 < 60; hp_matches 3 < 8,False,hp_balls 32 < 100; hp_matches 3 < 12,ineligible
+8654,Cooper Connolly,bowler,10,2,1,108.0,False,hp_balls 10 < 40; hp_matches 2 < 6,False,hp_balls 10 < 60; hp_matches 2 < 8,False,hp_balls 10 < 100; hp_matches 2 < 12,ineligible
+8661,Matheesha Pathirana,bowler,214,24,6,1043.0,True,eligible,True,eligible,True,eligible,strict
+8664,Victor Nyauchi,bowler,10,1,1,14.0,False,hp_balls 10 < 40; hp_matches 1 < 6,False,hp_balls 10 < 60; hp_matches 1 < 8,False,hp_balls 10 < 100; hp_matches 1 < 12,ineligible
+8719,Aryan Lakra,bowler,6,1,1,12.0,False,hp_balls 6 < 40; hp_matches 1 < 6,False,hp_balls 6 < 60; hp_matches 1 < 8,False,hp_balls 6 < 100; hp_matches 1 < 12,ineligible
+8723,Mohammed Faraazuddin,bowler,6,1,1,42.0,False,hp_balls 6 < 40; hp_matches 1 < 6,False,hp_balls 6 < 60; hp_matches 1 < 8,False,hp_balls 6 < 100; hp_matches 1 < 12,ineligible
+8746,Vaibhav Arora,bowler,124,25,5,782.0,True,eligible,True,eligible,True,eligible,strict
+8805,Ottneil Baartman,bowler,50,8,2,293.0,True,eligible,False,hp_balls 50 < 60,False,hp_balls 50 < 100; hp_matches 8 < 12,inclusive
+15269,Mohammed Aslam,bowler,7,2,1,41.0,False,hp_balls 7 < 40; hp_matches 2 < 6,False,hp_balls 7 < 60; hp_matches 2 < 8,False,hp_balls 7 < 100; hp_matches 2 < 12,ineligible
+15279,Shiraz Khan,bowler,23,2,1,45.0,False,hp_balls 23 < 40; hp_matches 2 < 6,False,hp_balls 23 < 60; hp_matches 2 < 8,False,hp_balls 23 < 100; hp_matches 2 < 12,ineligible
+15280,Sayed Monib,bowler,24,2,1,48.0,False,hp_balls 24 < 40; hp_matches 2 < 6,False,hp_balls 24 < 60; hp_matches 2 < 8,False,hp_balls 24 < 100; hp_matches 2 < 12,ineligible
+16498,Sultan Ahmad,bowler,18,1,1,27.0,False,hp_balls 18 < 40; hp_matches 1 < 6,False,hp_balls 18 < 60; hp_matches 1 < 8,False,hp_balls 18 < 100; hp_matches 1 < 12,ineligible
+17424,Graham Hume,bowler,52,5,4,135.0,False,hp_matches 5 < 6,False,hp_balls 52 < 60; hp_matches 5 < 8,False,hp_balls 52 < 100; hp_matches 5 < 12,ineligible
+17430,Conor Olphert,bowler,1,1,1,36.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+17911,Nangeyalia Kharote,bowler,25,3,1,42.0,False,hp_balls 25 < 40; hp_matches 3 < 6,False,hp_balls 25 < 60; hp_matches 3 < 8,False,hp_balls 25 < 100; hp_matches 3 < 12,ineligible
+17918,Abdullah Tarakhail,bowler,10,1,1,11.0,False,hp_balls 10 < 40; hp_matches 1 < 6,False,hp_balls 10 < 60; hp_matches 1 < 8,False,hp_balls 10 < 100; hp_matches 1 < 12,ineligible
+17919,Mohammad Saleem Safi,bowler,14,1,1,8.0,False,hp_balls 14 < 40; hp_matches 1 < 6,False,hp_balls 14 < 60; hp_matches 1 < 8,False,hp_balls 14 < 100; hp_matches 1 < 12,ineligible
+19020,Ateeq Iqbal,bowler,9,2,1,57.0,False,hp_balls 9 < 40; hp_matches 2 < 6,False,hp_balls 9 < 60; hp_matches 2 < 8,False,hp_balls 9 < 100; hp_matches 2 < 12,ineligible
+19125,Ayush Shukla,bowler,41,5,2,108.0,False,hp_matches 5 < 6,False,hp_balls 41 < 60; hp_matches 5 < 8,False,hp_balls 41 < 100; hp_matches 5 < 12,ineligible
+19145,Aamer Jamal,bowler,10,2,2,67.0,False,hp_balls 10 < 40; hp_matches 2 < 6,False,hp_balls 10 < 60; hp_matches 2 < 8,False,hp_balls 10 < 100; hp_matches 2 < 12,ineligible
+19147,Faraz Akram,bowler,27,3,1,85.0,False,hp_balls 27 < 40; hp_matches 3 < 6,False,hp_balls 27 < 60; hp_matches 3 < 8,False,hp_balls 27 < 100; hp_matches 3 < 12,ineligible
+19312,Nuwan Thushara,bowler,161,21,5,663.0,True,eligible,True,eligible,True,eligible,strict
+19315,Vijayakanth Viyaskanth,bowler,24,1,1,84.0,False,hp_balls 24 < 40; hp_matches 1 < 6,False,hp_balls 24 < 60; hp_matches 1 < 8,False,hp_balls 24 < 100; hp_matches 1 < 12,ineligible
+19316,Maheesh Theekshana,bowler,508,58,6,1789.0,True,eligible,True,eligible,True,eligible,strict
+19530,Shahnawaz Dhani,bowler,60,6,2,117.0,True,eligible,False,hp_matches 6 < 8,False,hp_balls 60 < 100; hp_matches 6 < 12,inclusive
+19902,Tim Pringle,bowler,26,4,2,83.0,False,hp_balls 26 < 40; hp_matches 4 < 6,False,hp_balls 26 < 60; hp_matches 4 < 8,False,hp_balls 26 < 100; hp_matches 4 < 12,ineligible
+19998,Rajvardhan Hangargekar,bowler,6,2,1,37.0,False,hp_balls 6 < 40; hp_matches 2 < 6,False,hp_balls 6 < 60; hp_matches 2 < 8,False,hp_balls 6 < 100; hp_matches 2 < 12,ineligible
+20005,Arshad Khan,bowler,45,8,3,368.0,True,eligible,False,hp_balls 45 < 60,False,hp_balls 45 < 100; hp_matches 8 < 12,inclusive
+20006,Ramandeep Singh,bowler,6,2,2,83.0,False,hp_balls 6 < 40; hp_matches 2 < 6,False,hp_balls 6 < 60; hp_matches 2 < 8,False,hp_balls 6 < 100; hp_matches 2 < 12,ineligible
+20175,Nandan Yadav,bowler,2,1,1,6.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+20229,Mohammad Ali,bowler,1,1,1,43.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+20693,Kuldip Yadav,bowler,30,2,1,12.0,False,hp_balls 30 < 40; hp_matches 2 < 6,False,hp_balls 30 < 60; hp_matches 2 < 8,False,hp_balls 30 < 100; hp_matches 2 < 12,ineligible
+20704,Salman Mirza,bowler,47,10,2,292.0,True,eligible,False,hp_balls 47 < 60,False,hp_balls 47 < 100; hp_matches 10 < 12,inclusive
+20894,Aman Khan,bowler,6,1,1,,False,hp_balls 6 < 40; hp_matches 1 < 6,False,hp_balls 6 < 60; hp_matches 1 < 8,False,hp_balls 6 < 100; hp_matches 1 < 12,ineligible
+21780,Ernest Masuku,bowler,7,2,1,56.0,False,hp_balls 7 < 40; hp_matches 2 < 6,False,hp_balls 7 < 60; hp_matches 2 < 8,False,hp_balls 7 < 100; hp_matches 2 < 12,ineligible
+21784,Brad Evans,bowler,86,13,4,371.0,True,eligible,True,eligible,False,hp_balls 86 < 100,moderate
+21786,Tanaka Chivanga,bowler,1,1,1,30.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+22134,Luke Jongwe,bowler,112,14,3,242.0,True,eligible,True,eligible,True,eligible,strict
+22137,Fionn Hand,bowler,35,4,2,87.0,False,hp_balls 35 < 40; hp_matches 4 < 6,False,hp_balls 35 < 60; hp_matches 4 < 8,False,hp_balls 35 < 100; hp_matches 4 < 12,ineligible
+22187,Ryan Klein,bowler,10,1,1,14.0,False,hp_balls 10 < 40; hp_matches 1 < 6,False,hp_balls 10 < 60; hp_matches 1 < 8,False,hp_balls 10 < 100; hp_matches 1 < 12,ineligible
+22188,Aryan Dutt,bowler,13,2,1,109.0,False,hp_balls 13 < 40; hp_matches 2 < 6,False,hp_balls 13 < 60; hp_matches 2 < 8,False,hp_balls 13 < 100; hp_matches 2 < 12,ineligible
+22471,Matthew Humphreys,bowler,67,10,3,223.0,True,eligible,True,eligible,False,hp_balls 67 < 100; hp_matches 10 < 12,moderate
+22920,Jacob Duffy,bowler,150,19,6,738.0,True,eligible,True,eligible,True,eligible,strict
+23311,Jacob Bethell,bowler,18,4,3,72.0,False,hp_balls 18 < 40; hp_matches 4 < 6,False,hp_balls 18 < 60; hp_matches 4 < 8,False,hp_balls 18 < 100; hp_matches 4 < 12,ineligible
+23467,Gurjapneet Singh,bowler,19,3,1,140.0,False,hp_balls 19 < 40; hp_matches 3 < 6,False,hp_balls 19 < 60; hp_matches 3 < 8,False,hp_balls 19 < 100; hp_matches 3 < 12,ineligible
+24017,Brian Bennett,bowler,15,4,1,122.0,False,hp_balls 15 < 40; hp_matches 4 < 6,False,hp_balls 15 < 60; hp_matches 4 < 8,False,hp_balls 15 < 100; hp_matches 4 < 12,ineligible
+24346,Mohamed Shafeeq,bowler,29,2,1,40.0,False,hp_balls 29 < 40; hp_matches 2 < 6,False,hp_balls 29 < 60; hp_matches 2 < 8,False,hp_balls 29 < 100; hp_matches 2 < 12,ineligible
+24381,Shariz Ahmad,bowler,11,1,1,25.0,False,hp_balls 11 < 40; hp_matches 1 < 6,False,hp_balls 11 < 60; hp_matches 1 < 8,False,hp_balls 11 < 100; hp_matches 1 < 12,ineligible
+24473,Sonny Baker,bowler,2,2,1,96.0,False,hp_balls 2 < 40; hp_matches 2 < 6,False,hp_balls 2 < 60; hp_matches 2 < 8,False,hp_balls 2 < 100; hp_matches 2 < 12,ineligible
+24475,Rehan Ahmed,bowler,28,5,3,183.0,False,hp_balls 28 < 40; hp_matches 5 < 6,False,hp_balls 28 < 60; hp_matches 5 < 8,False,hp_balls 28 < 100; hp_matches 5 < 12,ineligible
+24812,Chris Greaves,bowler,4,2,1,50.0,False,hp_balls 4 < 40; hp_matches 2 < 6,False,hp_balls 4 < 60; hp_matches 2 < 8,False,hp_balls 4 < 100; hp_matches 2 < 12,ineligible
+25011,Liam Mccarthy,bowler,18,2,1,52.0,False,hp_balls 18 < 40; hp_matches 2 < 6,False,hp_balls 18 < 60; hp_matches 2 < 8,False,hp_balls 18 < 100; hp_matches 2 < 12,ineligible
+25030,Zaman Khan,bowler,35,4,2,144.0,False,hp_balls 35 < 40; hp_matches 4 < 6,False,hp_balls 35 < 60; hp_matches 4 < 8,False,hp_balls 35 < 100; hp_matches 4 < 12,ineligible
+25048,Umran Malik,bowler,104,13,2,496.0,True,eligible,True,eligible,True,eligible,strict
+25128,Nqabayomzi Peter,bowler,20,2,1,150.0,False,hp_balls 20 < 40; hp_matches 2 < 6,False,hp_balls 20 < 60; hp_matches 2 < 8,False,hp_balls 20 < 100; hp_matches 2 < 12,ineligible
+25132,Praful Hinge,bowler,26,3,1,142.0,False,hp_balls 26 < 40; hp_matches 3 < 6,False,hp_balls 26 < 60; hp_matches 3 < 8,False,hp_balls 26 < 100; hp_matches 3 < 12,ineligible
+25138,Harsh Dubey,bowler,7,2,2,193.0,False,hp_balls 7 < 40; hp_matches 2 < 6,False,hp_balls 7 < 60; hp_matches 2 < 8,False,hp_balls 7 < 100; hp_matches 2 < 12,ineligible
+25216,Andile Simelane,bowler,10,1,1,104.0,False,hp_balls 10 < 40; hp_matches 1 < 6,False,hp_balls 10 < 60; hp_matches 1 < 8,False,hp_balls 10 < 100; hp_matches 1 < 12,ineligible
+25231,Samay Shrivastava,bowler,15,2,1,30.0,False,hp_balls 15 < 40; hp_matches 2 < 6,False,hp_balls 15 < 60; hp_matches 2 < 8,False,hp_balls 15 < 100; hp_matches 2 < 12,ineligible
+25507,Edson Silva,bowler,11,1,1,7.0,False,hp_balls 11 < 40; hp_matches 1 < 6,False,hp_balls 11 < 60; hp_matches 1 < 8,False,hp_balls 11 < 100; hp_matches 1 < 12,ineligible
+25809,Juanoy Drysdale,bowler,12,1,1,26.0,False,hp_balls 12 < 40; hp_matches 1 < 6,False,hp_balls 12 < 60; hp_matches 1 < 8,False,hp_balls 12 < 100; hp_matches 1 < 12,ineligible
+26519,Janith Liyanage,bowler,4,1,1,4.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+26663,Kwena Maphaka,bowler,41,5,2,292.0,False,hp_matches 5 < 6,False,hp_balls 41 < 60; hp_matches 5 < 8,False,hp_balls 41 < 100; hp_matches 5 < 12,ineligible
+26795,Joel Davies,bowler,21,2,1,29.0,False,hp_balls 21 < 40; hp_matches 2 < 6,False,hp_balls 21 < 60; hp_matches 2 < 8,False,hp_balls 21 < 100; hp_matches 2 < 12,ineligible
+26834,Raj Bawa,bowler,20,1,1,12.0,False,hp_balls 20 < 40; hp_matches 1 < 6,False,hp_balls 20 < 60; hp_matches 1 < 8,False,hp_balls 20 < 100; hp_matches 1 < 12,ineligible
+26916,Yasir Mohammad,bowler,2,1,1,34.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+26988,Jitenkumar Ramanandi,bowler,6,1,1,43.0,False,hp_balls 6 < 40; hp_matches 1 < 6,False,hp_balls 6 < 60; hp_matches 1 < 8,False,hp_balls 6 < 100; hp_matches 1 < 12,ineligible
+27004,Hassnain Shah,bowler,32,2,1,11.0,False,hp_balls 32 < 40; hp_matches 2 < 6,False,hp_balls 32 < 60; hp_matches 2 < 8,False,hp_balls 32 < 100; hp_matches 2 < 12,ineligible
+27364,Simranjeet Kang,bowler,44,2,1,14.0,False,hp_matches 2 < 6,False,hp_balls 44 < 60; hp_matches 2 < 8,False,hp_balls 44 < 100; hp_matches 2 < 12,ineligible
+27373,Muhammad Farooq,bowler,15,1,1,4.0,False,hp_balls 15 < 40; hp_matches 1 < 6,False,hp_balls 15 < 60; hp_matches 1 < 8,False,hp_balls 15 < 100; hp_matches 1 < 12,ineligible
+27380,Harshit Kaushik,bowler,16,2,1,45.0,False,hp_balls 16 < 40; hp_matches 2 < 6,False,hp_balls 16 < 60; hp_matches 2 < 8,False,hp_balls 16 < 100; hp_matches 2 < 12,ineligible
+27390,Matiullah Khan,bowler,2,1,1,65.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+27460,Ali Naseer,bowler,12,2,1,25.0,False,hp_balls 12 < 40; hp_matches 2 < 6,False,hp_balls 12 < 60; hp_matches 2 < 8,False,hp_balls 12 < 100; hp_matches 2 < 12,ineligible
+27464,Aayan Afzal Khan,bowler,26,3,2,76.0,False,hp_balls 26 < 40; hp_matches 3 < 6,False,hp_balls 26 < 60; hp_matches 3 < 8,False,hp_balls 26 < 100; hp_matches 3 < 12,ineligible
+27466,Dhruv Parashar,bowler,43,5,1,150.0,False,hp_matches 5 < 6,False,hp_balls 43 < 60; hp_matches 5 < 8,False,hp_balls 43 < 100; hp_matches 5 < 12,ineligible
+27504,Dushan Hemantha,bowler,4,1,1,66.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+27516,Ihsanullah Ihsanullah,bowler,15,3,1,81.0,False,hp_balls 15 < 40; hp_matches 3 < 6,False,hp_balls 15 < 60; hp_matches 3 < 8,False,hp_balls 15 < 100; hp_matches 3 < 12,ineligible
+27743,DT Doram,bowler,15,3,1,153.0,False,hp_balls 15 < 40; hp_matches 3 < 6,False,hp_balls 15 < 60; hp_matches 3 < 8,False,hp_balls 15 < 100; hp_matches 3 < 12,ineligible
+27956,Prashant Solanki,bowler,7,1,1,29.0,False,hp_balls 7 < 40; hp_matches 1 < 6,False,hp_balls 7 < 60; hp_matches 1 < 8,False,hp_balls 7 < 100; hp_matches 1 < 12,ineligible
+27959,Hrithik Shokeen,bowler,39,4,2,174.0,False,hp_balls 39 < 40; hp_matches 4 < 6,False,hp_balls 39 < 60; hp_matches 4 < 8,False,hp_balls 39 < 100; hp_matches 4 < 12,ineligible
+27960,Mayank Yadav,bowler,47,7,2,479.0,True,eligible,False,hp_balls 47 < 60; hp_matches 7 < 8,False,hp_balls 47 < 100; hp_matches 7 < 12,inclusive
+27964,Anshul Kamboj,bowler,54,15,3,459.0,True,eligible,False,hp_balls 54 < 60,False,hp_balls 54 < 100,inclusive
+28018,Ashok Sharma,bowler,22,3,1,165.0,False,hp_balls 22 < 40; hp_matches 3 < 6,False,hp_balls 22 < 60; hp_matches 3 < 8,False,hp_balls 22 < 100; hp_matches 3 < 12,ineligible
+28021,Saurabh Dubey,bowler,6,1,1,81.0,False,hp_balls 6 < 40; hp_matches 1 < 6,False,hp_balls 6 < 60; hp_matches 1 < 8,False,hp_balls 6 < 100; hp_matches 1 < 12,ineligible
+28655,Muhammad Rohid,bowler,47,4,1,74.0,False,hp_matches 4 < 6,False,hp_balls 47 < 60; hp_matches 4 < 8,False,hp_balls 47 < 100; hp_matches 4 < 12,ineligible
+28756,Haider Ali,bowler,73,7,2,200.0,True,eligible,False,hp_matches 7 < 8,False,hp_balls 73 < 100; hp_matches 7 < 12,inclusive
+28908,Vincent Masekesa,bowler,6,1,1,13.0,False,hp_balls 6 < 40; hp_matches 1 < 6,False,hp_balls 6 < 60; hp_matches 1 < 8,False,hp_balls 6 < 100; hp_matches 1 < 12,ineligible
+28915,Trevor Gwandu,bowler,49,6,3,113.0,True,eligible,False,hp_balls 49 < 60; hp_matches 6 < 8,False,hp_balls 49 < 100; hp_matches 6 < 12,inclusive
+29066,Zakary Foulkes,bowler,121,11,4,280.0,True,eligible,True,eligible,False,hp_matches 11 < 12,moderate
+29080,Muhammad Khan,bowler,24,1,1,83.0,False,hp_balls 24 < 40; hp_matches 1 < 6,False,hp_balls 24 < 60; hp_matches 1 < 8,False,hp_balls 24 < 100; hp_matches 1 < 12,ineligible
+29558,Muhammad Arfan,bowler,9,2,1,40.0,False,hp_balls 9 < 40; hp_matches 2 < 6,False,hp_balls 9 < 60; hp_matches 2 < 8,False,hp_balls 9 < 100; hp_matches 2 < 12,ineligible
+29699,Ibrahim Takahashi,bowler,9,1,1,4.0,False,hp_balls 9 < 40; hp_matches 1 < 6,False,hp_balls 9 < 60; hp_matches 1 < 8,False,hp_balls 9 < 100; hp_matches 1 < 12,ineligible
+29888,Harshit Rana,bowler,189,25,5,739.0,True,eligible,True,eligible,True,eligible,strict
+30925,Bradley Currie,bowler,22,4,1,90.0,False,hp_balls 22 < 40; hp_matches 4 < 6,False,hp_balls 22 < 60; hp_matches 4 < 8,False,hp_balls 22 < 100; hp_matches 4 < 12,ineligible
+31107,Yasin Patel,bowler,15,2,1,57.0,False,hp_balls 15 < 40; hp_matches 2 < 6,False,hp_balls 15 < 60; hp_matches 2 < 8,False,hp_balls 15 < 100; hp_matches 2 < 12,ineligible
+31513,Ethan Dsouza,bowler,6,1,1,,False,hp_balls 6 < 40; hp_matches 1 < 6,False,hp_balls 6 < 60; hp_matches 1 < 8,False,hp_balls 6 < 100; hp_matches 1 < 12,ineligible
+31835,Akshay Roopak Puri,bowler,11,1,1,49.0,False,hp_balls 11 < 40; hp_matches 1 < 6,False,hp_balls 11 < 60; hp_matches 1 < 8,False,hp_balls 11 < 100; hp_matches 1 < 12,ineligible
+32401,Akhil Kumar,bowler,7,1,1,17.0,False,hp_balls 7 < 40; hp_matches 1 < 6,False,hp_balls 7 < 60; hp_matches 1 < 8,False,hp_balls 7 < 100; hp_matches 1 < 12,ineligible
+32862,Allah Ghazanfar,bowler,66,7,2,244.0,True,eligible,False,hp_matches 7 < 8,False,hp_balls 66 < 100; hp_matches 7 < 12,inclusive
+33440,Adwitya Bhargava,bowler,2,1,1,11.0,False,hp_balls 2 < 40; hp_matches 1 < 6,False,hp_balls 2 < 60; hp_matches 1 < 8,False,hp_balls 2 < 100; hp_matches 1 < 12,ineligible
+33443,Sabir Ali,bowler,15,2,1,37.0,False,hp_balls 15 < 40; hp_matches 2 < 6,False,hp_balls 15 < 60; hp_matches 2 < 8,False,hp_balls 15 < 100; hp_matches 2 < 12,ineligible
+33969,Tinotenda Maposa,bowler,27,5,1,160.0,False,hp_balls 27 < 40; hp_matches 5 < 6,False,hp_balls 27 < 60; hp_matches 5 < 8,False,hp_balls 27 < 100; hp_matches 5 < 12,ineligible
+34485,Sufiyan Muqeem,bowler,94,9,2,257.0,True,eligible,True,eligible,False,hp_balls 94 < 100; hp_matches 9 < 12,moderate
+34522,Brandon McMullen,bowler,17,2,1,35.0,False,hp_balls 17 < 40; hp_matches 2 < 6,False,hp_balls 17 < 60; hp_matches 2 < 8,False,hp_balls 17 < 100; hp_matches 2 < 12,ineligible
+34969,Manav Suthar,bowler,4,1,1,46.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+35122,Shah Faisal,bowler,42,3,1,36.0,False,hp_matches 3 < 6,False,hp_balls 42 < 60; hp_matches 3 < 8,False,hp_balls 42 < 100; hp_matches 3 < 12,ineligible
+35318,Sakib Hussain,bowler,29,3,1,245.0,False,hp_balls 29 < 40; hp_matches 3 < 6,False,hp_balls 29 < 60; hp_matches 3 < 8,False,hp_balls 29 < 100; hp_matches 3 < 12,ineligible
+36551,Zishan Motara,bowler,1,1,1,5.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+36553,Jediah Blades,bowler,42,5,1,89.0,False,hp_matches 5 < 6,False,hp_balls 42 < 60; hp_matches 5 < 8,False,hp_balls 42 < 100; hp_matches 5 < 12,ineligible
+36981,Himanshu Sharma,bowler,13,1,1,17.0,False,hp_balls 13 < 40; hp_matches 1 < 6,False,hp_balls 13 < 60; hp_matches 1 < 8,False,hp_balls 13 < 100; hp_matches 1 < 12,ineligible
+36982,Suyash Sharma,bowler,126,13,4,696.0,True,eligible,True,eligible,True,eligible,strict
+37052,Naman Dhir,bowler,7,3,2,121.0,False,hp_balls 7 < 40; hp_matches 3 < 6,False,hp_balls 7 < 60; hp_matches 3 < 8,False,hp_balls 7 < 100; hp_matches 3 < 12,ineligible
+37939,Nahid Rana,bowler,26,3,2,75.0,False,hp_balls 26 < 40; hp_matches 3 < 6,False,hp_balls 26 < 60; hp_matches 3 < 8,False,hp_balls 26 < 100; hp_matches 3 < 12,ineligible
+38044,Mahli Beardman,bowler,5,1,1,21.0,False,hp_balls 5 < 40; hp_matches 1 < 6,False,hp_balls 5 < 60; hp_matches 1 < 8,False,hp_balls 5 < 100; hp_matches 1 < 12,ineligible
+38855,Mohammad Saifuddin,bowler,122,15,4,353.0,True,eligible,True,eligible,True,eligible,strict
+39657,Eshan Malinga,bowler,119,13,2,725.0,True,eligible,True,eligible,True,eligible,strict
+39991,Parveen Kumar,bowler,17,1,1,32.0,False,hp_balls 17 < 40; hp_matches 1 < 6,False,hp_balls 17 < 60; hp_matches 1 < 8,False,hp_balls 17 < 100; hp_matches 1 < 12,ineligible
+41503,Yash Punja,bowler,14,1,1,172.0,False,hp_balls 14 < 40; hp_matches 1 < 6,False,hp_balls 14 < 60; hp_matches 1 < 8,False,hp_balls 14 < 100; hp_matches 1 < 12,ineligible
+42548,Muhammad Jawadullah,bowler,45,6,3,169.0,True,eligible,False,hp_balls 45 < 60; hp_matches 6 < 8,False,hp_balls 45 < 100; hp_matches 6 < 12,inclusive
+45381,PV Satyanarayan Raju,bowler,7,1,1,22.0,False,hp_balls 7 < 40; hp_matches 1 < 6,False,hp_balls 7 < 60; hp_matches 1 < 8,False,hp_balls 7 < 100; hp_matches 1 < 12,ineligible
+45457,Zach Lion Cachet,bowler,6,2,1,64.0,False,hp_balls 6 < 40; hp_matches 2 < 6,False,hp_balls 6 < 60; hp_matches 2 < 8,False,hp_balls 6 < 100; hp_matches 2 < 12,ineligible
+45966,Prashant Veer,bowler,1,1,1,11.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+46066,Vipraj Nigam,bowler,31,5,2,270.0,False,hp_balls 31 < 40; hp_matches 5 < 6,False,hp_balls 31 < 60; hp_matches 5 < 8,False,hp_balls 31 < 100; hp_matches 5 < 12,ineligible
+46378,Kyle Klein,bowler,28,3,1,118.0,False,hp_balls 28 < 40; hp_matches 3 < 6,False,hp_balls 28 < 60; hp_matches 3 < 8,False,hp_balls 28 < 100; hp_matches 3 < 12,ineligible
+47050,Shamar Joseph,bowler,123,14,3,385.0,True,eligible,True,eligible,True,eligible,strict
+47371,Zuhaid Zubair,bowler,1,1,1,18.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+47403,Newman Nyamhuri,bowler,1,1,1,95.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+47542,Charles Hinze,bowler,3,1,1,10.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+47724,Jahandad Khan,bowler,15,3,1,96.0,False,hp_balls 15 < 40; hp_matches 3 < 6,False,hp_balls 15 < 60; hp_matches 3 < 8,False,hp_balls 15 < 100; hp_matches 3 < 12,ineligible
+48557,Vignesh Puthur,bowler,1,1,1,72.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+48616,Abdul Saqlain,bowler,25,1,1,46.0,False,hp_balls 25 < 40; hp_matches 1 < 6,False,hp_balls 25 < 60; hp_matches 1 < 8,False,hp_balls 25 < 100; hp_matches 1 < 12,ineligible
+50062,Nqobani Mokoena,bowler,3,1,1,64.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+52338,Usman Tariq,bowler,3,1,1,63.0,False,hp_balls 3 < 40; hp_matches 1 < 6,False,hp_balls 3 < 60; hp_matches 1 < 8,False,hp_balls 3 < 100; hp_matches 1 < 12,ineligible
+54404,Benjamin Ito,bowler,4,1,1,2.0,False,hp_balls 4 < 40; hp_matches 1 < 6,False,hp_balls 4 < 60; hp_matches 1 < 8,False,hp_balls 4 < 100; hp_matches 1 < 12,ineligible
+56685,Abdullah Ahmadzai,bowler,64,7,2,136.0,True,eligible,False,hp_matches 7 < 8,False,hp_balls 64 < 100; hp_matches 7 < 12,inclusive
+56817,Shivang Kumar,bowler,17,3,1,223.0,False,hp_balls 17 < 40; hp_matches 3 < 6,False,hp_balls 17 < 60; hp_matches 3 < 8,False,hp_balls 17 < 100; hp_matches 3 < 12,ineligible
+56830,Madhav Tiwari,bowler,13,1,1,56.0,False,hp_balls 13 < 40; hp_matches 1 < 6,False,hp_balls 13 < 60; hp_matches 1 < 8,False,hp_balls 13 < 100; hp_matches 1 < 12,ineligible
+58134,Digvesh Rathi,bowler,79,14,2,482.0,True,eligible,True,eligible,False,hp_balls 79 < 100,moderate
+58246,Prince Yadav,bowler,131,20,2,616.0,True,eligible,True,eligible,True,eligible,strict
+58727,Abhinandan Singh,bowler,1,1,1,59.0,False,hp_balls 1 < 40; hp_matches 1 < 6,False,hp_balls 1 < 60; hp_matches 1 < 8,False,hp_balls 1 < 100; hp_matches 1 < 12,ineligible
+59045,Jai Moondra,bowler,17,2,1,33.0,False,hp_balls 17 < 40; hp_matches 2 < 6,False,hp_balls 17 < 60; hp_matches 2 < 8,False,hp_balls 17 < 100; hp_matches 2 < 12,ineligible
+60609,Navin Bidaisee,bowler,37,3,1,16.0,False,hp_balls 37 < 40; hp_matches 3 < 6,False,hp_balls 37 < 60; hp_matches 3 < 8,False,hp_balls 37 < 100; hp_matches 3 < 12,ineligible
+67036,Brijesh Sharma,bowler,39,6,1,258.0,False,hp_balls 39 < 40,False,hp_balls 39 < 60; hp_matches 6 < 8,False,hp_balls 39 < 100; hp_matches 6 < 12,ineligible
+67864,Matt Hollard,bowler,9,2,1,43.0,False,hp_balls 9 < 40; hp_matches 2 < 6,False,hp_balls 9 < 60; hp_matches 2 < 8,False,hp_balls 9 < 100; hp_matches 2 < 12,ineligible
+71727,Razaullah Razaullah,bowler,4,2,1,35.0,False,hp_balls 4 < 40; hp_matches 2 < 6,False,hp_balls 4 < 60; hp_matches 2 < 8,False,hp_balls 4 < 100; hp_matches 2 < 12,ineligible

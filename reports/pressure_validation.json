@@ -1,0 +1,387 @@
+{
+  "hp_vs_rest": {
+    "high_pressure": {
+      "strike_rate": 140.31881381707584,
+      "dot_pct": 33.355874014928865,
+      "boundary_pct": 17.85482067153892,
+      "wicket_prob": 6.296652708783062,
+      "bowling_economy": 8.752661307842711,
+      "mean_abs_realized_wpa": 0.03176142195937533,
+      "mean_leverage": 0.031457695340059516,
+      "n": 38449
+    },
+    "ordinary": {
+      "strike_rate": 139.8877549633777,
+      "dot_pct": 33.83728037662726,
+      "boundary_pct": 18.140793050082582,
+      "wicket_prob": 5.183176622059225,
+      "bowling_economy": 8.743412738316868,
+      "mean_abs_realized_wpa": 0.013750751437595578,
+      "mean_leverage": 0.013772000971743208,
+      "n": 153786
+    }
+  },
+  "ratios": {
+    "variance_ratio_runs": 0.992160617972874,
+    "wpa_swing_ratio": 2.3097953667126316
+  },
+  "pressure_by_over": {
+    "1": 0.3477,
+    "2": 0.3384,
+    "3": 0.3556,
+    "4": 0.3536,
+    "5": 0.3551,
+    "6": 0.3581,
+    "7": 0.3607,
+    "8": 0.3683,
+    "9": 0.3745,
+    "10": 0.3815,
+    "11": 0.3895,
+    "12": 0.3948,
+    "13": 0.4006,
+    "14": 0.4061,
+    "15": 0.4136,
+    "16": 0.43,
+    "17": 0.4368,
+    "18": 0.4389,
+    "19": 0.4466,
+    "20": 0.4577
+  },
+  "pressure_by_wickets": {
+    "0": 0.3354,
+    "1": 0.3581,
+    "2": 0.3807,
+    "3": 0.4039,
+    "4": 0.4224,
+    "5": 0.4292,
+    "6": 0.4435,
+    "7": 0.4401,
+    "8": 0.4408,
+    "9": 0.4369
+  },
+  "pressure_by_rrr": {
+    "<6": 0.1889,
+    "6-8": 0.3071,
+    "8-10": 0.4467,
+    "10-12": 0.477,
+    "12+": 0.4754
+  },
+  "pressure_by_innings": {
+    "1": 0.3713,
+    "2": 0.406
+  },
+  "pressure_by_phase": {
+    "death": 0.4411,
+    "middle": 0.3875,
+    "powerplay": 0.3514
+  },
+  "hp_share_by_competition": {
+    "IPL": 0.1868,
+    "senior T20I": 0.211
+  },
+  "wp_calibration_by_pressure_decile": {
+    "(0.0426, 0.269]": {
+      "ece": 0.0196,
+      "n": 18381
+    },
+    "(0.269, 0.391]": {
+      "ece": 0.0296,
+      "n": 18380
+    },
+    "(0.391, 0.46]": {
+      "ece": 0.0145,
+      "n": 18380
+    },
+    "(0.46, 0.514]": {
+      "ece": 0.0194,
+      "n": 18380
+    },
+    "(0.514, 0.878]": {
+      "ece": 0.0365,
+      "n": 18381
+    }
+  },
+  "worked_examples": [
+    {
+      "example": "extreme_death_chase",
+      "match_id": 20188,
+      "innings": 2,
+      "over": 20,
+      "score_before": 186.0,
+      "wickets_before": 7,
+      "balls_remaining": 3,
+      "target": 198.0,
+      "required_run_rate": 24.0,
+      "wp_before": 0.001,
+      "leverage": 0.0144,
+      "components": {
+        "difficulty": 0.933,
+        "resource_stress": 0.993,
+        "collapse_pressure": 0.4,
+        "momentum_stress": 0.167,
+        "phase_pressure": 1.0,
+        "match_importance": 0.2,
+        "match_closeness": 0.002,
+        "leverage_norm": 0.12
+      },
+      "pressure_a": 0.654,
+      "pressure_b": 0.398,
+      "pressure_c": 0.509,
+      "category": "HIGH"
+    },
+    {
+      "example": "easy_chase_end",
+      "match_id": 39810,
+      "innings": 2,
+      "over": 16,
+      "score_before": 199.0,
+      "wickets_before": 1,
+      "balls_remaining": 26,
+      "target": 205.0,
+      "required_run_rate": 1.38,
+      "wp_before": 1.0,
+      "leverage": 0.0,
+      "components": {
+        "difficulty": 0.06,
+        "resource_stress": 0.805,
+        "collapse_pressure": 0.0,
+        "momentum_stress": 0.0,
+        "phase_pressure": 1.0,
+        "match_importance": 0.2,
+        "match_closeness": 0.0,
+        "leverage_norm": 0.0
+      },
+      "pressure_a": 0.259,
+      "pressure_b": 0.024,
+      "pressure_c": 0.149,
+      "category": "LOW"
+    },
+    {
+      "example": "powerplay_start",
+      "match_id": 29924,
+      "innings": 1,
+      "over": 1,
+      "score_before": 0.0,
+      "wickets_before": 0,
+      "balls_remaining": 120,
+      "target": 161.0,
+      "required_run_rate": null,
+      "wp_before": 0.499,
+      "leverage": 0.0173,
+      "components": {
+        "difficulty": 0.056,
+        "resource_stress": 0.0,
+        "collapse_pressure": 0.0,
+        "phase_pressure": 0.3,
+        "match_importance": 0.2,
+        "match_closeness": 0.997,
+        "leverage_norm": 0.144
+      },
+      "pressure_a": 0.067,
+      "pressure_b": 0.45,
+      "pressure_c": 0.328,
+      "category": "LOW"
+    },
+    {
+      "example": "collapse_middle",
+      "match_id": 40753,
+      "innings": 2,
+      "over": 9,
+      "score_before": 70.0,
+      "wickets_before": 5,
+      "balls_remaining": 71,
+      "target": 279.0,
+      "required_run_rate": 17.66,
+      "wp_before": 0.0,
+      "leverage": 0.0,
+      "components": {
+        "difficulty": 0.898,
+        "resource_stress": 0.704,
+        "collapse_pressure": 1.0,
+        "momentum_stress": 0.111,
+        "phase_pressure": 0.4,
+        "match_importance": 0.2,
+        "match_closeness": 0.0,
+        "leverage_norm": 0.0
+      },
+      "pressure_a": 0.652,
+      "pressure_b": 0.359,
+      "pressure_c": 0.452,
+      "category": "MODERATE"
+    },
+    {
+      "example": "anchor_under_par",
+      "match_id": 40734,
+      "innings": 1,
+      "over": 15,
+      "score_before": 81.0,
+      "wickets_before": 5,
+      "balls_remaining": 36,
+      "target": 144.0,
+      "required_run_rate": null,
+      "wp_before": 0.153,
+      "leverage": 0.0057,
+      "components": {
+        "difficulty": 0.865,
+        "resource_stress": 0.85,
+        "collapse_pressure": 0.0,
+        "momentum_stress": 0.0,
+        "phase_pressure": 0.4,
+        "match_importance": 0.2,
+        "match_closeness": 0.306,
+        "leverage_norm": 0.047
+      },
+      "pressure_a": 0.447,
+      "pressure_b": 0.478,
+      "pressure_c": 0.509,
+      "category": "HIGH"
+    },
+    {
+      "example": "high_rrr_mid",
+      "match_id": 20225,
+      "innings": 2,
+      "over": 10,
+      "score_before": 77.0,
+      "wickets_before": 2,
+      "balls_remaining": 66,
+      "target": 215.0,
+      "required_run_rate": 12.55,
+      "wp_before": 0.159,
+      "leverage": 0.0427,
+      "components": {
+        "difficulty": 0.752,
+        "resource_stress": 0.56,
+        "collapse_pressure": 0.0,
+        "momentum_stress": 0.139,
+        "phase_pressure": 0.4,
+        "match_importance": 0.2,
+        "match_closeness": 0.317,
+        "leverage_norm": 0.356
+      },
+      "pressure_a": 0.391,
+      "pressure_b": 0.499,
+      "pressure_c": 0.483,
+      "category": "HIGH"
+    },
+    {
+      "example": "defending_low_total",
+      "match_id": 31279,
+      "innings": 1,
+      "over": 17,
+      "score_before": 108.0,
+      "wickets_before": 3,
+      "balls_remaining": 22,
+      "target": 142.0,
+      "required_run_rate": null,
+      "wp_before": 0.179,
+      "leverage": 0.0337,
+      "components": {
+        "difficulty": 0.713,
+        "resource_stress": 0.872,
+        "collapse_pressure": 0.0,
+        "momentum_stress": 0.0,
+        "phase_pressure": 1.0,
+        "match_importance": 0.2,
+        "match_closeness": 0.359,
+        "leverage_norm": 0.281
+      },
+      "pressure_a": 0.465,
+      "pressure_b": 0.485,
+      "pressure_c": 0.52,
+      "category": "HIGH"
+    },
+    {
+      "example": "knockout_death",
+      "match_id": 14145,
+      "innings": 2,
+      "over": 20,
+      "score_before": 171.0,
+      "wickets_before": 5,
+      "balls_remaining": 3,
+      "target": 178.0,
+      "required_run_rate": 14.0,
+      "wp_before": 0.489,
+      "leverage": 0.361,
+      "components": {
+        "difficulty": 0.833,
+        "resource_stress": 0.988,
+        "collapse_pressure": 0.6,
+        "momentum_stress": 0.139,
+        "phase_pressure": 1.0,
+        "match_importance": 0.2,
+        "match_closeness": 0.978,
+        "leverage_norm": 1.0
+      },
+      "pressure_a": 0.659,
+      "pressure_b": 0.924,
+      "pressure_c": 0.878,
+      "category": "EXTREME"
+    },
+    {
+      "example": "boundary_drought",
+      "match_id": 16655,
+      "innings": 1,
+      "over": 10,
+      "score_before": 42.0,
+      "wickets_before": 4,
+      "balls_remaining": 65,
+      "target": 128.0,
+      "required_run_rate": null,
+      "wp_before": 0.158,
+      "leverage": 0.0047,
+      "components": {
+        "difficulty": 0.687,
+        "resource_stress": 0.675,
+        "collapse_pressure": 0.0,
+        "momentum_stress": 0.5,
+        "phase_pressure": 0.4,
+        "match_importance": 0.2,
+        "match_closeness": 0.316,
+        "leverage_norm": 0.039
+      },
+      "pressure_a": 0.442,
+      "pressure_b": 0.409,
+      "pressure_c": 0.442,
+      "category": "MODERATE"
+    },
+    {
+      "example": "new_batter_after_wicket",
+      "match_id": 45852,
+      "innings": 2,
+      "over": 11,
+      "score_before": 76.0,
+      "wickets_before": 5,
+      "balls_remaining": 58,
+      "target": 208.0,
+      "required_run_rate": 13.66,
+      "wp_before": 0.001,
+      "leverage": 0.0003,
+      "components": {
+        "difficulty": 0.876,
+        "resource_stress": 0.758,
+        "collapse_pressure": 0.6,
+        "momentum_stress": 0.222,
+        "phase_pressure": 0.4,
+        "match_importance": 0.2,
+        "match_closeness": 0.002,
+        "leverage_norm": 0.002
+      },
+      "pressure_a": 0.59,
+      "pressure_b": 0.352,
+      "pressure_c": 0.44,
+      "category": "MODERATE"
+    }
+  ],
+  "calibrated_weights": {
+    "model_b": {
+      "match_closeness": 0.4,
+      "leverage_norm": 0.2,
+      "difficulty": 0.4
+    },
+    "model_c": {
+      "B": 0.7,
+      "A": 0.2,
+      "resource_stress": 0.1
+    }
+  }
+}

@@ -1,0 +1,694 @@
+{
+  "generated_utc": "2026-11-18T10:43:27.032365+00:00",
+  "temporal_batters": {
+    "rank_2022-2023_eval_2024-2026": {
+      "n_players_both_eras": 84,
+      "spearman": 0.038,
+      "kendall": 0.032,
+      "top15_overlap": 1,
+      "top15_jaccard": 0.034
+    },
+    "rank_2022-2024_eval_2025-2026": {
+      "n_players_both_eras": 74,
+      "spearman": 0.032,
+      "kendall": 0.027,
+      "top15_overlap": 1,
+      "top15_jaccard": 0.034
+    },
+    "rank_2022-2025_eval_2026-2026": {
+      "n_players_both_eras": 34,
+      "spearman": 0.212,
+      "kendall": 0.162,
+      "top15_overlap": 1,
+      "top15_jaccard": 0.034
+    }
+  },
+  "temporal_bowlers": {
+    "rank_2022-2023_eval_2024-2026": {
+      "n_players_both_eras": 81,
+      "spearman": -0.042,
+      "kendall": -0.03,
+      "top15_overlap": 2,
+      "top15_jaccard": 0.071
+    },
+    "rank_2022-2024_eval_2025-2026": {
+      "n_players_both_eras": 75,
+      "spearman": -0.041,
+      "kendall": -0.031,
+      "top15_overlap": 1,
+      "top15_jaccard": 0.034
+    },
+    "rank_2022-2025_eval_2026-2026": {
+      "n_players_both_eras": 23,
+      "spearman": -0.062,
+      "kendall": -0.036,
+      "top15_overlap": 1,
+      "top15_jaccard": 0.034
+    }
+  },
+  "split_half_batters": {
+    "n_splits": 100,
+    "spearman_mean": 0.093,
+    "kendall_mean": 0.064,
+    "score_corr_mean": 0.054,
+    "top10_overlap_mean": 0.82,
+    "top20_overlap_mean": 2.42
+  },
+  "split_half_bowlers": {
+    "n_splits": 100,
+    "spearman_mean": 0.114,
+    "kendall_mean": 0.078,
+    "score_corr_mean": 0.135,
+    "top10_overlap_mean": 1.27,
+    "top20_overlap_mean": 4.39
+  },
+  "season_trend_distribution_top200_batters": {
+    "insufficient_seasons": 56,
+    "improving": 31,
+    "single_season_dominance": 30,
+    "declining": 26,
+    "consistent": 26
+  },
+  "threshold_stability": [
+    {
+      "variant": "threshold_hp_top10",
+      "n": 158,
+      "spearman": 0.579,
+      "top10_overlap": 3
+    },
+    {
+      "variant": "threshold_hp_top15",
+      "n": 169,
+      "spearman": 0.714,
+      "top10_overlap": 4
+    },
+    {
+      "variant": "threshold_hp_top20",
+      "n": 169,
+      "spearman": 0.847,
+      "top10_overlap": 5
+    },
+    {
+      "variant": "threshold_hp_top25",
+      "n": 169,
+      "spearman": 0.797,
+      "top10_overlap": 5
+    },
+    {
+      "variant": "threshold_hp_top30",
+      "n": 169,
+      "spearman": 0.727,
+      "top10_overlap": 4
+    }
+  ],
+  "pressure_model_stability": [
+    {
+      "variant": "PRESSURE_MODEL_A",
+      "n": 147,
+      "spearman": 0.294,
+      "top10_overlap": 1
+    },
+    {
+      "variant": "PRESSURE_MODEL_B",
+      "n": 169,
+      "spearman": 0.6,
+      "top10_overlap": 2
+    },
+    {
+      "variant": "PRESSURE_MODEL_C",
+      "n": 167,
+      "spearman": 0.55,
+      "top10_overlap": 2
+    }
+  ],
+  "competition_overlap_batters": {
+    "top15_ipl_only": 15,
+    "top15_t20i_only": 15,
+    "top15_in_both": 0,
+    "top15_combined_overlap_ipl": 2,
+    "top15_combined_overlap_t20i": 8
+  },
+  "competition_balance": {
+    "mean_rating_players_with_ipl_hp": 0.047,
+    "mean_rating_players_with_t20i_hp": 0.029,
+    "n_players_in_both": 119,
+    "spearman_ipl_vs_t20i_value": -0.095
+  },
+  "associate_team_check": {
+    "n_teams": 33,
+    "weak_team_rr_threshold": 7.47,
+    "strong_team_rr_threshold": 9.34,
+    "n_weak_teams": 9,
+    "n_strong_teams": 9,
+    "note": "A-team/development competitions already excluded; expectation models adjust via venue/competition fixed effects and two-pass quality terms rather than country lists."
+  },
+  "role_advantage_batters": {
+    "role_means": {
+      "finisher": 0.181,
+      "middle": 0.15,
+      "opener": 0.015,
+      "top": -0.085,
+      "lower": -0.129
+    },
+    "role_sizes": {
+      "finisher": 93,
+      "middle": 96,
+      "opener": 110,
+      "top": 141,
+      "lower": 161
+    },
+    "max_mean_gap": 0.309,
+    "top10_composition": {
+      "lower": 7,
+      "finisher": 2,
+      "opener": 1
+    }
+  },
+  "role_advantage_bowlers": {
+    "role_means": {
+      "death": 0.068,
+      "middle": 0.052,
+      "hybrid-middle": 0.038,
+      "hybrid-powerplay": -0.067,
+      "powerplay": -0.072
+    },
+    "role_sizes": {
+      "death": 29,
+      "middle": 219,
+      "hybrid-middle": 51,
+      "hybrid-powerplay": 102,
+      "powerplay": 112
+    },
+    "max_mean_gap": 0.14,
+    "top10_composition": {
+      "middle": 5,
+      "hybrid-powerplay": 3,
+      "powerplay": 1,
+      "death": 1
+    }
+  },
+  "role_normalization_batters": {
+    "spearman_raw_vs_rolenorm": 0.966,
+    "biggest_gainers_from_normalization": [
+      {
+        "player_name": "Umesh Yadav",
+        "batter_role": "lower",
+        "raw": 302.0,
+        "norm": 214.0,
+        "delta": 88.0
+      },
+      {
+        "player_name": "Kagiso Rabada",
+        "batter_role": "lower",
+        "raw": 285.0,
+        "norm": 199.0,
+        "delta": 86.0
+      },
+      {
+        "player_name": "Dwaine Pretorius",
+        "batter_role": "lower",
+        "raw": 286.0,
+        "norm": 200.0,
+        "delta": 86.0
+      },
+      {
+        "player_name": "Andre Russell",
+        "batter_role": "lower",
+        "raw": 287.0,
+        "norm": 202.0,
+        "delta": 85.0
+      },
+      {
+        "player_name": "Noor Ahmad",
+        "batter_role": "lower",
+        "raw": 233.0,
+        "norm": 151.0,
+        "delta": 82.0
+      }
+    ]
+  },
+  "eligibility_stability_batters": [
+    {
+      "variant": "eligibility_strict",
+      "n": 119,
+      "spearman": 1.0,
+      "top10_overlap": 10
+    },
+    {
+      "variant": "eligibility_moderate",
+      "n": 169,
+      "spearman": 1.0,
+      "top10_overlap": 10
+    },
+    {
+      "variant": "eligibility_inclusive",
+      "n": 203,
+      "spearman": 1.0,
+      "top10_overlap": 10
+    }
+  ],
+  "shrinkage_stability_batters": [
+    {
+      "variant": "shrinkage_shrunk_k_half",
+      "n": 601,
+      "spearman": 0.942,
+      "top10_overlap": 1
+    },
+    {
+      "variant": "shrinkage_shrunk_k",
+      "n": 601,
+      "spearman": 0.941,
+      "top10_overlap": 1
+    },
+    {
+      "variant": "shrinkage_shrunk_k_double",
+      "n": 601,
+      "spearman": 0.939,
+      "top10_overlap": 1
+    },
+    {
+      "variant": "shrinkage_raw_mean",
+      "n": 601,
+      "spearman": 0.943,
+      "top10_overlap": 1
+    }
+  ],
+  "weight_stability_batters": [
+    {
+      "variant": "weights_level_heavy",
+      "n": 601,
+      "spearman": 0.996,
+      "top10_overlap": 10
+    },
+    {
+      "variant": "weights_balanced",
+      "n": 601,
+      "spearman": 0.998,
+      "top10_overlap": 10
+    },
+    {
+      "variant": "weights_uplift_heavy",
+      "n": 601,
+      "spearman": 0.994,
+      "top10_overlap": 9
+    },
+    {
+      "variant": "weights_risk_averse",
+      "n": 601,
+      "spearman": 0.962,
+      "top10_overlap": 10
+    }
+  ],
+  "ablation_batters": [
+    {
+      "variant": "ablate_level_lcb",
+      "n": 601,
+      "spearman": 0.98,
+      "top10_overlap": 3
+    },
+    {
+      "variant": "ablate_consistency",
+      "n": 601,
+      "spearman": 0.932,
+      "top10_overlap": 8
+    },
+    {
+      "variant": "ablate_uplift",
+      "n": 601,
+      "spearman": 0.997,
+      "top10_overlap": 8
+    },
+    {
+      "variant": "ablate_volume",
+      "n": 601,
+      "spearman": 0.957,
+      "top10_overlap": 9
+    },
+    {
+      "variant": "ablate_downside",
+      "n": 601,
+      "spearman": 0.979,
+      "top10_overlap": 10
+    }
+  ],
+  "scenario_specificity_batters": {
+    "n_players_with_3plus_scenarios": 420,
+    "median_spread": 0.504
+  },
+  "model_checks": {
+    "death_share_of_hp_deliveries": 0.402,
+    "death_share_of_all_deliveries": 0.222,
+    "pressure_not_synonymous_with_death": false,
+    "hp_vs_rest_wicket_prob": [
+      0.071,
+      0.0498
+    ],
+    "hp_vs_rest_abs_wpa": [
+      0.0311,
+      0.0139
+    ],
+    "non_death_hp_vs_rest_wicket_prob": [
+      0.0538,
+      0.0444
+    ],
+    "expected_runs_residual_mean": -0.0259,
+    "expected_runs_residual_sd": 0.6255,
+    "max_single_match_share_of_player_hp_impact": {
+      "mean": 0.579,
+      "p95": 1.0,
+      "max": 1.0
+    }
+  },
+  "edge_tests": {
+    "target_reached": {
+      "value": -0.0893237743547659,
+      "note": "chase complete; pressure should be LOW"
+    },
+    "zero_balls_remaining": {
+      "value": 2.9476536955297896,
+      "note": "terminal state"
+    },
+    "all_out": {
+      "value": -0.0893237743547659
+    },
+    "rrr_25": {
+      "value": -0.0893237743547659
+    },
+    "wide": {
+      "bowler_conceded": 1.0,
+      "is_legal": false,
+      "total": 1.0
+    },
+    "no_ball": {
+      "bowler_conceded": 1.0,
+      "is_legal": false,
+      "total": 1.0
+    },
+    "byes": {
+      "bowler_conceded": 0.0,
+      "is_legal": true,
+      "total": 2.0
+    },
+    "legbyes": {
+      "bowler_conceded": 0.0,
+      "is_legal": true,
+      "total": 4.0
+    },
+    "run_out": {
+      "is_bowler_wicket": false,
+      "is_team_wicket": true,
+      "dismissed_is_striker": true
+    },
+    "missing_ids": {
+      "lam_global_used": 9.827805989449828
+    }
+  },
+  "most_robust_batters": [
+    {
+      "player_id": 3024,
+      "rank_p05": 1.0,
+      "rank_p50": 3.0,
+      "rank_p95": 22.0,
+      "p_top10": 0.854
+    },
+    {
+      "player_id": 21790,
+      "rank_p05": 2.0,
+      "rank_p50": 11.0,
+      "rank_p95": 50.0,
+      "p_top10": 0.499
+    },
+    {
+      "player_id": 768,
+      "rank_p05": 2.0,
+      "rank_p50": 13.0,
+      "rank_p95": 50.049999999999955,
+      "p_top10": 0.411
+    },
+    {
+      "player_id": 4369,
+      "rank_p05": 4.0,
+      "rank_p50": 17.0,
+      "rank_p95": 60.0,
+      "p_top10": 0.295
+    },
+    {
+      "player_id": 4853,
+      "rank_p05": 5.0,
+      "rank_p50": 19.0,
+      "rank_p95": 60.0,
+      "p_top10": 0.238
+    },
+    {
+      "player_id": 2921,
+      "rank_p05": 3.0,
+      "rank_p50": 17.0,
+      "rank_p95": 63.0,
+      "p_top10": 0.311
+    },
+    {
+      "player_id": 4812,
+      "rank_p05": 3.0,
+      "rank_p50": 18.0,
+      "rank_p95": 64.0,
+      "p_top10": 0.276
+    },
+    {
+      "player_id": 7901,
+      "rank_p05": 5.950000000000003,
+      "rank_p50": 21.0,
+      "rank_p95": 69.04999999999995,
+      "p_top10": 0.172
+    },
+    {
+      "player_id": 5882,
+      "rank_p05": 1.0,
+      "rank_p50": 8.0,
+      "rank_p95": 72.0,
+      "p_top10": 0.569
+    },
+    {
+      "player_id": 20702,
+      "rank_p05": 12.0,
+      "rank_p50": 35.0,
+      "rank_p95": 73.0,
+      "p_top10": 0.035
+    }
+  ],
+  "most_uncertain_batters": [
+    {
+      "player_id": 109,
+      "rank_p05": 118.95,
+      "rank_p50": 162.0,
+      "rank_p95": 169.0,
+      "p_top10": 0.002
+    },
+    {
+      "player_id": 499,
+      "rank_p05": 35.95,
+      "rank_p50": 153.0,
+      "rank_p95": 169.0,
+      "p_top10": 0.016
+    },
+    {
+      "player_id": 1116,
+      "rank_p05": 4.0,
+      "rank_p50": 126.0,
+      "rank_p95": 169.0,
+      "p_top10": 0.09
+    },
+    {
+      "player_id": 2523,
+      "rank_p05": 1.0,
+      "rank_p50": 135.0,
+      "rank_p95": 169.0,
+      "p_top10": 0.178
+    },
+    {
+      "player_id": 2573,
+      "rank_p05": 115.0,
+      "rank_p50": 165.0,
+      "rank_p95": 169.0,
+      "p_top10": 0.0
+    },
+    {
+      "player_id": 3280,
+      "rank_p05": 70.0,
+      "rank_p50": 162.0,
+      "rank_p95": 169.0,
+      "p_top10": 0.009
+    },
+    {
+      "player_id": 8741,
+      "rank_p05": 133.0,
+      "rank_p50": 163.0,
+      "rank_p95": 169.0,
+      "p_top10": 0.0
+    },
+    {
+      "player_id": 3727,
+      "rank_p05": 49.95,
+      "rank_p50": 146.5,
+      "rank_p95": 168.0,
+      "p_top10": 0.007
+    },
+    {
+      "player_id": 6664,
+      "rank_p05": 8.0,
+      "rank_p50": 136.0,
+      "rank_p95": 168.0,
+      "p_top10": 0.06
+    },
+    {
+      "player_id": 6725,
+      "rank_p05": 151.0,
+      "rank_p50": 163.0,
+      "rank_p95": 168.0,
+      "p_top10": 0.0
+    }
+  ],
+  "most_robust_bowlers": [
+    {
+      "player_id": 7545,
+      "rank_p05": 6.0,
+      "rank_p50": 16.0,
+      "rank_p95": 38.0,
+      "p_top10": 0.238
+    },
+    {
+      "player_id": 1566,
+      "rank_p05": 6.0,
+      "rank_p50": 18.0,
+      "rank_p95": 43.0,
+      "p_top10": 0.19
+    },
+    {
+      "player_id": 4201,
+      "rank_p05": 1.0,
+      "rank_p50": 6.0,
+      "rank_p95": 46.0,
+      "p_top10": 0.683
+    },
+    {
+      "player_id": 58246,
+      "rank_p05": 3.0,
+      "rank_p50": 13.0,
+      "rank_p95": 54.0,
+      "p_top10": 0.409
+    },
+    {
+      "player_id": 499,
+      "rank_p05": 1.0,
+      "rank_p50": 6.0,
+      "rank_p95": 56.049999999999955,
+      "p_top10": 0.641
+    },
+    {
+      "player_id": 5892,
+      "rank_p05": 2.0,
+      "rank_p50": 12.0,
+      "rank_p95": 61.0,
+      "p_top10": 0.461
+    },
+    {
+      "player_id": 6669,
+      "rank_p05": 6.0,
+      "rank_p50": 21.5,
+      "rank_p95": 64.0,
+      "p_top10": 0.159
+    },
+    {
+      "player_id": 29888,
+      "rank_p05": 2.0,
+      "rank_p50": 12.0,
+      "rank_p95": 70.0,
+      "p_top10": 0.455
+    },
+    {
+      "player_id": 3628,
+      "rank_p05": 9.0,
+      "rank_p50": 30.0,
+      "rank_p95": 73.04999999999995,
+      "p_top10": 0.069
+    },
+    {
+      "player_id": 2639,
+      "rank_p05": 10.0,
+      "rank_p50": 32.0,
+      "rank_p95": 74.0,
+      "p_top10": 0.055
+    }
+  ],
+  "most_uncertain_bowlers": [
+    {
+      "player_id": 1541,
+      "rank_p05": 158.95,
+      "rank_p50": 169.0,
+      "rank_p95": 169.0,
+      "p_top10": 0.0
+    },
+    {
+      "player_id": 2334,
+      "rank_p05": 61.95,
+      "rank_p50": 159.0,
+      "rank_p95": 169.0,
+      "p_top10": 0.004
+    },
+    {
+      "player_id": 7052,
+      "rank_p05": 26.0,
+      "rank_p50": 149.0,
+      "rank_p95": 169.0,
+      "p_top10": 0.012
+    },
+    {
+      "player_id": 7905,
+      "rank_p05": 38.0,
+      "rank_p50": 158.0,
+      "rank_p95": 169.0,
+      "p_top10": 0.011
+    },
+    {
+      "player_id": 6515,
+      "rank_p05": 130.95,
+      "rank_p50": 163.0,
+      "rank_p95": 168.0,
+      "p_top10": 0.0
+    },
+    {
+      "player_id": 6518,
+      "rank_p05": 111.95,
+      "rank_p50": 160.0,
+      "rank_p95": 168.0,
+      "p_top10": 0.0
+    },
+    {
+      "player_id": 6628,
+      "rank_p05": 119.95,
+      "rank_p50": 160.0,
+      "rank_p95": 168.0,
+      "p_top10": 0.0
+    },
+    {
+      "player_id": 1772,
+      "rank_p05": 90.95,
+      "rank_p50": 147.0,
+      "rank_p95": 167.0,
+      "p_top10": 0.0
+    },
+    {
+      "player_id": 3272,
+      "rank_p05": 8.0,
+      "rank_p50": 120.0,
+      "rank_p95": 167.0,
+      "p_top10": 0.061
+    },
+    {
+      "player_id": 5837,
+      "rank_p05": 56.0,
+      "rank_p50": 146.0,
+      "rank_p95": 167.0,
+      "p_top10": 0.001
+    }
+  ]
+}

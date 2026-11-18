@@ -1,0 +1,10 @@
+{
+  "mean_lambda_runs": 9.8278,
+  "n_bootstrap": 1000,
+  "eb_k_batters": 0.545,
+  "eb_k_bowlers": 1.067,
+  "n_batters": 601,
+  "n_bowlers": 515,
+  "split_half_batters": 0.027,
+  "split_half_bowlers": 0.136
+}

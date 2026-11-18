@@ -1,0 +1,163 @@
+{
+  "generated_utc": "2026-11-18T08:06:12.733165+00:00",
+  "n_checks": 23,
+  "n_fail": 0,
+  "results": [
+    {
+      "check": "duplicate_delivery_keys",
+      "status": "pass",
+      "detail": "0 duplicated delivery keys",
+      "count": 0
+    },
+    {
+      "check": "legal_ball_counts",
+      "status": "pass",
+      "detail": "max legal balls in an innings: 120; innings > 132: 0",
+      "count": 0
+    },
+    {
+      "check": "innings_score_reconciliation",
+      "status": "pass",
+      "detail": "0 innings where delivery-sum != innings total",
+      "count": 0
+    },
+    {
+      "check": "score_before_matches_exclusive_cumsum",
+      "status": "pass",
+      "detail": "0 deliveries where score_before != exclusive cumsum",
+      "count": 0
+    },
+    {
+      "check": "wickets_before_matches_exclusive_cumsum",
+      "status": "pass",
+      "detail": "0 deliveries where wickets_before != exclusive cumsum",
+      "count": 0
+    },
+    {
+      "check": "legal_balls_before_matches_exclusive_cumsum",
+      "status": "pass",
+      "detail": "0 mismatches in legal_balls_before",
+      "count": 0
+    },
+    {
+      "check": "first_ball_state_zeroed",
+      "status": "pass",
+      "detail": "0 innings whose first delivery has non-zero state",
+      "count": 0
+    },
+    {
+      "check": "score_before_monotonic",
+      "status": "pass",
+      "detail": "0 innings with non-monotonic score_before",
+      "count": 0
+    },
+    {
+      "check": "wicket_reconciliation",
+      "status": "pass",
+      "detail": "team wickets: deliveries 10392 vs innings summary 10392"
+    },
+    {
+      "check": "bowler_wicket_subset_of_team_wickets",
+      "status": "pass",
+      "detail": "bowler wickets 9817 <= team wickets 10392 (run-outs/retired-outs/obstructions: 575)"
+    },
+    {
+      "check": "bowler_runs_identity_total",
+      "status": "pass",
+      "detail": "bowler conceded 268,191 + uncharged extras 4,721 vs total 272,912"
+    },
+    {
+      "check": "bowler_runs_excludes_byes_legbyes",
+      "status": "pass",
+      "detail": "on byes/legbyes/penalty/other rows, bowler charged only off-bat runs (0 violations)"
+    },
+    {
+      "check": "extras_reconstruction",
+      "status": "pass",
+      "detail": "extras_runs == extras1 + extras_2 on every delivery"
+    },
+    {
+      "check": "chase_target_correctness",
+      "status": "pass",
+      "detail": "0 non-DLS chases with target != innings-1 total + 1",
+      "count": 0
+    },
+    {
+      "check": "no_negative_resources",
+      "status": "pass",
+      "detail": "0 deliveries with negative balls/wickets remaining",
+      "count": 0
+    },
+    {
+      "check": "player_ids_present",
+      "status": "pass",
+      "detail": "0 deliveries missing a player id"
+    },
+    {
+      "check": "no_current_outcome_in_pre_ball_state",
+      "status": "pass",
+      "detail": "0 innings where last-ball state includes its own outcome",
+      "count": 0
+    },
+    {
+      "check": "striker_state_resets_per_player",
+      "status": "pass",
+      "detail": "0 batter-innings whose first delivery has non-zero balls faced / runs before",
+      "count": 0
+    },
+    {
+      "check": "bowler_state_resets_per_player",
+      "status": "pass",
+      "detail": "0 bowler-innings whose first delivery has non-zero balls bowled before",
+      "count": 0
+    },
+    {
+      "check": "partnership_resets_after_wicket",
+      "status": "pass",
+      "detail": "0 deliveries immediately after a wicket with non-zero partnership state",
+      "count": 0
+    },
+    {
+      "check": "momentum_windows_shifted",
+      "status": "pass",
+      "detail": "last6_boundaries on boundary rows only counts prior deliveries"
+    },
+    {
+      "check": "dls_targets_propagated",
+      "status": "pass",
+      "detail": "22 DLS-revised chases carry revised targets"
+    },
+    {
+      "check": "super_over_innings_excluded",
+      "status": "pass",
+      "detail": "0 super-over deliveries remain in analysis table",
+      "count": 0
+    }
+  ],
+  "rows_in_scope": 192235,
+  "join_report": [
+    [
+      "join_matches",
+      200999,
+      200999,
+      "many_to_one"
+    ],
+    [
+      "join_competitions",
+      200999,
+      200999,
+      "many_to_one"
+    ]
+  ],
+  "scope_summary": {
+    "matches_total": 883,
+    "matches_in_scope": 813,
+    "by_class": {
+      "IPL": 362,
+      "senior T20I": 451
+    },
+    "excluded_competition": 30,
+    "excluded_no_result": 40
+  },
+  "dropped_out_of_scope": 8764
+}

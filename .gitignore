@@ -1,0 +1,21 @@
+# Python artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Deep-learning checkpoints (not used by the dashboard; excluded to keep clone fast)
+*.pt
+
+# Local logs / scratch
+reports/_dashboard_smoke.txt
+reports/_run_models_log3.txt
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# NOTE: do NOT exclude data/processed/, outputs/*.csv or outputs/models/*.joblib
+# the dashboard reads those artefacts directly.

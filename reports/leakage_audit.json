@@ -1,0 +1,11 @@
+{
+  "n_matches_sampled": 50,
+  "perturbations_per_match": 3,
+  "n_deliveries_perturbed": 150,
+  "n_feature_columns_checked": 128,
+  "n_violations": 0,
+  "violations": [],
+  "verdict": "NO LEAKAGE DETECTED",
+  "undocumented_columns": [],
+  "generated_utc": "2026-11-18T10:09:03.878409+00:00"
+}
